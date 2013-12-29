@@ -1,0 +1,89 @@
+# Standardni prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# Preferovany prefix ontologie pro popis zakonu
+@prefix lex: <http://purl.org/lex#> .
+
+# Vlastní prefixy
+@prefix crimestatistics-class-zakony: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony#> .
+@prefix crimestatistics-property-zakony: <http://linked.opendata.cz/ontology/crimestatistics/property/zakony#> .
+
+@prefix crimestatistics-class-zakony-SourceOfLawSectionCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/SourceOfLawSectionCollection/property#> .
+@prefix crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/ProvedeniUkonuVTrestnimRizeni/property#> .
+@prefix crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/ProvedeniUkonuVTrestnimRizeniCollection/property#> .
+@prefix crimestatistics-class-zakony-RegulationCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/RegulationCollection/property#> .
+
+# Kolekce odkazů na úseky zákona
+crimestatistics-class-zakony:SourceOfLawSectionCollection a rdf:Class ;
+	rdfs:label
+		"kolekce odkazů na úseky zákonů"@cs,
+		"collection of references to law sections"@en ;
+	rdfs:comment
+		"Tato třída slouží k reprezentaci kolekce odkazů na úseky zákona."@cs,
+		"This class is used to represent a collection of references to sections of law."@en ;
+	.
+
+# Property pro prirazeni useku zakona do kolekce
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member a rdf:Property ;
+	rdfs:label
+		"příslušnost odkazu na sekci zákona ke skupině takových odkazů"@cs,
+		"law section collection membership"@en ;
+	rdfs:comment
+		"Tato property je pomocnou property třídy SourceOfLawSectionCollection, pro niž vykonává funkci predikátu náležení odkazu na zákon do kolekce takových odkazů."@cs,
+		"This is an auxilliary property of the SourceOfLawSectionCollection class. It plays the role of a predicate 'is a member of a collection' to express the fact that a certain section of law belongs to a collection of sections of law."@en ;
+	
+	rdfs:domain crimestatistics-class-zakony:SourceOfLawSectionCollection ;
+	rdfs:range lex:SourceOfLawSection ;
+	
+	rdfs:seeAlso crimestatistics-class-zakony:SourceOfLawSectionCollection ;
+	.
+
+crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni a rdf:Class .
+crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle a rdf:Property ;
+	rdfs:domain crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
+	rdfs:range lex:SourceOfLawSection ;
+	.
+crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV a rdf:Property ;
+	rdfs:domain crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
+	rdfs:range lex:SourceOfLawSection ;
+	.
+	
+crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeniCollection a rdf:Class .
+crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member a rdf:Property ;
+	rdfs:domain crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeniCollection ;
+	rdfs:range crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
+	.
+
+# Kolekce odkazů na vyhlášky
+crimestatistics-class-zakony:RegulationCollection a rdf:Class ;
+	rdfs:label
+		"kolekce odkazů na vyhlášky"@cs,
+		"collection of references to regulations"@en ;
+	rdfs:comment
+		"Tato třída slouží k reprezentaci kolekce odkazů na vyhlášky."@cs,
+		"This class is used to represent a collection of references to regulations."@en ;
+	.
+
+crimestatistics-class-zakony-RegulationCollection-property:member a rdf:Property ;
+	rdfs:label
+		"příslušnost odkazu na vyhlášku ke skupině takových odkazů"@cs,
+		"regulation collection membership"@en ;
+	rdfs:comment
+		"Tato property je pomocnou property třídy RegulationCollection, pro niž vykonává funkci predikátu náležení odkazu na vyhlášku do kolekce takových odkazů."@cs,
+		"This is an auxilliary property of the RegulationCollection class. It plays the role of a predicate 'is a member of a collection' to express the fact that a certain regulation reference belongs to a given collection of regulation references."@en ;
+	
+	rdfs:domain crimestatistics-class-zakony:RegulationCollection ;
+	rdfs:range lex:Regulation ;
+	
+	rdfs:seeAlso crimestatistics-class-zakony:RegulationCollection ;
+	.

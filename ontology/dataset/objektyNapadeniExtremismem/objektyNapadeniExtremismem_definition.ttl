@@ -1,0 +1,45 @@
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+
+@prefix crimestatistics-ds-def: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions#> .
+@prefix crimestatistics-dimension: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/dimension#> .
+@prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+
+crimestatistics-ds-def:objektyNapadeniExtremismem a qb:DataStructureDefinition ;
+	rdfs:label
+		"objekty napadené extremismem"@cs,
+		"targets of extremist crime"@en ;
+	rdfs:comment
+		"Dataset obsahuje záznamy o objektech, které motivovaly konkrétní zjištěný trestný čin s extremistickým podtextem. Těmito objekty bývají různé skupiny obyvatel se společným jmenovatelem daným etnikem, kulturou nebo například náboženstvím."@cs,
+		"The dataset contains records about the targets of extremist crime. These objects are typically groups of people with a common characteristic such as religion or nationality."@en ;
+		.
+
+crimestatistics-ds-def:objektyNapadeniExtremismem
+	#Dimenze
+	
+	# Odkaz na záznam o trestném činu
+	qb:component [
+		rdfs:label "trestný čin"@cs ;
+		qb:dimension crimestatistics-dimension:trestnyCin ;
+	] ;
+	
+	# Stupeň důležitosti daného předmětu zájmu u extremistického trestného činu
+	qb:component [
+		rdfs:label "důležitost předmětu zájmu v kontextu trestného činu"@cs ;
+		qb:dimension crimestatistics-dimension:stupenDulezitostiPredmetuZajmu ;
+	] ;
+	
+	# Objekt motivujici extremisticky motivovany utok
+	qb:component [
+		rdfs:label "objekt motivující trestný čin"@cs ;
+		qb:measure crimestatistics-measure:objektNapadeniExtremismem ;
+	] ;
+	.

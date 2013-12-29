@@ -1,0 +1,50 @@
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+
+@prefix crimestatistics-ds-def: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions#> .
+@prefix crimestatistics-dimension: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/dimension#> .
+@prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+
+# Definice datasetu a jeho popis
+crimestatistics-ds-def:pravniKvalifikaceTrestnychCinu a qb:DataStructureDefinition ;
+	rdfs:label
+		"dataset právních kvalifikací trestných činů"@cs,
+		"qualification of crimes dataset"@en ;
+	rdfs:comment
+		"Dataset obsahuje záznamy o právní kvalifikaci zjištěných trestných činů. Právní kvalifikací je rozuměn odkaz na zákon nebo jeho část, která daný trestný čim kvalifikuje. Každý trestný čin může být kvalifikován jedním nebo více zákony nebo jejich částmi."@cs,
+		"The dataset contains records associated with crimes. These records specify the qualification of crimes for which there is a record. The qualification itself is in a form of a reference to a law section that qualifies a crime."@en ;
+		.
+
+# Definice struktury datasetu
+crimestatistics-ds-def:pravniKvalifikaceTrestnychCinu 	
+	# Dimenze
+	qb:component [
+		rdfs:label
+			"kvalifikovaný trestný čin"@cs,
+			"qualified crime"@en ;
+		qb:dimension crimestatistics-dimension:trestnyCin ;
+	] ;
+	
+	qb:component [
+		rdfs:label
+			"je právní kvalifikací souběhu"@cs,
+			"qualification of concurrent crime"@en ;
+		qb:dimension crimestatistics-dimension:jePravniKvalifikaceSoubehu ;
+	] ;
+	
+	# Merene veliciny
+	qb:component [
+		rdfs:label
+			"kvalifikující úsek zákona"@cs,
+			"qualifying law section reference"@en ;
+		qb:measure crimestatistics-measure:pravniKvalifikace ;
+	] ;
+	.

@@ -1,0 +1,546 @@
+# Standardní prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx:    <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-concept:    <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-attribute:  <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-measure:    <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-metadata:   <http://purl.org/linked-data/sdmx/2009/metadata#> .
+@prefix sdmx-code:       <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix sdmx-subject:    <http://purl.org/linked-data/sdmx/2009/subject#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# Vlastní prefixy
+@prefix crimestatistics-code-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/> .
+@prefix crimestatistics-code-codelist-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/tsk/> .
+@prefix crimestatistics-code-codelist-class: <http://linked.opendata.cz/ontology/crimestatistics/code/tsk/class#> .
+@prefix crimestatistics-code-codelist-property: <http://linked.opendata.cz/ontology/crimestatistics/code/tsk/property#> .
+
+@prefix crimestatistics-code-codelist-hash: <http://linked.opendata.cz/ontology/crimestatistics/code/tsk/novy#> .
+
+@prefix crimestatistics-class-zakony: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony#> .
+@prefix crimestatistics-property-zakony: <http://linked.opendata.cz/ontology/crimestatistics/property/zakony#> .
+
+@prefix crimestatistics-class-zakony-SourceOfLawSectionCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/SourceOfLawSectionCollection/property#> .
+@prefix crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/ProvedeniUkonuVTrestnimRizeni/property#> .
+@prefix crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/ProvedeniUkonuVTrestnimRizeniCollection/property#> .
+@prefix crimestatistics-class-zakony-RegulationCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/RegulationCollection/property#> .
+
+crimestatistics-code-codelist-hash:101 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/140> .
+crimestatistics-code-codelist-hash:102 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/140> .
+crimestatistics-code-codelist-hash:103 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/140> .
+crimestatistics-code-codelist-hash:104 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/140> .
+crimestatistics-code-codelist-hash:105 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/142> .
+crimestatistics-code-codelist-hash:106 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/140> .
+crimestatistics-code-codelist-hash:111 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/161>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/162> ] .
+crimestatistics-code-codelist-hash:112 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/160> .
+crimestatistics-code-codelist-hash:113 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/159> .
+crimestatistics-code-codelist-hash:115 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/141> .
+crimestatistics-code-codelist-hash:116 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/143> .
+crimestatistics-code-codelist-hash:121 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/195> .
+crimestatistics-code-codelist-hash:122 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/200> .
+crimestatistics-code-codelist-hash:131 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/173> .
+crimestatistics-code-codelist-hash:132 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/173> .
+crimestatistics-code-codelist-hash:141 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/323>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/324>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/325>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/326> ] .
+crimestatistics-code-codelist-hash:142 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/323>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/324>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/325>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/326> ] .
+crimestatistics-code-codelist-hash:143 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/323>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/324>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/325>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/326> ] .
+crimestatistics-code-codelist-hash:151 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/145>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/146>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/146a> ] .
+crimestatistics-code-codelist-hash:161 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/158> .
+crimestatistics-code-codelist-hash:171 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/352> .
+crimestatistics-code-codelist-hash:172 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/174> .
+crimestatistics-code-codelist-hash:173 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/353> .
+crimestatistics-code-codelist-hash:174 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/354> .
+crimestatistics-code-codelist-hash:181 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/175> .
+crimestatistics-code-codelist-hash:182 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/169>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/170>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/171> ] .
+crimestatistics-code-codelist-hash:183 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/178> .
+crimestatistics-code-codelist-hash:184 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/208> .
+crimestatistics-code-codelist-hash:185 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/198> .
+crimestatistics-code-codelist-hash:186 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/199> .
+crimestatistics-code-codelist-hash:187 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/176> .
+crimestatistics-code-codelist-hash:188 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/177> .
+crimestatistics-code-codelist-hash:189 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/179> .
+crimestatistics-code-codelist-hash:190 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/144>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/172> ] .
+crimestatistics-code-codelist-hash:201 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/185> .
+crimestatistics-code-codelist-hash:202 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/186> .
+crimestatistics-code-codelist-hash:211 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/187/2> .
+crimestatistics-code-codelist-hash:212 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/187/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/187/3>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/187/4> ] .
+crimestatistics-code-codelist-hash:213 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/187/2> .
+crimestatistics-code-codelist-hash:214 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/187/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/187/3>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/187/4> ] .
+crimestatistics-code-codelist-hash:231 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/358> .
+crimestatistics-code-codelist-hash:241 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/191> .
+crimestatistics-code-codelist-hash:251 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/155> .
+crimestatistics-code-codelist-hash:252 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/145>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/146>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/152> ] .
+crimestatistics-code-codelist-hash:253 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/143>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/147>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/148>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/153> ] .
+crimestatistics-code-codelist-hash:271 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/189> .
+crimestatistics-code-codelist-hash:280 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/188> .
+crimestatistics-code-codelist-hash:281 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/168> .
+crimestatistics-code-codelist-hash:290 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/190>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/192>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/193>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/194> ] .
+crimestatistics-code-codelist-hash:311 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:312 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:321 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:322 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:323 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:324 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:331 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:332 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:341 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:350 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:351 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:371 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/178>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> ] .
+crimestatistics-code-codelist-hash:372 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/178>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> ] .
+crimestatistics-code-codelist-hash:373 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/178>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> ] .
+crimestatistics-code-codelist-hash:390 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/178>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> ] .
+crimestatistics-code-codelist-hash:411 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:412 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:413 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:421 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:431 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/207> ] .
+crimestatistics-code-codelist-hash:432 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/207> ] .
+crimestatistics-code-codelist-hash:433 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:434 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:435 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/207> ] .
+crimestatistics-code-codelist-hash:441 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:451 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:461 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:462 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:471 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:480 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:490 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:511 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/209> .
+crimestatistics-code-codelist-hash:521 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/206> .
+crimestatistics-code-codelist-hash:530 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/207> .
+crimestatistics-code-codelist-hash:588 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/219> .
+crimestatistics-code-codelist-hash:589 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/228> .
+crimestatistics-code-codelist-hash:590 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/304> .
+crimestatistics-code-codelist-hash:611 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/358>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/359> ] .
+crimestatistics-code-codelist-hash:612 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/358> .
+crimestatistics-code-codelist-hash:613 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/228/2> .
+crimestatistics-code-codelist-hash:614 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/358> .
+crimestatistics-code-codelist-hash:631 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/202> ] .
+crimestatistics-code-codelist-hash:632 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/204> .
+crimestatistics-code-codelist-hash:633 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/169> .
+crimestatistics-code-codelist-hash:634 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/339>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/340>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/341>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/343> ] .
+crimestatistics-code-codelist-hash:635 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/283> .
+crimestatistics-code-codelist-hash:636 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/287> .
+crimestatistics-code-codelist-hash:637 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/329> .
+crimestatistics-code-codelist-hash:639 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/180> .
+crimestatistics-code-codelist-hash:640 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/330> .
+crimestatistics-code-codelist-hash:641 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/284> .
+crimestatistics-code-codelist-hash:642 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/286> .
+crimestatistics-code-codelist-hash:643 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/285> .
+crimestatistics-code-codelist-hash:644 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/288> .
+crimestatistics-code-codelist-hash:651 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/228>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/272>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/273> ] .
+crimestatistics-code-codelist-hash:652 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/228>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/272>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/273> ] .
+crimestatistics-code-codelist-hash:662 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/279> .
+crimestatistics-code-codelist-hash:663 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/337> .
+crimestatistics-code-codelist-hash:664 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/214>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/215> ] .
+crimestatistics-code-codelist-hash:690 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/338>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/342> ] .
+crimestatistics-code-codelist-hash:721 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/366> .
+crimestatistics-code-codelist-hash:730 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/145>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/146>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/228>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/272>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/360>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/402> ] .
+crimestatistics-code-codelist-hash:731 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/143>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/147>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/148>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/273>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/277>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/360> ] .
+crimestatistics-code-codelist-hash:732 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/143>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/147>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/148>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/273>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/277>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/360> ] .
+crimestatistics-code-codelist-hash:733 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/143>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/147>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/148>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/273>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/277>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/360> ] .
+crimestatistics-code-codelist-hash:741 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/143>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/147>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/148>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/273>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/277>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/360> ] .
+crimestatistics-code-codelist-hash:742 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/143>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/147>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/148>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/273>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/277>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/360> ] .
+crimestatistics-code-codelist-hash:750 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/143>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/147>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/148>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/360> ] .
+crimestatistics-code-codelist-hash:751 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/143>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/147>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/148>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/360> ] .
+crimestatistics-code-codelist-hash:762 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/222> .
+crimestatistics-code-codelist-hash:763 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/223> .
+crimestatistics-code-codelist-hash:771 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/360> ] .
+crimestatistics-code-codelist-hash:772 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/196> .
+crimestatistics-code-codelist-hash:781 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/290> .
+crimestatistics-code-codelist-hash:782 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/291> .
+crimestatistics-code-codelist-hash:783 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/292> .
+crimestatistics-code-codelist-hash:784 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/302>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/303> ] .
+crimestatistics-code-codelist-hash:785 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/357> .
+crimestatistics-code-codelist-hash:786 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/361> .
+crimestatistics-code-codelist-hash:787 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/355> .
+crimestatistics-code-codelist-hash:788 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/356> .
+crimestatistics-code-codelist-hash:789 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/403>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/404>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/405> ] .
+crimestatistics-code-codelist-hash:790 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/149>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/150>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/151>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/164>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/165>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/166>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/167>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/181>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/182>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/183>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/184>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/218>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/220>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/221>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/272>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/273>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/275>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/276>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/277>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/278>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/280>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/328>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/335>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/336>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/344>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/345>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/346>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/347>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/350>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/351>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/364>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/365>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/367>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/368>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/400>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/401>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/411>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/412>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/413>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/414>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/415> ] .
+crimestatistics-code-codelist-hash:801 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/248> .
+crimestatistics-code-codelist-hash:803 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/251> .
+crimestatistics-code-codelist-hash:806 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/253> .
+crimestatistics-code-codelist-hash:807 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/261> .
+crimestatistics-code-codelist-hash:808 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/254> .
+crimestatistics-code-codelist-hash:810 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/225> .
+crimestatistics-code-codelist-hash:811 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/220>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/221> ] .
+crimestatistics-code-codelist-hash:812 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205> .
+crimestatistics-code-codelist-hash:813 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/207> .
+crimestatistics-code-codelist-hash:814 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/228> .
+crimestatistics-code-codelist-hash:815 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/209> .
+crimestatistics-code-codelist-hash:816 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/233> .
+crimestatistics-code-codelist-hash:817 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/245>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/246> ] .
+crimestatistics-code-codelist-hash:819 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/240> .
+crimestatistics-code-codelist-hash:820 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/329> .
+crimestatistics-code-codelist-hash:821 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/331> .
+crimestatistics-code-codelist-hash:822 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/222> .
+crimestatistics-code-codelist-hash:823 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/348> .
+crimestatistics-code-codelist-hash:824 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/349> .
+crimestatistics-code-codelist-hash:825 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/156>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/157> ] .
+crimestatistics-code-codelist-hash:826 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/259>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/260> ] .
+crimestatistics-code-codelist-hash:827 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/207> .
+crimestatistics-code-codelist-hash:828 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/182> .
+crimestatistics-code-codelist-hash:829 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/206> .
+crimestatistics-code-codelist-hash:830 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/209> .
+crimestatistics-code-codelist-hash:831 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/256>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/257>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/258> ] .
+crimestatistics-code-codelist-hash:832 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/262>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/263>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/264> ] .
+crimestatistics-code-codelist-hash:833 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/255> .
+crimestatistics-code-codelist-hash:834 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/252> .
+crimestatistics-code-codelist-hash:835 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/244> .
+crimestatistics-code-codelist-hash:836 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/180> .
+crimestatistics-code-codelist-hash:837 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/235>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/236>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/237>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/239> ] .
+crimestatistics-code-codelist-hash:838 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/234> .
+crimestatistics-code-codelist-hash:839 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/265>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/266>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/267> ] .
+crimestatistics-code-codelist-hash:840 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/206>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/209> ] .
+crimestatistics-code-codelist-hash:841 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/206>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/209> ] .
+crimestatistics-code-codelist-hash:842 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/206>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/209> ] .
+crimestatistics-code-codelist-hash:843 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/206>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/209> ] .
+crimestatistics-code-codelist-hash:844 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/205>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/206>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/209> ] .
+crimestatistics-code-codelist-hash:845 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/330> .
+crimestatistics-code-codelist-hash:846 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/332> .
+crimestatistics-code-codelist-hash:847 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/333> .
+crimestatistics-code-codelist-hash:848 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/223> .
+crimestatistics-code-codelist-hash:849 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/226> .
+crimestatistics-code-codelist-hash:850 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/293>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/294a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/295>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/297>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/298>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/298a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/299>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/301> ] .
+crimestatistics-code-codelist-hash:851 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/294>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/294a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/295>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/297>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/298>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/300>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/301> ] .
+crimestatistics-code-codelist-hash:852 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/224> .
+crimestatistics-code-codelist-hash:853 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/249> .
+crimestatistics-code-codelist-hash:854 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/250> .
+crimestatistics-code-codelist-hash:855 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/281>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/282> ] .
+crimestatistics-code-codelist-hash:860 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/214>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/215> ] .
+crimestatistics-code-codelist-hash:861 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/268> .
+crimestatistics-code-codelist-hash:862 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/269> .
+crimestatistics-code-codelist-hash:863 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/270>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/271> ] .
+crimestatistics-code-codelist-hash:864 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/216>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/217> ] .
+crimestatistics-code-codelist-hash:865 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/230>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/231>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/232> ] .
+crimestatistics-code-codelist-hash:866 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/213> .
+crimestatistics-code-codelist-hash:870 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/273>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/277>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/294>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/294a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/301>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/360> ] .
+crimestatistics-code-codelist-hash:871 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/228>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/272>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/276>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/278>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/293>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/294a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/295>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/298>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/298a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/299>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/301>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/360> ] .
+crimestatistics-code-codelist-hash:880 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/210> .
+crimestatistics-code-codelist-hash:881 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/211> .
+crimestatistics-code-codelist-hash:882 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/212> .
+crimestatistics-code-codelist-hash:885 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/243> .
+crimestatistics-code-codelist-hash:886 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/241> .
+crimestatistics-code-codelist-hash:890 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/181>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/183>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/218>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/227>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/229>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/247>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/280>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/305>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/306>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/307>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/337>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/410> ] .
+crimestatistics-code-codelist-hash:901 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/369>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/370>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/371>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/372>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/373>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/374>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/375>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/376>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/377>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/378>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/379>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/380>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/381>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/382>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/383>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/384>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/385>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/386>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/387>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/388>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/389>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/390>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/391>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/392>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/393>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/394>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/395>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/396>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/397>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/398>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/417> ] .
+crimestatistics-code-codelist-hash:902 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/309>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/310>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/311>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/312>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/314>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/315>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/316>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/317>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/318>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/319>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/320>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/321>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/322> ] .
+crimestatistics-code-codelist-hash:903 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/406>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/407>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/409>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/416> ] .

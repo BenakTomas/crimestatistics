@@ -1,0 +1,309 @@
+# Standardní prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx:    <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-concept:    <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-attribute:  <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-measure:    <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-metadata:   <http://purl.org/linked-data/sdmx/2009/metadata#> .
+@prefix sdmx-code:       <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix sdmx-subject:    <http://purl.org/linked-data/sdmx/2009/subject#> .
+
+# Vlastní prefixy
+@prefix crimestatistics-ds-def: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions#> .
+@prefix crimestatistics-dimension: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/dimension#> .
+@prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+
+# Hodnota této dimenze pro pozorování znamená XY. => Část před XY je zřejmá a opakující se, raději vysvětli XY.
+# Hodnota této složky pro dané pozorování znamená MN.
+
+
+# Popis datasetu
+crimestatistics-ds-def:trestneCiny a qb:DataStructureDefinition ;
+	rdfs:label
+		"dataset záznamů o zjištěných trestných činech"@cs ;
+	rdfs:comment
+		"Obsahuje záznamy o zjištěných trestných činech, jak byly pořízeny pomocí formulářů FTČ (formulář o trestném činu) Policií České republiky."@cs ;
+		.
+
+# Definice struktury datasetu (datové kostky RDF DataCube)
+crimestatistics-ds-def:trestneCiny
+
+# Atributy
+	qb:component [
+		rdfs:label
+			"způsobené škody - jednotka měny"@cs ;
+		qb:attribute sdmx-attribute:unitMeasure ;
+		qb:componentAttachment qb:MeasureProperty ;
+	] ;
+#end Atributy
+
+# Dimenze
+	# Zpracující policejní útvar
+	qb:component [
+		rdfs:label
+			"zpracující policejní útvar"@cs ;
+		qb:dimension crimestatistics-dimension:utvarZpracovaniZaznamu ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+	
+	# Rok zpracování
+	qb:component [
+		rdfs:label
+			"rok zpracování"@cs ;
+		qb:dimension crimestatistics-dimension:rokZpracovaniZaznamu ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+	
+# Položka 5: Místo spáchání trestného činu
+	qb:component [
+		rdfs:label "kód útvaru, na jehož území byl zjištěn nebo spáchán trestný čin"@cs ;
+		qb:dimension crimestatistics-dimension:utvarSpachaniNeboZjisteni ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+#end Položka 5
+	
+	# Položka 9: Datum spáchání trestné činnosti
+	qb:component [
+		rdfs:label "datum a čas spáchání trestného činu"@cs ;
+		qb:dimension crimestatistics-dimension:datumACasSpachani ;
+	] ;
+	qb:component [
+		rdfs:label "datum a čas začátku páchání trestné činnosti"@cs ;
+		qb:dimension crimestatistics-dimension:datumACasZacatkuPachani;
+	] ;
+	#end Položka 9
+
+	# Položka 10: Datum dokonání trestné činnosti
+	qb:component [
+		rdfs:label "datum a čas ukončení páchání trestné činosti"@cs ;
+		qb:dimension crimestatistics-dimension:datumACasUkonceniPachani;
+	] ;
+	#end Položka 10
+	
+#end Položka 1
+
+#end Dimenze
+
+# ------------------------- Míry ----------------------------------------------------
+
+# Míry
+	# Kategorizace napadeného objektu
+	qb:component [
+		rdfs:label
+			"napadený objekt"@cs ;
+		qb:measure crimestatistics-measure:objektNapadeni ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+
+# Položka 2: Míra dokonání trestné činnosti
+	qb:component [
+		rdfs:label "stadium trestného činu"@cs ;
+		qb:measure crimestatistics-measure:stadiumTrestnehoCinu ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+#end Položka 2
+
+# Položka 3: Druh trestného činu vzhledem k extremismu
+	qb:component [
+		rdfs:label "druh extremistického trestného činu"@cs ;
+		qb:measure crimestatistics-measure:druhExtremistickehoTrestnehoCinu ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+#end Položka 3
+
+# Položka 4: Klasifikace takticko-statistická
+	qb:component [
+		rdfs:label "klasifikace takticko-statistická"@cs ;
+		qb:measure crimestatistics-measure:tsk ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+#end Položka 4
+
+#Položka 6
+	
+	# Položka 6a
+	qb:component [
+		rdfs:label "trestný čin spáchán na ulici"@cs ;
+		qb:measure crimestatistics-measure:spachanoNaUlici ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+	#end Položka 6a
+	
+	
+	# Položka 6b
+	qb:component [
+		rdfs:label "místo spáchání nebo zjištění trestného činu je sledované"@cs ;
+		qb:measure crimestatistics-measure:spachanoNeboZjistenoNaSledovanemMiste ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+	#end Položka 6b
+	
+	# Položka 6c
+	qb:component [
+		rdfs:label "lokalita spáchání trestného činu"@cs ;
+		qb:measure crimestatistics-measure:spachanoKde ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+	#end Položka 6c
+#end Položka 6
+
+# Položka 7
+
+	# Položka 7a
+	qb:component [
+		rdfs:label "použití zbraně a následek"@cs ;
+		qb:measure crimestatistics-measure:pouzitiZbraneANasledek ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+	#end Položka 7a
+	
+	# Položka 7b
+	qb:component [
+		rdfs:label "druh použíté zbraně"@cs ;
+		qb:measure crimestatistics-measure:druhPouziteZbrane ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+	#end Položka 7b
+
+#end Položka 7
+
+
+
+# Položka 11
+
+	# Položka 11a
+	qb:component [
+		rdfs:label "počet domovních prohlídek"@cs ;
+		qb:measure crimestatistics-measure:pocetDomovnichProhlidek ;
+	] ;
+	#end Položka 11a
+
+	# Položka 11b
+	qb:component [
+		rdfs:label "počet domovních prohlídek s kladným výsledkem"@cs ;
+		qb:measure crimestatistics-measure:pocetDomovnichProhlidekSKladnymVysledkem ;
+	] ;
+	#end Položka 11b
+
+#end Položka 11
+
+# Položka 13
+	qb:component [
+		rdfs:label "způsobená škoda"@cs ;
+		qb:measure crimestatistics-measure:zpusobenaSkoda ;
+	] ;
+#end Položka 13
+
+# Položka 14
+	qb:component [
+		rdfs:label "způsobená škoda: odcizeno nebo rozkradeno"@cs ;
+		qb:measure crimestatistics-measure:zpusobenaSkodaOdcizenoNeboRozkradeno ;
+	] ;
+#end Položka 14
+
+# Položka 15
+	qb:component [
+		rdfs:label "zajištěné hodnoty na místě trestného činu"@cs ;
+		qb:measure crimestatistics-measure:zajisteneHodnotyNaMisteCinu ;
+	] ;
+#end Položka 15
+
+# Položka 18
+	qb:component [
+		rdfs:label "pokračující trestná činnost - počet dílčích útoků"@cs ;
+		qb:measure crimestatistics-measure:pocetDilcichUtoku ;
+		qb:componentRequired "true"^^xsd:boolean ;
+	] ;
+#end Položka 18
+
+# Položka 21
+	qb:component [
+		rdfs:label "oznamovatel nebo iniciátor trestního řízení"@cs ;
+		qb:measure crimestatistics-measure:subjektOznamujiciNeboIniciujiciTrestniRizeni ;
+	] ;
+#end Položka 21
+
+# Položka 22A
+	qb:component [
+		rdfs:label "datum zahájení trestního řízení"@cs ;
+		qb:measure crimestatistics-measure:datumZahajeniTrestnihoRizeni ;
+	] ;
+	qb:component [
+		rdfs:label "úsek zákona k zahájení trestního řízení"@cs ;
+		qb:measure crimestatistics-measure:usekZakonaKZahajeniTrestnihoRizeni ;
+	] ;
+#end Položka 22A
+
+# Položka 22B
+
+	# trestní stíhání
+	qb:component [
+		rdfs:label "datum zahájení trestního stíhání"@cs ;
+		qb:measure crimestatistics-measure:datumZahajeniTrestnihoStihani ;
+	] ;
+	qb:component [
+		rdfs:label "úsek zákona k zahájení trestního stíhání"@cs ;
+		qb:measure crimestatistics-measure:usekZakonaKZahajeniTrestnihoStihani ;
+	] ;
+	
+	# sdělení podezření ve zkráceném přípravném řízení
+	qb:component [
+		rdfs:label "datum sdělení podezření ve zkráceném přípravném řízení"@cs ;
+		qb:measure crimestatistics-measure:datumSdeleniPodezreniVeZPR ;
+	] ;
+	qb:component [
+		rdfs:label "úsek zákona ke sdělení podezření ve zkráceném přípravném řízení"@cs ;
+		qb:measure crimestatistics-measure:usekZakonaKeSdeleniPodezreniVeZPR ;
+	] ;
+	
+	# odložení věci
+	qb:component [
+		rdfs:label "datum odložení věci"@cs ;
+		qb:measure crimestatistics-measure:datumOdlozeniVeci ;
+	] ;
+	qb:component [
+		rdfs:label "úsek zákona k odložení věci"@cs ;
+		qb:measure crimestatistics-measure:usekZakonaKOdlozeniVeci ;
+	] ;
+
+#end Položka 22B
+
+# Položka 23
+	# identifikace útvaru, který objasnil trestnou činnost nebo měl podíl na jejím objasnění
+	qb:component [
+		rdfs:label "kód základního útvaru, který objasnil trestnou činnost"@cs ;
+		qb:measure crimestatistics-measure:utvarObjasnujici ;
+	] ;
+	
+	# Položka 23a
+	qb:component [
+		rdfs:label "subjekt, který objasnil trestnou činnost nebo měl podíl na jejím objasnění"@cs ;
+		qb:measure crimestatistics-measure:subjektObjasnujici ;
+	] ;
+	#end Položka 23a
+#end Položka 23
+
+# Položka 24
+	# datum ukončení nebo převzetí věci
+	qb:component [
+		rdfs:label "datum ukončení nebo převzetí věci"@cs ;
+		qb:measure crimestatistics-measure:datumUkonceniNeboPrevzetiVeci ;
+	] ;
+	# způsob ukončení nebo převzetí věci
+	qb:component [
+		rdfs:label "způsob ukončení nebo převzetí věci"@cs ;
+		qb:measure crimestatistics-measure:zpusobUkonceniNeboPrevzetiVeci_TrestnyCin ;
+	] ;
+	# dočasné odložení věci dle paragrafu 159b
+	qb:component [
+		rdfs:label "dočasné odložení věci dle paragrafu 159b"@cs ;
+		qb:measure crimestatistics-measure:docasneOdlozeniDleParagrafu159b ;
+	] ;
+	#end Položka 24	
+	.

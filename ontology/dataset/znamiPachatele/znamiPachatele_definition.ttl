@@ -1,0 +1,216 @@
+# Standardni prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx:    <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-concept:    <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-attribute:  <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-measure:    <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-metadata:   <http://purl.org/linked-data/sdmx/2009/metadata#> .
+@prefix sdmx-code:       <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix sdmx-subject:    <http://purl.org/linked-data/sdmx/2009/subject#> .
+
+# Vlastni prefixy
+@prefix crimestatistics-ds-def: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions#> .
+@prefix crimestatistics-dimension: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/dimension#> .
+@prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+
+# Definice struktury datasetu
+crimestatistics-ds-def:znamiPachatele a qb:DataStructureDefinition ;
+	rdfs:label
+		"známí pachatelé trestných činů"@cs,
+		"known crime offenders"@en ;
+	rdfs:comment
+		"Dataset obsahuje záznamy o známých pachatelích pro objasněné trestné činy."@cs,
+		"The dataset contains records with relation to crime records. Each record links a person as a crime perpetrator to a given crime. A record also lists various important or interesting data about an offender."@en ;
+	.
+
+# Definice struktury datasetu
+crimestatistics-ds-def:znamiPachatele
+	#Dimenze
+	# Položka 1 : Identifikátor
+	qb:component [
+		rdfs:label "zpracující útvar"@cs ;
+		qb:dimension crimestatistics-dimension:utvarZpracovaniZaznamu ;
+	] ;
+	
+	qb:component [
+		rdfs:label "rok zpracování"@cs ;
+		qb:dimension crimestatistics-dimension:rokZpracovaniZaznamu ;
+	] ;
+	#end Položka 1
+	
+	qb:component [
+		rdfs:label "státní příslušnost pachatele"@cs ;
+		qb:measure crimestatistics-measure:statniPrislusnostPachatele ;
+	] ;
+	
+	qb:component [
+		rdfs:label "taktická klasifikace pachatele-cizince"@cs ;
+		qb:measure crimestatistics-measure:taktickaKlasifikacePachateleCizince ;
+	] ;
+	
+	qb:component [
+		rdfs:label "rodinný stav pachatele"@cs ;
+		qb:measure crimestatistics-measure:rodinnyStavPachatele ;
+	] ;
+	
+	qb:component [
+		rdfs:label "vzdělání pachatele"@cs ;
+		qb:measure crimestatistics-measure:vzdelaniPachatele ;
+	] ;
+	
+	qb:component [
+		rdfs:label "výchovné prostředí pachatele"@cs ;
+		qb:measure crimestatistics-measure:vychovneProstrediPachatele ;
+	] ;
+	
+	qb:component [
+		rdfs:label "zaměstnání pachatele"@cs ;
+		qb:measure crimestatistics-measure:zamestnaniPachatele ;
+	] ;
+	
+	qb:component [
+		rdfs:label "zaměstnání pachatele - funkční zařazení"@cs ;
+		qb:measure crimestatistics-measure:zamestnaniPachateleFunkcniZarazeni ;
+	] ;
+	
+	qb:component [
+		rdfs:label "stav ztotožnění pachatele"@cs ;
+		qb:measure crimestatistics-measure:stavZtotozneniPachatele ;
+	] ;
+	
+	qb:component [
+		rdfs:label "místo narození pachatele - název místa"@cs ;
+		qb:measure crimestatistics-measure:mistoNarozeniPachatele ;
+	] ;
+	
+	qb:component [
+		rdfs:label "mladistvý pachatel - kolikrát vyšetřován"@cs ;
+		qb:measure crimestatistics-measure:mladistvyPachatel_pocetVysetrovani ;
+	] ;
+	
+	qb:component [
+		rdfs:label "mladistvý pachatel - pravidelná docházka do školy"@cs ;
+		qb:measure crimestatistics-measure:mladistvyPachatel_pravidelnaDochazkaDoSkoly ;
+	] ;
+	
+	qb:component [
+		rdfs:label "mladistvý pachatel - výchovná instituce"@cs ;
+		qb:measure crimestatistics-measure:mladistvyPachatel_vychovnaInstituce ;
+	] ;
+	
+	qb:component [
+		rdfs:label "mladistvý pachatel - zaměstnanost rodičů"@cs ;
+		qb:measure crimestatistics-measure:mladistvyPachatel_zamestnanostRodicu ;
+	] ;
+	
+	qb:component [
+		rdfs:label "mladistvý pachatel - jeden nebo oba rodiče trestáni"@cs ;
+		qb:measure crimestatistics-measure:mladistvyPachatel_trestanostRodicu ;
+	] ;
+
+	qb:component [
+		rdfs:label "mladistvý pachatel - závislosti rodičů"@cs ;
+		qb:measure crimestatistics-measure:mladistvyPachatel_zavislostRodicu ;
+	] ;
+	
+	qb:component [
+		rdfs:label "mladistvý pachatel - sourozenci trestáni"@cs ;
+		qb:measure crimestatistics-measure:mladistvyPachatel_trestanostSourozencu ;
+	] ;
+	
+	qb:component [
+		rdfs:label "mladistvý pachatel - trestná činnost spáchána na útěku"@cs ;
+		qb:measure crimestatistics-measure:mladistvyPachatel_spachanoNaUteku ;
+	] ;
+	
+	qb:component [
+		rdfs:label "mladistvý pachatel - trestná činnost spáchána na útěku z"@cs ;
+		qb:measure crimestatistics-measure:mladistvyPachatel_vychovnaInstituceOdkudUtekl ;
+	] ;
+
+	qb:component [
+		rdfs:label "mladistvý pachatel - pachatel v době spáchání trestného činu svěřen do"@cs ;
+		qb:measure crimestatistics-measure:mladistvyPachatel_sverenectvi ;
+	] ;
+	
+	qb:component [
+		rdfs:label "mladistvý pachatel - zapojení členů rodiny, vrstevníků, organizované skupiny"@cs ;
+		qb:measure crimestatistics-measure:mladistvyPachatel_spolupachatelstvi ;
+	] ;
+
+	qb:component [
+		rdfs:label "datum zahájení trestního stíhání"@cs ;
+		qb:measure crimestatistics-measure:datumZahajeniTrestnihoStihani ;
+	] ;
+	
+	qb:component [
+		rdfs:label "úsek zákona k zahájení trestního stíhání"@cs ;
+		qb:measure crimestatistics-measure:usekZakonaKZahajeniTrestnihoStihani ;
+	] ;
+	
+	qb:component [
+		rdfs:label "datum sdělení podezření ve zkráceném přípravném řízení"@cs ;
+		qb:measure crimestatistics-measure:datumSdeleniPodezreniVeZPR ;
+	] ;
+	
+	qb:component [
+		rdfs:label "úsek zákona ke sdělení podezření ve zkráceném přípravném řízení"@cs ;
+		qb:measure crimestatistics-measure:usekZakonaKeSdeleniPodezreniVeZPR ;
+	] ;
+	
+	qb:component [
+		rdfs:label "datum rozšíření trestního stíhání"@cs ;
+		qb:measure crimestatistics-measure:datumRozsireniTrestnihoStihani ;
+	] ;
+	
+	qb:component [
+		rdfs:label "úsek zákona k rozšíření trestního stíhání"@cs ;
+		qb:measure crimestatistics-measure:usekZakonaKRozsireniTrestnihoStihani ;
+	] ;
+	
+	qb:component [
+		rdfs:label "datum pokračování trestního stíhání"@cs ;
+		qb:measure crimestatistics-measure:datumPokracovaniTrestnihoStihani ;
+	] ;
+	
+	qb:component [
+		rdfs:label "úsek zákona k pokračování trestního stíhání"@cs ;
+		qb:measure crimestatistics-measure:usekZakonaKPokracovaniTrestnihoStihani ;
+	] ;
+	
+	qb:component [
+		rdfs:label "ukončení nebo převzetí věci - datum"@cs ;
+		qb:measure crimestatistics-measure:datumUkonceniNeboPrevzetiVeci ;
+	] ;
+	
+	qb:component [
+		rdfs:label "způsob ukončení pachatele"@cs ;
+		qb:measure crimestatistics-measure:zpusobUkonceniNeboPrevzetiVeci_ZnamyPachatel ;
+	] ;
+	
+	qb:component [
+		rdfs:label "počet trestů pachatele - úmyslná trestná činnost"@cs ;
+		qb:measure crimestatistics-measure:pocetTrestuPachatele_umyslnaTrestnaCinnost ;
+	] ;
+	
+	qb:component [
+		rdfs:label "počet trestů pachatele - úmyslná trestná činnost - podmíněná odsouzení"@cs ;
+		qb:measure crimestatistics-measure:pocetPodminenychOdsouzeniPachatele_umyslnaTrestnaCinnost ;
+	] ;
+	
+	qb:component [
+		rdfs:label "počet trestů pachatele - nedbalostní trestná činnost"@cs ;
+		qb:measure crimestatistics-measure:pocetTrestuPachatele_nedbalostniTrestnaCinnost ;
+	] ;
+	
+	qb:component [
+		rdfs:label "pokračující trestná činnost - počet dílčích útoků"@cs ;
+		qb:measure crimestatistics-measure:pocetDilcichUtoku ;
+	] ;
+	.

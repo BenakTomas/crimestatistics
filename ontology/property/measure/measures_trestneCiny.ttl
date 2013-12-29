@@ -1,0 +1,282 @@
+# Standardni prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# Preferovany prefix ontologie pro popis zakonu
+@prefix lex: <http://purl.org/lex#> .
+
+# Vlastni prefixy
+@prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+
+# Kategorie trestné činnosti
+crimestatistics-measure:objektNapadeni a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/objektNapadeni/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/objektNapadeni> ;
+	.
+
+# Stadium trestného činu
+crimestatistics-measure:stadiumTrestnehoCinu a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/stadiumTrestnehoCinu/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/stadiumTrestnehoCinu> ;
+	.
+
+# Druh extremistického trestného činu
+crimestatistics-measure:druhExtremistickehoTrestnehoCinu a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/druhExtremistickehoTrestnehoCinu/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/druhExtremistickehoTrestnehoCinu> ;
+	.
+
+# Klasifikace takticko-statistická
+crimestatistics-measure:tsk a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/tsk/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/tsk> ;
+	.
+
+# Spácháno na ulici
+crimestatistics-measure:spachanoNaUlici a qb:MeasureProperty, rdf:Property ;
+	rdfs:range xsd:boolean ;
+	.
+
+# Spácháno nebo zjištěno na sledovaném místě
+crimestatistics-measure:spachanoNeboZjistenoNaSledovanemMiste a qb:MeasureProperty, rdf:Property ;
+	rdfs:range xsd:boolean ;
+	.
+
+# Spácháno kde (lokalita spáchání trestného činu)
+crimestatistics-measure:spachanoKde a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/lokalitaSpachaniTrestnehoCinu/conceptClass> ;
+
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/lokalitaSpachaniTrestnehoCinu> ;
+	.
+
+# Použití zbraně a následek
+crimestatistics-measure:pouzitiZbraneANasledek a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/pouzitiZbraneANasledek/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/pouzitiZbraneANasledek> ;
+	.
+
+# Druh použité zbraně
+crimestatistics-measure:druhPouziteZbrane a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/druhPouziteZbrane/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/druhPouziteZbrane> ;
+	.
+
+# Počet domovních prohlídek
+crimestatistics-measure:pocetDomovnichProhlidek a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/pocet0Az9AVice/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/pocet0Az9AVice> ;
+	.
+
+# Počet domovních prohlídek s kladným výsledkem
+crimestatistics-measure:pocetDomovnichProhlidekSKladnymVysledkem a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/pocet0Az9AVice/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/pocet0Az9AVice> ;
+	.
+
+# Způsobená škoda
+crimestatistics-measure:zpusobenaSkoda a qb:MeasureProperty, rdf:Property ;
+	rdfs:range xsd:nonNegativeInteger;
+	
+	sdmx-attribute:unitMeasure <http://dbpedia.org/resource/Czech_koruna> ;
+	.
+
+# Způsobená škoda - odcizeno nebo rozkradeno
+
+crimestatistics-measure:zpusobenaSkodaOdcizenoNeboRozkradeno a qb:MeasureProperty, rdf:Property ;
+	rdfs:range xsd:nonNegativeInteger;
+	
+	sdmx-attribute:unitMeasure <http://dbpedia.org/resource/Czech_koruna> ;
+	.
+
+# Zajištěné hodnoty na místě činu
+crimestatistics-measure:zajisteneHodnotyNaMisteCinu a qb:MeasureProperty, rdf:Property ;
+	rdfs:range xsd:nonNegativeInteger ;
+	
+	sdmx-attribute:unitMeasure <http://dbpedia.org/resource/Czech_koruna> ;
+	.
+
+# Oznamovatel nebo iniciátor trestního řízení
+crimestatistics-measure:subjektOznamujiciNeboIniciujiciTrestniRizeni a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/subjektCinnyVTrestnimRizeni/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/subjektCinnyVTrestnimRizeni> ;
+	.
+
+# Datum zahájení trestního řízení
+crimestatistics-measure:datumZahajeniTrestnihoRizeni a qb:MeasureProperty, rdf:Property ;
+	rdfs:range xsd:date ;
+	.
+
+# Úsek zákona k zahájení trestního řízení (prověřování)
+crimestatistics-measure:usekZakonaKZahajeniTrestnihoRizeni a qb:MeasureProperty, rdf:Property ;
+	rdfs:range lex:SourceOfLawSection ;
+	.
+
+# Datum odložení věci
+crimestatistics-measure:datumOdlozeniVeci a qb:MeasureProperty, rdf:Property ;
+	rdfs:range xsd:date ;
+	.
+
+# Úsek zákona k odložení věci
+crimestatistics-measure:usekZakonaKOdlozeniVeci a qb:MeasureProperty, rdf:Property ;
+	rdfs:range lex:SourceOfLawSection ;
+	.
+
+# Způsob ukončení nebo převzetí věci - trestný čin
+crimestatistics-measure:zpusobUkonceniNeboPrevzetiVeci_TrestnyCin a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/zpusobUkonceniNeboPrevzetiVeci_TrestnyCin/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/zpusobUkonceniNeboPrevzetiVeci_TrestnyCin> ;
+	.
+
+# Dočasné odložení dle paragrafu 159b
+crimestatistics-measure:docasneOdlozeniDleParagrafu159b a qb:MeasureProperty, rdf:Property ;
+	rdfs:range xsd:boolean ;
+	.
+
+# Útvar, který objasnil trestný čin
+crimestatistics-measure:utvarObjasnujici a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:subPropertyOf sdmx-dimension:refArea ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/utvar/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/utvar> ;
+	.
+
+# Oznamovatel nebo iniciátor trestního řízení
+crimestatistics-measure:subjektObjasnujici a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/subjektCinnyVTrestnimRizeni/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/subjektCinnyVTrestnimRizeni> ;
+	.
+
+# Pohlaví napadeného jednotlivce
+crimestatistics-measure:pohlaviNapadenehoJednotlivce a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:subPropertyOf sdmx-measure:sex ;
+	.
+
+# ------------------- Trestné činy proti jednotlivci ---------------------------
+# Věk napadeného jednotlivce
+crimestatistics-measure:vekNapadenehoJednotlivce a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/vekJednotlivce> ;
+	.
+
+crimestatistics-measure:taktickaKlasifikaceNapadeneOsoby a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/taktickaKlasifikaceNapadeneOsoby/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/taktickaKlasifikaceNapadeneOsoby> ;
+	.
+
+crimestatistics-measure:socialniKlasifikaceNapadeneOsoby a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/socialniKlasifikaceNapadeneOsoby/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/socialniKlasifikaceNapadeneOsoby> ;
+	.
+
+crimestatistics-measure:nasledekNapadeni a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/nasledekNapadeni/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/nasledekNapadeni> ;
+	.
+
+# ------------------ Trestné činy proti skupině obyvatel ------------------------------------
+crimestatistics-measure:strukturaSkupinyNapadenychOsob a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/strukturaSkupinyNapadenychOsob/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/strukturaSkupinyNapadenychOsob> ;
+	.
+	
+crimestatistics-measure:vekoveSlozeniSkupinyNapadenychOsob a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/vekoveSlozeniSkupinyNapadenychOsob/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/vekoveSlozeniSkupinyNapadenychOsob> ;
+	.
+
+crimestatistics-measure:taktickaKlasifikaceSkupinyNapadenychOsob1 a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/taktickaKlasifikaceSkupinyNapadenychOsob1/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/taktickaKlasifikaceSkupinyNapadenychOsob1> ;
+	.
+
+crimestatistics-measure:taktickaKlasifikaceSkupinyNapadenychOsob2 a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/taktickaKlasifikaceSkupinyNapadenychOsob2/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/taktickaKlasifikaceSkupinyNapadenychOsob2> ;
+	.
+	
+# ------------------ Trestné činy hospodářské kriminality - napadení objektů -----------------------------------
+crimestatistics-measure:hospodarskaKriminalita_TaktickaKlasifikace1 a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_TaktickaKlasifikace1/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_TaktickaKlasifikace1> ;
+	.
+	
+crimestatistics-measure:hospodarskaKriminalita_TaktickaKlasifikace2 a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_TaktickaKlasifikace2/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_TaktickaKlasifikace2> ;
+	.
+
+crimestatistics-measure:hospodarskaKriminalita_TaktickaKlasifikace3 a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_TaktickaKlasifikace3/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_TaktickaKlasifikace3> ;
+	.
+	
+crimestatistics-measure:hospodarskaKriminalita_Forma a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_Forma/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_Forma> ;
+	.
+
+crimestatistics-measure:hospodarskaKriminalita_NapadenyUsek a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_NapadenyUsek/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_NapadenyUsek> ;
+	.
+
+crimestatistics-measure:hospodarskaKriminalita_OkolnostiVedouciKeKriminalite a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_OkolnostiVedouciKeKriminalite/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_OkolnostiVedouciKeKriminalite> ;
+	.
+	
+# ------------------ Trestné činy obecné kriminality - napadení objektů -----------------------------------	
+crimestatistics-measure:obecnaKriminalita_TaktickaKlasifikace1 a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/obecnaKriminalita_TaktickaKlasifikace1/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/obecnaKriminalita_TaktickaKlasifikace1> ;
+	.
+	
+crimestatistics-measure:obecnaKriminalita_TaktickaKlasifikace2 a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/obecnaKriminalita_TaktickaKlasifikace2/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/obecnaKriminalita_TaktickaKlasifikace2> ;
+	.
+	
+# ------------------ Trestné činy - napadení soukromých objektů -----------------------------------
+crimestatistics-measure:jeSoukromyObjekt a qb:MeasureProperty, rdf:Property ;
+	rdfs:range xsd:boolean ;
+	.
+
+crimestatistics-measure:soukromyObjekt_TaktickaKlasifikace a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
+	rdfs:range <http://linked.opendata.cz/ontology/crimestatistics/code/soukromyObjekt_TaktickaKlasifikace/conceptClass> ;
+	
+	qb:codeList <http://linked.opendata.cz/ontology/crimestatistics/code/soukromyObjekt_TaktickaKlasifikace> ;
+	.

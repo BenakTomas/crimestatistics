@@ -1,0 +1,492 @@
+# Standardní prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx:    <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-concept:    <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-attribute:  <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-measure:    <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-metadata:   <http://purl.org/linked-data/sdmx/2009/metadata#> .
+@prefix sdmx-code:       <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix sdmx-subject:    <http://purl.org/linked-data/sdmx/2009/subject#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# Vlastní prefixy
+@prefix crimestatistics-code-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/> .
+@prefix crimestatistics-code-codelist-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/tsk/> .
+@prefix crimestatistics-code-codelist-class: <http://linked.opendata.cz/ontology/crimestatistics/code/tsk/class#> .
+@prefix crimestatistics-code-codelist-property: <http://linked.opendata.cz/ontology/crimestatistics/code/tsk/property#> .
+
+@prefix crimestatistics-code-codelist-hash: <http://linked.opendata.cz/ontology/crimestatistics/code/tsk/stary#> .
+@prefix crimestatistics-class-zakony: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony#> .
+@prefix crimestatistics-property-zakony: <http://linked.opendata.cz/ontology/crimestatistics/property/zakony#> .
+
+@prefix crimestatistics-class-zakony-SourceOfLawSectionCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/SourceOfLawSectionCollection/property#> .
+@prefix crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/ProvedeniUkonuVTrestnimRizeni/property#> .
+@prefix crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/ProvedeniUkonuVTrestnimRizeniCollection/property#> .
+@prefix crimestatistics-class-zakony-RegulationCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/RegulationCollection/property#> .
+
+crimestatistics-code-codelist-hash:101 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/219> .
+crimestatistics-code-codelist-hash:102 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/219> .
+crimestatistics-code-codelist-hash:103 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/219> .
+crimestatistics-code-codelist-hash:104 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/219> .
+crimestatistics-code-codelist-hash:105 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/220> .
+crimestatistics-code-codelist-hash:106 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/219> .
+crimestatistics-code-codelist-hash:111 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/227> .
+crimestatistics-code-codelist-hash:112 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/228> .
+crimestatistics-code-codelist-hash:121 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/212> .
+crimestatistics-code-codelist-hash:122 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/216> .
+crimestatistics-code-codelist-hash:131 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/234> .
+crimestatistics-code-codelist-hash:132 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/234> .
+crimestatistics-code-codelist-hash:141 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/153>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/154/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/155>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/156/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/156/2> ] .
+crimestatistics-code-codelist-hash:142 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/153>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/154/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/155>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/156/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/156/2> ] .
+crimestatistics-code-codelist-hash:143 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/153>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/154/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/155>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/156/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/156/2> ] .
+crimestatistics-code-codelist-hash:151 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/221>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/222> ] .
+crimestatistics-code-codelist-hash:161 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/225> .
+crimestatistics-code-codelist-hash:171 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/196> .
+crimestatistics-code-codelist-hash:172 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/234a> .
+crimestatistics-code-codelist-hash:173 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/197a> .
+crimestatistics-code-codelist-hash:181 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/235> .
+crimestatistics-code-codelist-hash:182 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/231>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/232> ] .
+crimestatistics-code-codelist-hash:183 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/238> .
+crimestatistics-code-codelist-hash:184 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/249a> .
+crimestatistics-code-codelist-hash:185 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/215> .
+crimestatistics-code-codelist-hash:186 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/215a> .
+crimestatistics-code-codelist-hash:187 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/236> .
+crimestatistics-code-codelist-hash:188 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/237> .
+crimestatistics-code-codelist-hash:189 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/238a> .
+crimestatistics-code-codelist-hash:190 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/230>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/233> ] .
+crimestatistics-code-codelist-hash:201 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/241> .
+crimestatistics-code-codelist-hash:211 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/242/2>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/243> ] .
+crimestatistics-code-codelist-hash:212 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/242> .
+crimestatistics-code-codelist-hash:213 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/242/2>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/243> ] .
+crimestatistics-code-codelist-hash:214 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/242/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/242/3>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/242/4> ] .
+crimestatistics-code-codelist-hash:231 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/202> .
+crimestatistics-code-codelist-hash:241 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/205> .
+crimestatistics-code-codelist-hash:251 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/226> .
+crimestatistics-code-codelist-hash:252 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/221>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/222> ] .
+crimestatistics-code-codelist-hash:253 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/223>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/224> ] .
+crimestatistics-code-codelist-hash:271 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/204> .
+crimestatistics-code-codelist-hash:280 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/245> .
+crimestatistics-code-codelist-hash:281 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/232a> .
+crimestatistics-code-codelist-hash:290 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/205a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/205b>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/210> ] .
+crimestatistics-code-codelist-hash:311 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:312 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:321 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:322 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:323 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:324 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:331 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:332 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:341 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:350 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:351 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:371 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/238>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> ] .
+crimestatistics-code-codelist-hash:372 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/238>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> ] .
+crimestatistics-code-codelist-hash:373 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/238>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> ] .
+crimestatistics-code-codelist-hash:390 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/238>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> ] .
+crimestatistics-code-codelist-hash:411 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:412 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:413 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:421 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:431 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/249> ] .
+crimestatistics-code-codelist-hash:432 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/249> ] .
+crimestatistics-code-codelist-hash:433 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:434 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:435 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/249> ] .
+crimestatistics-code-codelist-hash:441 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:451 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:461 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:462 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:471 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:480 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:490 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:511 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250> .
+crimestatistics-code-codelist-hash:521 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/248> .
+crimestatistics-code-codelist-hash:530 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/249> .
+crimestatistics-code-codelist-hash:588 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/254> .
+crimestatistics-code-codelist-hash:589 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/257> .
+crimestatistics-code-codelist-hash:611 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/202>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/202a> ] .
+crimestatistics-code-codelist-hash:612 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/202> .
+crimestatistics-code-codelist-hash:613 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/257b> .
+crimestatistics-code-codelist-hash:630 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/218a> .
+crimestatistics-code-codelist-hash:631 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/217>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/217a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/217b> ] .
+crimestatistics-code-codelist-hash:632 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/218> .
+crimestatistics-code-codelist-hash:633 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/216a> .
+crimestatistics-code-codelist-hash:634 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/171a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/171b>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/171c>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/171d> ] .
+crimestatistics-code-codelist-hash:635 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/187> .
+crimestatistics-code-codelist-hash:636 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/188a> .
+crimestatistics-code-codelist-hash:637 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/158> .
+crimestatistics-code-codelist-hash:639 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/178> .
+crimestatistics-code-codelist-hash:640 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/159> .
+crimestatistics-code-codelist-hash:641 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/187a> .
+crimestatistics-code-codelist-hash:642 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/188> .
+crimestatistics-code-codelist-hash:651 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/179>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/257> ] .
+crimestatistics-code-codelist-hash:652 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/179>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/257> ] .
+crimestatistics-code-codelist-hash:662 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/185> .
+crimestatistics-code-codelist-hash:663 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/171>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/171e> ] .
+crimestatistics-code-codelist-hash:664 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/251>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/252> ] .
+crimestatistics-code-codelist-hash:721 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/166> .
+crimestatistics-code-codelist-hash:730 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/179>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180d>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/257> ] .
+crimestatistics-code-codelist-hash:731 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180d>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/184>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/223>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/224> ] .
+crimestatistics-code-codelist-hash:732 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/184>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/223>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/224> ] .
+crimestatistics-code-codelist-hash:733 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/184>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/223>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/224> ] .
+crimestatistics-code-codelist-hash:741 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/184>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/223>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/224> ] .
+crimestatistics-code-codelist-hash:742 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180d>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/184>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/223>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/224> ] .
+crimestatistics-code-codelist-hash:750 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/223>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/224>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201a> ] .
+crimestatistics-code-codelist-hash:751 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/223>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/224>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201a> ] .
+crimestatistics-code-codelist-hash:762 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/256> .
+crimestatistics-code-codelist-hash:763 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/256a> .
+crimestatistics-code-codelist-hash:771 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201a> ] .
+crimestatistics-code-codelist-hash:772 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/213> .
+crimestatistics-code-codelist-hash:781 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180a> .
+crimestatistics-code-codelist-hash:782 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180b> .
+crimestatistics-code-codelist-hash:783 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180c> .
+crimestatistics-code-codelist-hash:784 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/203> .
+crimestatistics-code-codelist-hash:785 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/199> .
+crimestatistics-code-codelist-hash:786 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/163a/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/163b>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/163c> ] .
+crimestatistics-code-codelist-hash:787 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/198> .
+crimestatistics-code-codelist-hash:788 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/198a> .
+crimestatistics-code-codelist-hash:789 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/260>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/261>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/261a> ] .
+crimestatistics-code-codelist-hash:790 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/154/2>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/164>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/165>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/167>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/168>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/169a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/169b>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/172>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/174>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/175>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/175a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/175b>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/177>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/179>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180d>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/182>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/183>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/184>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/185a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/189>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/190>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/200>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/206>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/207>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/208>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/209b>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/239/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/240/1>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/253>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/255>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/255a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/259>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/259a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/262>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/263>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/264>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/265> ] .
+crimestatistics-code-codelist-hash:801 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/149> .
+crimestatistics-code-codelist-hash:803 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/118> .
+crimestatistics-code-codelist-hash:806 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/121> .
+crimestatistics-code-codelist-hash:807 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/124> .
+crimestatistics-code-codelist-hash:808 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/125> .
+crimestatistics-code-codelist-hash:809 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/127> .
+crimestatistics-code-codelist-hash:810 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/126> .
+crimestatistics-code-codelist-hash:811 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/255>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/255a> ] .
+crimestatistics-code-codelist-hash:812 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247> .
+crimestatistics-code-codelist-hash:813 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/249> .
+crimestatistics-code-codelist-hash:814 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/257> .
+crimestatistics-code-codelist-hash:815 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250> .
+crimestatistics-code-codelist-hash:816 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/140> .
+crimestatistics-code-codelist-hash:817 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/145>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/145a> ] .
+crimestatistics-code-codelist-hash:819 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/148> .
+crimestatistics-code-codelist-hash:820 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/158> .
+crimestatistics-code-codelist-hash:821 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/160> .
+crimestatistics-code-codelist-hash:822 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/256> .
+crimestatistics-code-codelist-hash:823 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/176> .
+crimestatistics-code-codelist-hash:824 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/176a> .
+crimestatistics-code-codelist-hash:825 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/193>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/194> ] .
+crimestatistics-code-codelist-hash:826 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/129>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/129a> ] .
+crimestatistics-code-codelist-hash:827 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/249> .
+crimestatistics-code-codelist-hash:828 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/239/2>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/240/2> ] .
+crimestatistics-code-codelist-hash:829 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/248> .
+crimestatistics-code-codelist-hash:830 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250> .
+crimestatistics-code-codelist-hash:831 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128b>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128c> ] .
+crimestatistics-code-codelist-hash:832 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/124a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/124b>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/124c> ] .
+crimestatistics-code-codelist-hash:833 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128> .
+crimestatistics-code-codelist-hash:834 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/118a> .
+crimestatistics-code-codelist-hash:835 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/148a> .
+crimestatistics-code-codelist-hash:836 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/178> .
+crimestatistics-code-codelist-hash:837 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/141>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/142>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/144> ] .
+crimestatistics-code-codelist-hash:838 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/249b> .
+crimestatistics-code-codelist-hash:839 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/124d>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/124e>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/124f> ] .
+crimestatistics-code-codelist-hash:840 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/248>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250> ] .
+crimestatistics-code-codelist-hash:841 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/248>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250> ] .
+crimestatistics-code-codelist-hash:842 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/248>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250> ] .
+crimestatistics-code-codelist-hash:843 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/248>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250> ] .
+crimestatistics-code-codelist-hash:844 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/247>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/248>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250> ] .
+crimestatistics-code-codelist-hash:845 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/159> .
+crimestatistics-code-codelist-hash:846 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/161> .
+crimestatistics-code-codelist-hash:847 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/162> .
+crimestatistics-code-codelist-hash:848 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/256a> .
+crimestatistics-code-codelist-hash:849 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/256b> .
+crimestatistics-code-codelist-hash:850 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181c>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181e>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181f>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181h> ] .
+crimestatistics-code-codelist-hash:851 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181b>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181c>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181e>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181g>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181h> ] .
+crimestatistics-code-codelist-hash:852 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/256c> .
+crimestatistics-code-codelist-hash:855 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/186> .
+crimestatistics-code-codelist-hash:860 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/251>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/252> ] .
+crimestatistics-code-codelist-hash:861 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/150> .
+crimestatistics-code-codelist-hash:862 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/151> .
+crimestatistics-code-codelist-hash:863 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/152> .
+crimestatistics-code-codelist-hash:864 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/252a> .
+crimestatistics-code-codelist-hash:865 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/257a> .
+crimestatistics-code-codelist-hash:866 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250c> .
+crimestatistics-code-codelist-hash:870 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/180>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181b>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/184>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201a> ] .
+crimestatistics-code-codelist-hash:871 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/179>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/181a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/182>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/201a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/257> ] .
+crimestatistics-code-codelist-hash:880 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250a> .
+crimestatistics-code-codelist-hash:881 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250b> .
+crimestatistics-code-codelist-hash:885 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/148b> .
+crimestatistics-code-codelist-hash:886 crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/147> .
+crimestatistics-code-codelist-hash:890 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/146>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/171>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/171e>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/178a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/191>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/192>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/194a>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/209>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/253>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/258> ] .
+crimestatistics-code-codelist-hash:901 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/266>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/267>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/268>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/269>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/270>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/271>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/272>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/273>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/274>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/275>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/276>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/277>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/278>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/279>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/280>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/281>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/282>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/283>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/284>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/285>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/286>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/287>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/288>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/289>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/290>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/291>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/292>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/293>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/294>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/295> ] .
+crimestatistics-code-codelist-hash:902 crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu [ 
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/91>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/92>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/93>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/95>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/96>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/97>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/105>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/106>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/107>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/113>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/114>;
+crimestatistics-class-zakony-SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/115> ] .

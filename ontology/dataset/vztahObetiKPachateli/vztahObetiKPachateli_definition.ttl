@@ -1,0 +1,45 @@
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+
+@prefix crimestatistics-ds-def: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions#> .
+@prefix crimestatistics-dimension: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/dimension#> .
+@prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+
+crimestatistics-ds-def:vztahObetiKPachateli a qb:DataStructureDefinition ;
+	rdfs:label
+		"vztah oběti k pachateli"@cs,
+		"relationship of a crime victim to a crime perpetrator"@en ;
+	rdfs:comment
+		"Dataset obsahuje záznamy pro konkrétní zjištěné trestné činy. Každý záznam popisuje pro daný trestný čin vztah jedné z obětí trestného činu k pachateli trestného činu. Pro každý trestný čin jsou uvedeny záznamy o všech jeho obětech."@cs,
+		"The dataset contains records which summarize a kind of relationship of a crime victim to a crime perpetrator. For each crime victim there is a separate record."@en ;
+		.
+
+crimestatistics-ds-def:vztahObetiKPachateli
+	#Dimenze
+	
+	# Odkaz na záznam o trestném činu, pro který byly nařízeny zde sledované expertízy.
+	qb:component [
+		rdfs:label "trestný čin"@cs ;
+		qb:dimension crimestatistics-dimension:trestnyCin ;
+	] ;
+	
+	# Stupeň důležitosti daného předmětu
+	qb:component [
+		rdfs:label "důležitost vztahu v kontextu trestného činu"@cs ;
+		qb:dimension crimestatistics-dimension:stupenDulezitostiPredmetuZajmu ;
+	] ;
+	
+	# Vztah oběti k pachateli
+	qb:component [
+		rdfs:label "vztah oběti k pachateli"@cs ;
+		qb:measure crimestatistics-measure:vztahObetiKPachateli ;
+	] ;
+	.

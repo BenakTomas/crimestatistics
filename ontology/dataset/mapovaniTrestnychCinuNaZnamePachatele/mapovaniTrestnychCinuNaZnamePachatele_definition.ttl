@@ -1,0 +1,73 @@
+# Standardni prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+
+# Vlastni prefixy
+@prefix crimestatistics-ds-def: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions#> .
+@prefix crimestatistics-dimension: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/dimension#> .
+@prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+
+# Popis datasetu
+crimestatistics-ds-def:mapovaniTrestnychCinuNaZnamePachatele a qb:DataStructureDefinition ;
+	rdfs:label "mapování trestných činů na jejich známé pachatele"@cs ;
+	rdfs:comment "Dataset obsahuje záznamy, které propojují záznam o trestném činu se záznamem jeho zjištěného pachatele. Kromě toho také poskytuje další kontext objasňující spáchání konkrétního trestného činu daným pachatelem."@cs ;
+	.
+
+# Definice struktury datasetu
+crimestatistics-ds-def:mapovaniTrestnychCinuNaZnamePachatele
+	# Odkaz na objasněný trestný čin
+	qb:component [
+		rdfs:label "objasněný trestný čin"@cs ;
+		qb:dimension crimestatistics-dimension:trestnyCin ;
+	] ;
+	
+	# Odkaz na známého pachatele objasněného trestého činu
+	qb:component [
+		rdfs:label "známý pachatel"@cs ;
+		qb:dimension crimestatistics-dimension:znamyPachatel ;
+	] ;
+
+	# Celkový počet pachatelů trestného činu
+	qb:component [
+		rdfs:label "celkový počet pachatelů"@cs ;
+		qb:measure crimestatistics-measure:celkovyPocetPachateluTrestnehoCinu ;
+	] ;
+	
+	# Účastenství
+	qb:component [
+		rdfs:label "účastenství pachatele"@cs ;
+		qb:measure crimestatistics-measure:ucastenstviPachatele ;
+	] ;
+	
+	# Omamné látky
+	qb:component [
+		rdfs:label "trestný čin spáchán pod vlivem"@cs ;
+		qb:measure crimestatistics-measure:pachatelemUziteOmamneLatky ;
+	] ;
+	
+	# Společenství pachatelů
+	qb:component [
+		rdfs:label "společenství pachatelů"@cs ;
+		qb:measure crimestatistics-measure:spolecenstviPachatelu ;
+	] ;
+	
+	# Použití zbraně a následek
+	qb:component [
+		rdfs:label "použití zbraně a následek"@cs ;
+		qb:measure crimestatistics-measure:pouzitiZbraneANasledek ;
+	] ;
+	
+	# Druh použité zbraně
+	qb:component [
+		rdfs:label "druh použité zbraně"@cs ;
+		qb:measure crimestatistics-measure:druhPouziteZbrane ;
+	] ;
+	.

@@ -1,0 +1,45 @@
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+
+@prefix crimestatistics-ds-def: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions#> .
+@prefix crimestatistics-dimension: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/dimension#> .
+@prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+
+crimestatistics-ds-def:predmetyZajmu a qb:DataStructureDefinition ;
+	rdfs:label
+		"předměty zájmu pachatele trestného činu"@cs,
+		"objects of interest of perpetrators of crime"@en ;
+	rdfs:comment
+		"Dataset obsahuje údaje o hlavních předmětech zájmu pachatele trestného činu. Ke každému záznamu je připojena informace o stupni důležitosti daného předmětu zájmu pachatele v kontextu spáchaného trestného činu."@cs,
+		"The dataset contains the records associated with a crime. Each record contains information about what the object of interest of a perpetrator of that crime was. Information about the importance of each particular object is included."@en ;
+		.
+
+crimestatistics-ds-def:predmetyZajmu
+	#Dimenze
+	
+	# Odkaz na záznam o trestném činu, pro který byly nařízeny zde sledované expertízy.
+	qb:component [
+		rdfs:label "trestný čin"@cs ;
+		qb:dimension crimestatistics-dimension:trestnyCin ;
+	] ;
+	
+	# Stupeň důležitosti daného předmětu
+	qb:component [
+		rdfs:label "důležitost"@cs ;
+		qb:dimension crimestatistics-dimension:stupenDulezitostiPredmetuZajmu ;
+	] ;
+	
+	# Předmět zájmu
+	qb:component [
+		rdfs:label "předmět zájmu"@cs ;
+		qb:measure crimestatistics-measure:predmetZajmu ;
+	] ;
+	.

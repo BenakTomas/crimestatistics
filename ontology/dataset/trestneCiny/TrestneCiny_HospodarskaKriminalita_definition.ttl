@@ -1,0 +1,69 @@
+# Standardní prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx:    <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-concept:    <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-attribute:  <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-measure:    <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-metadata:   <http://purl.org/linked-data/sdmx/2009/metadata#> .
+@prefix sdmx-code:       <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix sdmx-subject:    <http://purl.org/linked-data/sdmx/2009/subject#> .
+
+# Vlastní prefixy
+@prefix crimestatistics-ds-def: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions#> .
+@prefix crimestatistics-dimension: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/dimension#> .
+@prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+
+crimestatistics-ds-def:trestneCiny
+
+# Položka 8
+
+	# Položka 8: členění 3
+	qb:component [
+		rdfs:label "napadený objekt z hlediska účelu nebo převažující činnosti"@cs ;
+		qb:measure crimestatistics-measure:hospodarskaKriminalita_TaktickaKlasifikace1 ;
+	] ;
+	#end Položka
+	
+	# Položka 8: členění 4
+	qb:component [
+		rdfs:label "napadený objekt z hlediska charakteru převažující činnosti nebo podnikání"@cs ;
+		qb:measure crimestatistics-measure:hospodarskaKriminalita_TaktickaKlasifikace2 ;
+	] ;
+	
+	# Položka 8: členění 5
+	qb:component [
+		rdfs:label "napadený objekt z hlediska příslušnosti k hospodářskému úseku"@cs ;
+		qb:measure crimestatistics-measure:hospodarskaKriminalita_TaktickaKlasifikace3 ;
+	] ;
+	
+#end Položka 8
+
+# Položka 16
+	qb:component [
+		rdfs:label "hospodářská trestná činnost - hlavní nejzávažnější forma"@cs ;
+		qb:measure crimestatistics-measure:hospodarskaKriminalita_Forma ;
+	] ;
+#end Položka 16
+
+# Položka 17
+
+	# Položka 17: hospodářské úseky
+	qb:component [
+		rdfs:label "hospodářské úseky, na kterých byla trestná činnost spáchána"@cs ;
+		qb:measure crimestatistics-measure:hospodarskaKriminalita_NapadenyUsek ;
+	] ;
+	
+	# Položka 17: okolnosti
+	qb:component [
+		rdfs:label "okolnosti, které vedly k nebo umožnily trestnou činnost"@cs ;
+		qb:measure crimestatistics-measure:hospodarskaKriminalita_OkolnostiVedouciKeKriminalite ;
+	] ;
+#end Položka 17
+	.
+	

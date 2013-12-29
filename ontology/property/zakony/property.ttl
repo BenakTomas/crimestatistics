@@ -1,0 +1,162 @@
+# Standardni prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# Preferovany prefix ontologie pro popis zakonu
+@prefix lex: <http://purl.org/lex#> .
+
+# Vlastní prefixy
+@prefix crimestatistics-class-zakony: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony#> .
+@prefix crimestatistics-property-zakony: <http://linked.opendata.cz/ontology/crimestatistics/property/zakony#> .
+
+# Základní property pro referencování zákonů
+crimestatistics-property-zakony:odkazNaUsekZakona a rdf:Property ;
+	rdfs:label
+		"odkaz na úsek zákona"@cs,
+		"a law section reference"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že subjekt nějakým způsobem odkazuje nějaký úsek zákona."@cs,
+		"This property is used to express a fact that its subject somehow references a certain section of law."@en ;
+	
+	rdfs:range lex:SourceOfLawSection ;
+	rdfs:seeAlso lex:SourceOfLawSection ;
+	.
+
+# Základní property pro referencování skupin odkazů na zákony
+crimestatistics-property-zakony:odkazNaSkupinuUsekuZakonu a rdf:Property ;
+	rdfs:label
+		"odkaz na skupinu úseků zákonů"@cs,
+		"a reference to a law section collection"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že subjekt nějakým způsobem odkazuje skupinu úseků zákonů."@cs,
+		"This property is used to express a fact that its subject somehow references a collection of law sections, e. g. paragraphs."@en ;
+	
+	rdfs:range crimestatistics-class-zakony:SourceOfLawSectionCollection ;
+	.
+
+# Property vyjadřující odkaz na kvalifikující úsek zákona
+crimestatistics-property-zakony:kvalifikacePodleUsekuZakona a rdf:Property ;
+	rdfs:label
+		"odkaz na kvalifikující úsek zákona"@cs,
+		"a reference to a qualifying law section"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že činnost nebo událost, kterou subjekt vyjadřuje, je kvalifikována určitým úsekem zákona."@cs,
+		"This property is used to express a fact that an activity or an event, represented by the subject of this property, is qualified as some kind of law violation by a certain section of law."@en ;
+	
+	rdfs:subPropertyOf crimestatistics-property-zakony:odkazNaUsekZakona ;
+	.
+
+# Property vyjadřující odkaz na kvalifikující úsek zákona
+crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu a rdf:Property ;
+	rdfs:label
+		"odkaz na kolekci potenciálně kvalifikujících úseků zákona"@cs,
+		"a reference to a collection of law sections potentially qualifying a crime"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že činnost nebo událost, kterou subjekt vyjadřuje, je kvalifikována některým (nebo více) úsekem zákona z kolekce úseků zákonů."@cs,
+		"This property is used to express a fact that an activity or an event, represented by the subject of this property, is qualified as some kind of law violation by some (or more than one) law section from a given collection."@en ;
+	
+	rdfs:subPropertyOf crimestatistics-property-zakony:odkazNaSkupinuUsekuZakonu ;
+	.
+
+# Property vyjadřující odkaz na zákon, který chrání předmět
+crimestatistics-property-zakony:jeChranenPodleZakona a rdf:Property ;
+	rdfs:label
+		"odkaz na úsek zákona chránící subjekt"@cs,
+		"a reference to a protecting law section"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že předmět, který subjekt této property vyjadřuje, je chráněn podle určitého úseku zákona."@cs,
+		"This property is used to express a fact that an object, that the subject of this property represents, is protected by and according to a certain section of law."@en ;
+	
+	rdfs:subPropertyOf crimestatistics-property-zakony:odkazNaUsekZakona ;
+	.
+
+# Property odkazující úsek zákona, který vymezuje pojem
+crimestatistics-property-zakony:jeVymezenVZakone a rdf:Property ;
+	rdfs:label
+		"odkaz na úsek zákona vymezující pojem"@cs,
+		"a reference to a defining law section"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že pojem, který je reprezentován subjektem této property, je vymezen v určitém úseku zákona."@cs,
+		"This property is used to express a fact that a concept, that the subject of this property represents, is defined by a certain section of law."@en ;
+	
+	rdfs:subPropertyOf crimestatistics-property-zakony:odkazNaUsekZakona ;
+	.
+
+# Property odkazující na způsob provedení úkonu v trestním řízení
+crimestatistics-property-zakony:zpusobProvedeniUkonuVTrestnimRizeni a rdf:Property ;
+	rdfs:label
+		"způsob nebo kontext provedení úkonu v trestním řízení"@cs,
+		"context for a taken legal action"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že provedení právního úkonu, který je spjat se subjektem této property, bylo provedeno určitým způsobem (procesně pole zákona, nastalé okolnosti popsány v zákoně)."@cs,
+		"This property is used to express a fact that an taking a legal action, that is related to the subject of this property, is guided by and justified by a certain sections of law."@en ;
+	
+	rdfs:range crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
+	.
+# Property odkazující skupinu alternativních způsobů provedení úkonu v trestním řízení, podle jednoho z nichž byl úkon proveden.
+crimestatistics-property-zakony:alternativniZpusobyProvedeniUkonuVTrestnimRizeni a rdf:Property ;
+	rdfs:label
+		"alternativní způsoby provedení úkonu v trestním řízení"@cs,
+		"alternative scenarios of ending criminal proceedings"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že provedení právního úkonu, který je spjat se subjektem této property, bylo provedeno některým z uvedených alternativních způsobů (procesně pole zákona, nastalé okolnosti popsány v zákoně)."@cs,
+		"This property is used to express the fact, that one of the alternative scenarios of ending the criminal proceedings took place."@en ;
+	
+	rdfs:range crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeniCollection ;
+	.
+
+
+# Property odkazující na úsek zákona, který částečně ospravedlňuje provedení právního úkonu
+crimestatistics-property-zakony:ukonProvedenNaZakladeSkutecnostiVZakone a rdf:Property ;
+	rdfs:label
+		"odkaz na úsek zákona, který uvádí skutečnosti ospravedlňující provedení právního úkonu"@cs,
+		"a reference to a law section that lists the premises that justify taking a certain legal action"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že provedení právního úkonu, který je spjat se subjektem této property, je ospravedlněno naplněním skutečností uvedených v určitém úseku zákona."@cs,
+		"This property is used to express a fact that an taking a legal action, that is related to the subject of this property, is justified according to the premises listed a certain section of law."@en ;
+	
+	rdfs:subPropertyOf crimestatistics-property-zakony:odkazNaUsekZakona ;
+	.
+
+# Property odkazující na úsek zákona, na základě kterého má cizinec právo pobývat na území ČR
+crimestatistics-property-zakony:pobytCizinceVCRUmoznenPodleUsekuZakona a rdf:Property ;
+	rdfs:label
+		"odkaz na úsek zákona umožňující pobyt cizince na území ČR"@cs,
+		"a reference to a law section enabling a foreigner to reside in the Czech republic"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že cizinec má právo pobývat na území ČR na základě určitého úseku zákona."@cs,
+		"This property is used to express a fact that a foreigner is permitted to reside in the Czech according to a certain section of law."@en ;
+	
+	rdfs:subPropertyOf crimestatistics-property-zakony:odkazNaUsekZakona ;
+	.
+
+crimestatistics-property-zakony:pobytCizinceVCRUmoznenPodleZakona a rdf:Property ;
+	rdfs:label
+		"odkaz na zákon umožňující pobyt cizince na území ČR"@cs,
+		"a reference to an act of law enabling a foreigner to reside in the Czech republic"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že cizinec má právo pobývat na území ČR na základě určitého zákona."@cs,
+		"This property is used to express a fact that a foreigner is permitted to reside in the Czech according to a certain act of law."@en ;
+	
+	rdfs:range lex:Act ;
+	.
+
+crimestatistics-property-zakony:pobytCizinceVCRUmoznenPodleNektereZVyhlasek a rdf:Property ;
+	rdfs:label
+		"odkaz na soubor vyhlášek, z nichž některé umožňují pobyt cizince na území ČR"@cs,
+		"a reference to a collection of regulations, some of which enable a foreigner to reside in the Czech republic"@en ;
+	rdfs:comment
+		"Tato property se používá na vyjádření skutečnosti, že cizinec má právo pobývat na území ČR na základě některé z daného souboru vyhlášek."@cs,
+		"This property is used to express a fact that a foreigner is permitted to reside in the Czech according to some of regulations included in a given collection of regulations."@en ;
+	
+	rdfs:range crimestatistics-class-zakony:RegulationCollection ;
+	.
