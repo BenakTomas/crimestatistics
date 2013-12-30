@@ -36,7 +36,7 @@ crimestatistics-code-codelist-hash:11
 	crimestatistics-property-zakony:zpusobProvedeniUkonuVTrestnimRizeni
 	[
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1> ;
-		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/c> ;
+		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/c> ;
 	] ;
 	.
 
@@ -44,8 +44,8 @@ crimestatistics-code-codelist-hash:12
 	crimestatistics-property-zakony:zpusobProvedeniUkonuVTrestnimRizeni
 	[
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1> ;
-		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/a> ;
-		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/b> ;
+		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/a> ;
+		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/b> ;
 	] ;
 	.
 
@@ -55,20 +55,20 @@ crimestatistics-code-codelist-hash:13
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/1> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/d> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/e> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/f> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/a> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/b> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/c> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/1> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/d> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/e> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/f> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/a> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/b> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/c> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/172/2/c> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/70> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/172/2/c> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/70> ;
 		] ;
 	] ;
 	.
@@ -77,8 +77,8 @@ crimestatistics-code-codelist-hash:14
 	crimestatistics-property-zakony:zpusobProvedeniUkonuVTrestnimRizeni
 	[
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1> ;
-		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/d> ;
-		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/1/a> ;
+		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/1/d> ;
+		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/1/a> ;
 	] ;
 	.
 
@@ -88,15 +88,15 @@ crimestatistics-code-codelist-hash:21
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/1> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/1/a> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/1/b> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/1/c> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/1/a> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/1/b> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/1/c> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/414> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/414> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/414> ;
 		] ;		
 	] ;
 	.
@@ -105,7 +105,7 @@ crimestatistics-code-codelist-hash:30
 	crimestatistics-property-zakony:zpusobProvedeniUkonuVTrestnimRizeni
 	[
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/171/1> ;
-		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/171/1> ;
+		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/171/1> ;
 	] ;
 	.
 
@@ -122,13 +122,13 @@ crimestatistics-code-codelist-hash:44
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/3> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/1> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/1> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/4> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/4> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/4> ;
 		] ;
 	] ;
 	.
@@ -139,37 +139,37 @@ crimestatistics-code-codelist-hash:50
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/1> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/1/d> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/1/d> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/391> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/391> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/391> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/408> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/408> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/408> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/448> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/448> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/448> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/3> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/3> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/3> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/4> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/4> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/161/4> ;
 		] ;
 	] ;
 	.
@@ -180,13 +180,13 @@ crimestatistics-code-codelist-hash:60
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/307> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/307> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/307> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/309/1> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/309/1> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/309/1> ;
 		] ;
 	] ;
 	.
@@ -197,13 +197,13 @@ crimestatistics-code-codelist-hash:61
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/179g/1> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/179g/1> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/179g/1> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/179c/2> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/179c/2> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/179c/2> ;
 		] ;
 	] ;
 	.
@@ -214,13 +214,13 @@ crimestatistics-code-codelist-hash:62
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/20/1> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/20/1> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/20/1> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/70/1> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/70/1> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/70/1> ;
 		] ;
 	] ;
 	.
@@ -236,7 +236,7 @@ crimestatistics-code-codelist-hash:71
 	crimestatistics-property-zakony:zpusobProvedeniUkonuVTrestnimRizeni
 	[
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/179c/1> ;
-		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/179c/1> ;
+		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/179c/1> ;
 	] ;
 	.
 
@@ -246,13 +246,13 @@ crimestatistics-code-codelist-hash:72
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/159a/2> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/1/d> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/1/d> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/90/1> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/90/1> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/2003/218/section/90/1> ;
 		] ;
 	] ;
 	.
@@ -270,18 +270,18 @@ crimestatistics-code-codelist-hash:80
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/159a/2> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/b> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/c> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/e> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/i> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/j> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/b> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/c> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/e> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/i> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/j> ;
 		] ;
 		
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property:member
 		[
 			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/159a/3> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/a> ;
-			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/b> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/a> ;
+			crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/b> ;
 		] ;
 	] ;
 	.
@@ -290,7 +290,7 @@ crimestatistics-code-codelist-hash:81
 	crimestatistics-property-zakony:zpusobProvedeniUkonuVTrestnimRizeni
 	[
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/159a/2> ;
-		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/1/a> ;
+		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/11/1/a> ;
 	] ;
 	.
 
@@ -298,6 +298,6 @@ crimestatistics-code-codelist-hash:82
 	crimestatistics-property-zakony:zpusobProvedeniUkonuVTrestnimRizeni
 	[
 		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/159a/4> ;
-		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/c> ;
+		crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV <http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/172/2/c> ;
 	] ;
 	.

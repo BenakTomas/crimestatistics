@@ -16,6 +16,8 @@
 
 # Vlastni prefixy
 @prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+# Odkazování zákonů
+@prefix crimestatistics-class-zakony: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony#> .
 
 # Státní příslušnost pachatele
 crimestatistics-measure:statniPrislusnostPachatele a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
@@ -177,7 +179,7 @@ crimestatistics-measure:datumRozsireniTrestnihoStihani a qb:MeasureProperty, rdf
 
 # Úsek zákona k rozšíření trestního stíhání
 crimestatistics-measure:usekZakonaKRozsireniTrestnihoStihani a qb:MeasureProperty, rdf:Property ;
-	rdfs:range lex:SourceOfLawSection ;
+	rdfs:range crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
 	.
 
 # Datum pokračování trestního stíhání
@@ -187,7 +189,7 @@ crimestatistics-measure:datumPokracovaniTrestnihoStihani a qb:MeasureProperty, r
 
 # Úsek zákona k rozšíření trestního stíhání
 crimestatistics-measure:usekZakonaKPokracovaniTrestnihoStihani a qb:MeasureProperty, rdf:Property ;
-	rdfs:range lex:SourceOfLawSection ;
+	rdfs:range crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
 	.
 
 # Způsob ukončení pachatele

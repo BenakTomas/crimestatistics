@@ -114,7 +114,6 @@ crimestatistics-property-zakony:alternativniZpusobyProvedeniUkonuVTrestnimRizeni
 	rdfs:range crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeniCollection ;
 	.
 
-
 # Property odkazující na úsek zákona, který částečně ospravedlňuje provedení právního úkonu
 crimestatistics-property-zakony:ukonProvedenNaZakladeSkutecnostiVZakone a rdf:Property ;
 	rdfs:label

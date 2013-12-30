@@ -16,6 +16,8 @@
 
 # Vlastni prefixy
 @prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+# Odkazování zákonů
+@prefix crimestatistics-class-zakony: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony#> .
 
 # Pokračující trestná činnost - počet dílčích útoků
 crimestatistics-measure:pocetDilcichUtoku a qb:MeasureProperty, rdf:Property ;
@@ -29,7 +31,7 @@ crimestatistics-measure:datumZahajeniTrestnihoStihani a qb:MeasureProperty, rdf:
 
 # Úsek zákona k zahájení trestního stíhání (vyšetřování)
 crimestatistics-measure:usekZakonaKZahajeniTrestnihoStihani a qb:MeasureProperty, rdf:Property ;
-	rdfs:range lex:SourceOfLawSection ;
+	rdfs:range crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
 	.
 
 # Datum sdělení podezření ve ZPŘ
@@ -39,7 +41,7 @@ crimestatistics-measure:datumSdeleniPodezreniVeZPR a qb:MeasureProperty, rdf:Pro
 
 # Úsek zákona ke sdělení podezření ve ZPŘ
 crimestatistics-measure:usekZakonaKeSdeleniPodezreniVeZPR a qb:MeasureProperty, rdf:Property ;
-	rdfs:range lex:SourceOfLawSection ;
+	rdfs:range crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
 	.
 
 # Datum ukončení nebo převzetí věci

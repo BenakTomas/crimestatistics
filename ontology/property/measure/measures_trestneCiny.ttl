@@ -16,6 +16,8 @@
 
 # Vlastni prefixy
 @prefix crimestatistics-measure: <http://linked.opendata.cz/ontology/crimestatistics/dataset-definitions/measure#> .
+# Odkazování zákonů
+@prefix crimestatistics-class-zakony: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony#> .
 
 # Kategorie trestné činnosti
 crimestatistics-measure:objektNapadeni a qb:MeasureProperty, qb:CodedProperty, rdf:Property ;
@@ -126,7 +128,7 @@ crimestatistics-measure:datumZahajeniTrestnihoRizeni a qb:MeasureProperty, rdf:P
 
 # Úsek zákona k zahájení trestního řízení (prověřování)
 crimestatistics-measure:usekZakonaKZahajeniTrestnihoRizeni a qb:MeasureProperty, rdf:Property ;
-	rdfs:range lex:SourceOfLawSection ;
+	rdfs:range crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
 	.
 
 # Datum odložení věci
@@ -136,7 +138,7 @@ crimestatistics-measure:datumOdlozeniVeci a qb:MeasureProperty, rdf:Property ;
 
 # Úsek zákona k odložení věci
 crimestatistics-measure:usekZakonaKOdlozeniVeci a qb:MeasureProperty, rdf:Property ;
-	rdfs:range lex:SourceOfLawSection ;
+	rdfs:range crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
 	.
 
 # Způsob ukončení nebo převzetí věci - trestný čin

@@ -53,7 +53,7 @@ crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPod
 	rdfs:domain crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
 	rdfs:range lex:SourceOfLawSection ;
 	.
-crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:nastalyOkolnostiUvedeneV a rdf:Property ;
+crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV a rdf:Property ;
 	rdfs:domain crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
 	rdfs:range lex:SourceOfLawSection ;
 	.
