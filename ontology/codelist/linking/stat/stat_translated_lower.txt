@@ -2,8 +2,7 @@
 501#Åland 
 110#albania
 641#algeria
-502#american samoa
-503#u.s. virgin 
+503#united states virgin 
 504#andorra
 505#angola
 506#anguilla
@@ -30,7 +29,7 @@
 519#bouvet 
 803#brazil
 522#british virgin 
-523#brunei darussalam
+523#brunei
 120#bulgaria
 524#burkina faso
 643#burundi
@@ -40,7 +39,7 @@
 010#czech 
 320#china
 412#denmark
-528#dominika
+528#dominica
 805#dominican 
 529#djibouti
 673#egypt
@@ -53,7 +52,6 @@
 535#fiji
 604#philippines
 413#finland
-537#french guyana
 539#french polynesia
 414#france
 647#gabon
@@ -62,14 +60,12 @@
 841#gibraltar
 541#grenada
 542#greenland
-194#georgia
 543#guadeloupe
 544#guam
 807#guatemala
 545#guernsey
 546#guinea bissau
-651#guinea
-547#guyana
+651#guinea republic
 808#haiti
 548#heard mcdonald 
 809#honduras
@@ -88,8 +84,7 @@
 441#japan
 611#yemen
 551#jersey
-451#south africa
-550#south georgia south sandwich 
+451#south africa 
 614#jordan
 310#yugoslavia
 553#cayman 
@@ -114,14 +109,14 @@
 196#kyrgyzstan
 618#laos
 560#lesotho
-619#lebanese 
+619#lebanon 
 657#liberia
 658#libya
 561#liechtenstein
 197#lithuania
 198#latvia
 419#luxembourg
-562#macao
+562#macau
 661#madagascar
 130#hungary
 314#macedonia
@@ -129,7 +124,6 @@
 659#malawi
 622#maldives
 563#mali
-842#malta
 663#morocco
 564#marshall 
 565#martinique
@@ -143,7 +137,7 @@
 180#mongolia
 572#montserrat
 573#mozambique
-574#myanmar
+574#burma
 575#namibia
 576#nauru
 420#germany
@@ -153,7 +147,7 @@
 816#nicaragua
 579#niue
 580#netherlands antilles
-422#netherlands
+422#netherlands republic
 581#norfolk
 423#norway
 582#new caledonia
@@ -171,18 +165,16 @@
 667#ivory coast
 150#poland
 591#puerto rico
-424#portuguese 
+424#portugal 
 425#austria
 592#reunion
 593#equatorial guinea
 160#romania
 101#russia
 669#rwanda
-730#malta
 426#greece
 595#saint pierre miguelon
 821#el salvador
-596#samoa
 597#san marino
 625#saudi arabia
 671#senegal
@@ -190,17 +182,17 @@
 599#seychelles
 672#sierra leone
 626#singapore
-050#slovak 
+050#slovakia 
 315#slovenia
-674#somali 
+674#somalia 
 701#united arab emirates
-462#united states america usa
+462#united states
 316#serbia
 603#sri lanka
 675#central african 
 676#sudan
 705#suriname
-707#svalbard jan mayen
+707#svalbard
 708#saint helena
 709#saint lucia
 710#saint kitts nevis
@@ -228,11 +220,11 @@
 720#tuvalu
 681#uganda
 104#ukraine
-823#eastern uruguay
+823#uruguay
 105#uzbekistan
 721#christmas 
 722#vanuatu
-431#united 
+431#united kingdom
 824#venezuela
 340#vietnam
 723#east timor
