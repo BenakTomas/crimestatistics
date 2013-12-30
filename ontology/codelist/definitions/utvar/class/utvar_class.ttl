@@ -26,6 +26,7 @@
 # Cizí prefixy
 @prefix cm:        <http://purl.org/czech-municipalities/geography#> .
 
+# Krajské ředitelství
 crimestatistics-code-codelist-class:KrajskeReditelstvi a rdfs:Class ;
 	rdfs:label
 		"krajské ředitelství"@cs,
@@ -33,5 +34,16 @@ crimestatistics-code-codelist-class:KrajskeReditelstvi a rdfs:Class ;
 	rdfs:comment
 		"Tato třída reprezentuje policejní útvary na úrovni krajů, tedy krajská ředitelství."@cs,
 		"This class is used to represent the police departments on the regional level a.k.a regional police departments."@en ;
+	rdfs:subClassOf crimestatistics-code-codelist-slash:conceptClass ;
+	.
+
+# Územní odbor: disjoint with KrajskeReditelstvi
+crimestatistics-code-codelist-class:OkresniReditelstvi a rdfs:Class ;
+	rdfs:label
+		"okresní ředitelství"@cs,
+		"county police department"@en ;
+	rdfs:comment
+		"Tato třída reprezentuje policejní útvary na úrovni okresů, tedy okresní ředitelství a územní odbory."@cs,
+		"This class is used to represent the police departments on the county level a.k.a county police departments."@en ;
 	rdfs:subClassOf crimestatistics-code-codelist-slash:conceptClass ;
 	.

@@ -1,5 +1,4 @@
 311|http://dbpedia.org/resource/Federation_of_Bosnia_and_Herzegovina
-462|http://dbpedia.org/resource/United_States_Virgin_Islands
 501|http://dbpedia.org/page/%C3%85land_Islands
 503|http://dbpedia.org/resource/United_States_Virgin_Islands
 506|http://dbpedia.org/resource/Anguilla
@@ -21,7 +20,6 @@
 590|http://dbpedia.org/resource/Pitcairn_Islands
 591|http://dbpedia.org/resource/Puerto_Rico
 598|http://dbpedia.org/resource/Northern_Mariana_Islands
-626|http://dbpedia.org/resource/Singapore
 708|http://dbpedia.org/resource/Saint_Helena,_Ascension_and_Tristan_da_Cunha
 708|http://dbpedia.org/resource/Saint_Helena
 715|http://dbpedia.org/resource/Taiwan

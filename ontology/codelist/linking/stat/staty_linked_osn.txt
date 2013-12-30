@@ -52,7 +52,6 @@
 441|http://dbpedia.org/resource/Japan
 451|http://dbpedia.org/resource/South_Africa
 461|http://dbpedia.org/resource/Canada
-462|http://dbpedia.org/resource/Member_states_of_the_United_Nations
 462|http://dbpedia.org/resource/United_States
 471|http://dbpedia.org/resource/Australia
 472|http://dbpedia.org/resource/New_Zealand

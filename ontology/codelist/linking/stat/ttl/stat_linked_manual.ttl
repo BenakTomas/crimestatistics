@@ -39,3 +39,13 @@ crimestatistics-code-codelist-hash:592 owl:sameAs dbpedia:Reunion .
 crimestatistics-code-codelist-hash:730 owl:sameAs dbpedia:Sovereign_Military_Order_of_Malta .
 crimestatistics-code-codelist-hash:595 owl:sameAs dbpedia:Saint_Pierre_and_Miquelon .
 crimestatistics-code-codelist-hash:727 owl:sameAs dbpedia:Western_Sahara .
+crimestatistics-code-codelist-hash:656 owl:sameAs dbpedia:Democratic_Republic_of_the_Congo .
+crimestatistics-code-codelist-hash:655 owl:sameAs dbpedia:Republic_of_the_Congo .
+crimestatistics-code-codelist-hash:532 owl:sameAs dbpedia:European_Union .
+crimestatistics-code-codelist-hash:531 owl:sameAs dbpedia:European_Free_Trade_Association .
+crimestatistics-code-codelist-hash:568 owl:sameAs dbpedia:United_States_Minor_Outlying_Islands .
+crimestatistics-code-codelist-hash:844 owl:sameAs dbpedia:British_Overseas_Territories .
+crimestatistics-code-codelist-hash:845 owl:sameAs dbpedia:British_Overseas_Territories .
+crimestatistics-code-codelist-hash:521 owl:sameAs dbpedia:British_Indian_Ocean_Territory .
+crimestatistics-code-codelist-hash:538 owl:sameAs dbpedia:French_Southern_and_Antarctic_Lands .
+crimestatistics-code-codelist-hash:704 owl:sameAs dbpedia:Central_European_Free_Trade_Agreement .
