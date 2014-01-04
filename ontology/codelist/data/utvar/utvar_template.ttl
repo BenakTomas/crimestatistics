@@ -18,7 +18,4 @@
 # Vlastní prefixy
 @prefix crimestatistics-code-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/> .
 @prefix crimestatistics-code-codelist-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/utvar/> .
-@prefix crimestatistics-code-codelist-class: <http://linked.opendata.cz/ontology/crimestatistics/code/utvar/class#> .
-@prefix crimestatistics-code-codelist-property: <http://linked.opendata.cz/ontology/crimestatistics/code/utvar/property#> .
-
-@prefix crimestatistics-code-codelist-hash: <http://linked.opendata.cz/ontology/crimestatistics/code/utvar#> .
+@prefix crimestatistics-code-codelist-hash: <http://linked.opendata.cz/ontology/crimestatistics/code/utvar/year#> .

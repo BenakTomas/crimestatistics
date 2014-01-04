@@ -24,8 +24,8 @@ BEGIN {
 	printf "crimestatistics-code-codelist-hash:%s a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;\n", kod
 	printf "\tskos:prefLabel \"%s\"@cs ;\n", nazev
 	print	"\tskos:inScheme crimestatistics-code-slash:utvar ;"
-	printf "\tskos:notation \"%s\"\n", kod
+	printf "\tskos:notation \"codelist.utvar.%s.%s\" ;\n", year, kod
 
-	printf "\trdfs:label \"%s\"\n", nazev
+	printf "\trdfs:label \"%s\"@cs ;\n", nazev
 	print "\t."
 }
