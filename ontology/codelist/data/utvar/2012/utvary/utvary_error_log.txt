@@ -1,11 +1,3 @@
-a0001__.xls
-a0002__.xls
-a0004__.xls
-a0005__.xls
-a0006__.xls
-a0007__.xls
-a0008__.xls
-a0009__.xls
 a0040__.xls
 a0090__.xls
 a0093__.xls
@@ -13,12 +5,4 @@ a0290__.xls
 a0390__.xls
 a0440__.xls
 a0490__.xls
-a0618__.xls
-a0641__.xls
 a0751__.xls
-a1411__.xls
-a1412__.xls
-a1741__.xls
-a1811__.xls
-a1902__.xls
-a1909__.xls

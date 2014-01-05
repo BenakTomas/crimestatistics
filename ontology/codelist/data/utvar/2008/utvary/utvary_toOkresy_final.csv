@@ -802,30 +802,30 @@
 00#41#02#Letiště Ruzyně - neznámý 004102#1#
 00#50#04#Krajské ředitelství policie hlavního města Prahy - neznámý 0050 - neznámý 005004#1#
 00#90#00#PP ČR ODB. VNITŘNÍ KONTROLY#1#
-00#90#17#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009017#1#
-00#90#18#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009018#1#
-00#90#19#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009019#1#
-00#90#20#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009020#1#
-00#90#21#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009021#1#
-00#90#23#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009023#1#
-00#90#31#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009031#1#
-00#90#32#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009032#1#
-00#90#33#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009033#1#
-00#90#34#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009034#1#
-00#90#37#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009037#1#
-00#90#38#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009038#1#
-00#90#41#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009041#1#
-00#90#42#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009042#1#
-00#90#43#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009043#1#
-00#90#44#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009044#1#
-00#90#45#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009045#1#
-00#90#46#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009046#1#
-00#90#47#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009047#1#
-00#90#48#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009048#1#
-00#90#49#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009049#1#
-00#90#53#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009053#1#
-00#90#54#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009054#1#
-00#90#55#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009055#1#
+00#90#17#CENTRÁLNÍ ÚTVARY - neznámý 009017#1#
+00#90#18#CENTRÁLNÍ ÚTVARY - neznámý 009018#1#
+00#90#19#CENTRÁLNÍ ÚTVARY - neznámý 009019#1#
+00#90#20#CENTRÁLNÍ ÚTVARY - neznámý 009020#1#
+00#90#21#CENTRÁLNÍ ÚTVARY - neznámý 009021#1#
+00#90#23#CENTRÁLNÍ ÚTVARY - neznámý 009023#1#
+00#90#31#CENTRÁLNÍ ÚTVARY - neznámý 009031#1#
+00#90#32#CENTRÁLNÍ ÚTVARY - neznámý 009032#1#
+00#90#33#CENTRÁLNÍ ÚTVARY - neznámý 009033#1#
+00#90#34#CENTRÁLNÍ ÚTVARY - neznámý 009034#1#
+00#90#37#CENTRÁLNÍ ÚTVARY - neznámý 009037#1#
+00#90#38#CENTRÁLNÍ ÚTVARY - neznámý 009038#1#
+00#90#41#CENTRÁLNÍ ÚTVARY - neznámý 009041#1#
+00#90#42#CENTRÁLNÍ ÚTVARY - neznámý 009042#1#
+00#90#43#CENTRÁLNÍ ÚTVARY - neznámý 009043#1#
+00#90#44#CENTRÁLNÍ ÚTVARY - neznámý 009044#1#
+00#90#45#CENTRÁLNÍ ÚTVARY - neznámý 009045#1#
+00#90#46#CENTRÁLNÍ ÚTVARY - neznámý 009046#1#
+00#90#47#CENTRÁLNÍ ÚTVARY - neznámý 009047#1#
+00#90#48#CENTRÁLNÍ ÚTVARY - neznámý 009048#1#
+00#90#49#CENTRÁLNÍ ÚTVARY - neznámý 009049#1#
+00#90#53#CENTRÁLNÍ ÚTVARY - neznámý 009053#1#
+00#90#54#CENTRÁLNÍ ÚTVARY - neznámý 009054#1#
+00#90#55#CENTRÁLNÍ ÚTVARY - neznámý 009055#1#
 00#92#20#Krajské ředitelství policie hlavního města Prahy - neznámý 0092 - neznámý 009220#1#
 00#92#21#Krajské ředitelství policie hlavního města Prahy - neznámý 0092 - neznámý 009221#1#
 00#93#00#ETŘ PČR ŘSCP#1#
@@ -854,8 +854,8 @@
 01#11#04#Příbram - neznámý 011104#1#
 01#12#03#Rakovník - neznámý 011203#1#
 01#12#04#Rakovník - neznámý 011204#1#
-01#13#03#Praha  venkov - neznámý 011303#1#
-01#13#04#Praha  venkov - neznámý 011304#1#
+01#13#03#Praha venkov - neznámý 011303#1#
+01#13#04#Praha venkov - neznámý 011304#1#
 01#90#30#Krajské ředitelství policie Středočeského kraje - neznámý 0190 - neznámý 019030#1#
 02#01#04#České Budějovice - neznámý 020104#1#
 02#01#05#České Budějovice - neznámý 020105#1#
@@ -895,13 +895,13 @@
 03#03#80#Karlovy Vary - neznámý 030380#1#
 03#04#03#Klatovy - neznámý 030403#1#
 03#04#04#Klatovy - neznámý 030404#1#
-03#05#03#Plzeň - neznámý 030503#1#
-03#05#05#Plzeň - neznámý 030505#1#
-03#06#03#Plzeň - jih - neznámý 030603#1#
-03#06#04#Plzeň - jih - neznámý 030604#1#
+03#05#03#Plzeň město - neznámý 030503#1#
+03#05#05#Plzeň město - neznámý 030505#1#
+03#06#03#Plzeň jih - neznámý 030603#1#
+03#06#04#Plzeň jih - neznámý 030604#1#
 03#06#06#DI - PJ#1#
-03#07#03#Plzeň - sever - neznámý 030703#1#
-03#07#04#Plzeň - sever - neznámý 030704#1#
+03#07#03#Plzeň sever - neznámý 030703#1#
+03#07#04#Plzeň sever - neznámý 030704#1#
 03#08#03#Rokycany - neznámý 030803#1#
 03#08#04#Rokycany - neznámý 030804#1#
 03#08#06#DI - RO#1#
@@ -956,8 +956,8 @@
 04#10#05#Ústí nad Labem - neznámý 041005#1#
 04#10#06#DI - UL#1#
 04#40#00#ETŘ OŘ SCP P ČR ÚSTÍ NAD LABEM#1#
-04#40#05#Krajské ředitelství policie Severočeského kraje - neznámý 0440 - neznámý 044005#1#
-04#40#40#Krajské ředitelství policie Severočeského kraje - neznámý 0440 - neznámý 044040#1#
+04#40#05#OŘ SCP P ČR ÚSTÍ NAD LABEM - neznámý 044005#1#
+04#40#40#OŘ SCP P ČR ÚSTÍ NAD LABEM - neznámý 044040#1#
 04#49#02#Krajské ředitelství policie Severočeského kraje - neznámý 0449 - neznámý 044902#1#
 04#90#21#Krajské ředitelství policie Severočeského kraje - neznámý 0490 - neznámý 049021#1#
 04#90#26#Krajské ředitelství policie Severočeského kraje - neznámý 0490 - neznámý 049026#1#
@@ -1001,15 +1001,15 @@
 06#01#04#Blansko - neznámý 060104#1#
 06#01#05#Blansko - neznámý 060105#1#
 06#01#71#OOK ÚO SKPV BLANSKO#1#
-06#02#02#Brno - město - neznámý 060202#1#
-06#02#03#Brno - město - neznámý 060203#1#
-06#02#04#Brno - město - neznámý 060204#1#
-06#02#05#Brno - město - neznámý 060205#1#
+06#02#02#Brno město - neznámý 060202#1#
+06#02#03#Brno město - neznámý 060203#1#
+06#02#04#Brno město - neznámý 060204#1#
+06#02#05#Brno město - neznámý 060205#1#
 06#02#06#DI - BM#1#
-06#02#83#Brno - město - neznámý 060283#1#
-06#02#92#Brno - město - neznámý 060292#1#
-06#03#04#Brno - venkov - neznámý 060304#1#
-06#03#05#Brno - venkov - neznámý 060305#1#
+06#02#83#Brno město - neznámý 060283#1#
+06#02#92#Brno město - neznámý 060292#1#
+06#03#04#Brno venkov - neznámý 060304#1#
+06#03#05#Brno venkov - neznámý 060305#1#
 06#03#06#DI - BO#1#
 06#04#04#Břeclav - neznámý 060404#1#
 06#04#05#Břeclav - neznámý 060405#1#
@@ -1020,9 +1020,9 @@
 06#07#04#Jihlava - neznámý 060704#1#
 06#07#05#Jihlava - neznámý 060705#1#
 06#07#06#Jihlava - neznámý 060706#1#
-06#08#04#Kroměřiž - neznámý 060804#1#
-06#08#05#Kroměřiž - neznámý 060805#1#
-06#08#81#Kroměřiž - neznámý 060881#1#
+06#08#04#Kroměříž - neznámý 060804#1#
+06#08#05#Kroměříž - neznámý 060805#1#
+06#08#81#Kroměříž - neznámý 060881#1#
 06#10#04#Třebíč - neznámý 061004#1#
 06#10#05#Třebíč - neznámý 061005#1#
 06#11#04#Uherské Hradiště - neznámý 061104#1#
@@ -1040,9 +1040,9 @@
 06#15#04#Vsetín - neznámý 061504#1#
 06#40#00#ETŘ OŘ SCP P ČR BRNO#1#
 06#40#03#OŘ SCP - ODD. PÁTRÁNÍ BRNO#1#
-06#40#08#Krajské ředitelství policie Jihomoravského kraje - neznámý 0640 - neznámý 064008#1#
-06#40#16#Krajské ředitelství policie Jihomoravského kraje - neznámý 0640 - neznámý 064016#1#
-06#40#35#Krajské ředitelství policie Jihomoravského kraje - neznámý 0640 - neznámý 064035#1#
+06#40#08#OŘ SCP P ČR BRNO - neznámý 064008#1#
+06#40#16#OŘ SCP P ČR BRNO - neznámý 064016#1#
+06#40#35#OŘ SCP P ČR BRNO - neznámý 064035#1#
 06#90#21#Krajské ředitelství policie Jihomoravského kraje - neznámý 0690 - neznámý 069021#1#
 06#90#28#Krajské ředitelství policie Jihomoravského kraje - neznámý 0690 - neznámý 069028#1#
 06#90#30#Krajské ředitelství policie Jihomoravského kraje - neznámý 0690 - neznámý 069030#1#
@@ -1103,7 +1103,7 @@
 07#12#01#Prostějov - neznámý 071201#1#
 07#12#04#Prostějov - neznámý 071204#1#
 07#40#00#ETŘ OŘ SCP P ČR OSTRAVA#1#
-07#40#35#Krajské ředitelství policie Severomoravského kraje - neznámý 0740 - neznámý 074035#1#
+07#40#35#OŘ SCP P ČR OSTRAVA - neznámý 074035#1#
 07#45#02#Krajské ředitelství policie Severomoravského kraje - neznámý 0745 - neznámý 074502#1#
 07#47#02#Krajské ředitelství policie Severomoravského kraje - neznámý 0747 - neznámý 074702#1#
 07#48#02#Krajské ředitelství policie Severomoravského kraje - neznámý 0748 - neznámý 074802#1#
@@ -1122,6 +1122,6 @@
 07#06#28#Opava - neznámý 070628#1#
 07#09#11#Šumperk - neznámý 070911#1#
 07#51#06#Krajské ředitelství policie Severomoravského kraje - neznámý 0751 - neznámý 075106#1#
-06#02#01#Brno - město - neznámý 060201#1#
+06#02#01#Brno město - neznámý 060201#1#
 00#92#76#Krajské ředitelství policie hlavního města Prahy - neznámý 0092 - neznámý 009276#1#
 06#15#05#Vsetín - neznámý 061505#1#

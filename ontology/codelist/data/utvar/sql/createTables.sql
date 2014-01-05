@@ -7,6 +7,9 @@ create table crimestatistics.centralni_utvary_actual(
 truncate table crimestatistics.centralni_utvary_actual;
 
 insert into crimestatistics.centralni_utvary_actual(kr, ok, nazev)
+values('00', '90', 'CENTRÁLNÍ ÚTVARY');
+
+insert into crimestatistics.centralni_utvary_actual(kr, ok, nazev)
 values('20', '01', 'PP ČR ÚSKPV');
 
 insert into crimestatistics.centralni_utvary_actual(kr, ok, nazev)

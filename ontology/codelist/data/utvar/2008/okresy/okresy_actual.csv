@@ -27,7 +27,7 @@
 01#03##Kladno#1#
 03#04##Klatovy#1#
 01#04##Kolín#1#
-06#08##Kroměřiž#1#
+06#08##Kroměříž#1#
 01#05##Kutná Hora#1#
 04#05##Liberec#1#
 04#06##Litoměřice#1#
@@ -45,11 +45,11 @@
 02#04##Pelhřimov#1#
 02#05##Písek#1#
 03#05##Plzeň město#1#
-03#06##Plzeň - jih#1#
-03#07##Plzeň - sever#1#
+03#06##Plzeň jih#1#
+03#07##Plzeň sever#1#
 01#09##Praha východ#1#
 01#10##Praha západ#1#
-01#13##Praha  venkov#1#
+01#13##Praha venkov#1#
 00#01##Praha 1#1#
 00#10##Praha 10#1#
 00#02##Praha 2#1#
@@ -89,46 +89,38 @@
 06#05##Zlín#1#
 06#13##Znojmo#1#
 06#14##Žďár nad Sázavou#1#
-00#30##Praha cizina#1#
-02#30##Jč cizina#1#
-03#30##Zč cizina#1#
-04#30##Sč cizina#1#
-06#30##Jm cizina#1#
+00#30##Hlavní město Praha - referáty cizinecké a pohraniční policie#1#
+02#30##Jihočeský kraj - referáty cizinecké a pohraniční policie#1#
+03#30##Západočeský kraj - referáty cizinecké a pohraniční policie#1#
+04#30##Severočeský kraj - referáty cizinecké a pohraniční policie#1#
+06#30##Jihomoravský kraj - referáty cizinecké a pohraniční policie#1#
+00#41##Letiště Ruzyně#1#
 07#41##Letiště Mošnov#1#
 06#41##Letiště Tuřany#1#
-07#30##Sm cizina#1#
-01#14##Praha  venkov - jih#1#
-01#15##Praha  venkov - východ#1#
-01#16##Praha  venkov - západ#1#
-06#09##Prostějov#1#
-04#11##Semily#1#
-07#10##Vsetín#1#
-16#14##Žďár nad Sázavou#1#
-05#30##Vč cizina#1#
-00#40##Praha - neznámý 0040#1#
-00#41##LETIŠTĚ#1#
-00#50##Praha - neznámý 0050#1#
-00#90##Praha - neznámý 0090#1#
-00#92##Praha - neznámý 0092#1#
-00#93##Praha - neznámý 0093#1#
-01#90##Středočeský - neznámý 0190#1#
-02#40##Jihočeský - neznámý 0240#1#
-02#90##Jihočeský - neznámý 0290#1#
-03#40##Západočeský - neznámý 0340#1#
-03#90##Západočeský - neznámý 0390#1#
-04#40##Severočeský - neznámý 0440#1#
-04#49##Severočeský - neznámý 0449#1#
-04#90##Severočeský - neznámý 0490#1#
-05#40##Východočeský - neznámý 0540#1#
-05#50##Východočeský - neznámý 0550#1#
-05#90##Východočeský - neznámý 0590#1#
-06#40##Jihomoravský - neznámý 0640#1#
-06#90##Jihomoravský - neznámý 0690#1#
-07#40##Severomoravský - neznámý 0740#1#
-07#45##Severomoravský - neznámý 0745#1#
-07#47##Severomoravský - neznámý 0747#1#
-07#48##Severomoravský - neznámý 0748#1#
-07#55##Severomoravský - neznámý 0755#1#
-07#90##Severomoravský - neznámý 0790#1#
-00#57##Praha - neznámý 0057#1#
-07#51##Severomoravský - neznámý 0751#1#
+07#30##Severomoravský kraj - referáty cizinecké a pohraniční policie#1#
+00#40##OŘ SCP P ČR PRAHA#1#
+00#50##Krajské ředitelství policie hlavního města Prahy - neznámý 0050#1#
+00#90##CENTRÁLNÍ ÚTVARY#1#
+00#92##Krajské ředitelství policie hlavního města Prahy - neznámý 0092#1#
+00#93##Krajské ředitelství policie hlavního města Prahy - neznámý 0093#1#
+00#57##Krajské ředitelství policie hlavního města Prahy - neznámý 0057#1#
+01#90##Krajské ředitelství policie Středočeského kraje - neznámý 0190#1#
+02#40##OŘ SCP P ČR ČESKÉ BUDĚJOVICE#1#
+02#90##Krajské ředitelství policie Jihočeského kraje - neznámý 0290#1#
+03#40##OŘ SCP P ČR PLZEŇ#1#
+03#90##Krajské ředitelství policie Západočeského kraje - neznámý 0390#1#
+04#40##OŘ SCP P ČR ÚSTÍ NAD LABEM#1#
+04#49##Krajské ředitelství policie Severočeského kraje - neznámý 0449#1#
+04#90##Krajské ředitelství policie Severočeského kraje - neznámý 0490#1#
+05#40##OŘ SCP P ČR HRADEC KRÁLOVÉ#1#
+05#50##Krajské ředitelství policie Východočeského kraje - neznámý 0550#1#
+05#90##Krajské ředitelství policie Východočeského kraje - neznámý 0590#1#
+06#40##OŘ SCP P ČR BRNO#1#
+06#90##Krajské ředitelství policie Jihomoravského kraje - neznámý 0690#1#
+07#40##OŘ SCP P ČR OSTRAVA#1#
+07#45##Krajské ředitelství policie Severomoravského kraje - neznámý 0745#1#
+07#47##Krajské ředitelství policie Severomoravského kraje - neznámý 0747#1#
+07#48##Krajské ředitelství policie Severomoravského kraje - neznámý 0748#1#
+07#55##Krajské ředitelství policie Severomoravského kraje - neznámý 0755#1#
+07#90##Krajské ředitelství policie Severomoravského kraje - neznámý 0790#1#
+07#51##Krajské ředitelství policie Severomoravského kraje - neznámý 0751#1#

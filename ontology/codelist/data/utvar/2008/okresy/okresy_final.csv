@@ -1,8 +1,8 @@
 01#01##Benešov#1#
 01#02##Beroun#1#
 06#01##Blansko#1#
-06#02##Brno - město#1#
-06#03##Brno - venkov#1#
+06#02##Brno město#1#
+06#03##Brno venkov#1#
 07#01##Bruntál#1#
 06#04##Břeclav#1#
 04#01##Česká Lípa#1#
@@ -27,7 +27,7 @@
 01#03##Kladno#1#
 03#04##Klatovy#1#
 01#04##Kolín#1#
-06#08##Kroměřiž#1#
+06#08##Kroměříž#1#
 01#05##Kutná Hora#1#
 04#05##Liberec#1#
 04#06##Litoměřice#1#
@@ -44,12 +44,12 @@
 05#06##Pardubice#1#
 02#04##Pelhřimov#1#
 02#05##Písek#1#
-03#05##Plzeň#1#
-03#06##Plzeň - jih#1#
-03#07##Plzeň - sever#1#
+03#05##Plzeň město#1#
+03#06##Plzeň jih#1#
+03#07##Plzeň sever#1#
 01#09##Praha východ#1#
 01#10##Praha západ#1#
-01#13##Praha  venkov#1#
+01#13##Praha venkov#1#
 00#01##Praha 1#1#
 00#10##Praha 10#1#
 00#02##Praha 2#1#
@@ -98,29 +98,29 @@
 07#41##Letiště Mošnov#1#
 06#41##Letiště Tuřany#1#
 07#30##Severomoravský kraj - referáty cizinecké a pohraniční policie#1#
-00#40##Krajské ředitelství policie hlavního města Prahy - neznámý 0040#1#
+00#40##OŘ SCP P ČR PRAHA#1#
 00#50##Krajské ředitelství policie hlavního města Prahy - neznámý 0050#1#
-00#90##Krajské ředitelství policie hlavního města Prahy - neznámý 0090#1#
+00#90##CENTRÁLNÍ ÚTVARY#1#
 00#92##Krajské ředitelství policie hlavního města Prahy - neznámý 0092#1#
 00#93##Krajské ředitelství policie hlavního města Prahy - neznámý 0093#1#
+00#57##Krajské ředitelství policie hlavního města Prahy - neznámý 0057#1#
 01#90##Krajské ředitelství policie Středočeského kraje - neznámý 0190#1#
-02#40##Krajské ředitelství policie Jihočeského kraje - neznámý 0240#1#
+02#40##OŘ SCP P ČR ČESKÉ BUDĚJOVICE#1#
 02#90##Krajské ředitelství policie Jihočeského kraje - neznámý 0290#1#
-03#40##Krajské ředitelství policie Západočeského kraje - neznámý 0340#1#
+03#40##OŘ SCP P ČR PLZEŇ#1#
 03#90##Krajské ředitelství policie Západočeského kraje - neznámý 0390#1#
-04#40##Krajské ředitelství policie Severočeského kraje - neznámý 0440#1#
+04#40##OŘ SCP P ČR ÚSTÍ NAD LABEM#1#
 04#49##Krajské ředitelství policie Severočeského kraje - neznámý 0449#1#
 04#90##Krajské ředitelství policie Severočeského kraje - neznámý 0490#1#
-05#40##Krajské ředitelství policie Východočeského kraje - neznámý 0540#1#
+05#40##OŘ SCP P ČR HRADEC KRÁLOVÉ#1#
 05#50##Krajské ředitelství policie Východočeského kraje - neznámý 0550#1#
 05#90##Krajské ředitelství policie Východočeského kraje - neznámý 0590#1#
-06#40##Krajské ředitelství policie Jihomoravského kraje - neznámý 0640#1#
+06#40##OŘ SCP P ČR BRNO#1#
 06#90##Krajské ředitelství policie Jihomoravského kraje - neznámý 0690#1#
-07#40##Krajské ředitelství policie Severomoravského kraje - neznámý 0740#1#
+07#40##OŘ SCP P ČR OSTRAVA#1#
 07#45##Krajské ředitelství policie Severomoravského kraje - neznámý 0745#1#
 07#47##Krajské ředitelství policie Severomoravského kraje - neznámý 0747#1#
 07#48##Krajské ředitelství policie Severomoravského kraje - neznámý 0748#1#
 07#55##Krajské ředitelství policie Severomoravského kraje - neznámý 0755#1#
 07#90##Krajské ředitelství policie Severomoravského kraje - neznámý 0790#1#
-00#57##Krajské ředitelství policie hlavního města Prahy - neznámý 0057#1#
 07#51##Krajské ředitelství policie Severomoravského kraje - neznámý 0751#1#

@@ -38,6 +38,18 @@ crimestatistics-code-codelist-property:prislusnostKPredchudciKraje a rdf:Propert
 	rdfs:range crimestatistics-code-codelist-class:KrajskeReditelstvi ;
 	.
 
+# Property pro prirazeni krajskeho reditelstvi k prislusnemu kraji
+crimestatistics-code-codelist-property:prislusnostKeKraji a rdf:Property ;
+	rdfs:label
+		"příslušnost ke kraji"@cs,
+		"affiliation to a region"@en ;
+	rdfs:comment
+		"Tato property spojuje útvar na úrovni kraje, tedy krajské ředitelství, s příslušným krajem."@cs,
+		"This property links a police department on the regional level to a related region."@en ;
+	rdfs:range cm:Region ;
+	rdfs:range crimestatistics-code-codelist-class:KrajskeReditelstvi ;
+	.
+
 # Property pro prirazeni okresniho reditelstvi k prislusnemu okresu
 crimestatistics-code-codelist-property:prislusnostKOkresu a rdf:Property ;
 	rdfs:label

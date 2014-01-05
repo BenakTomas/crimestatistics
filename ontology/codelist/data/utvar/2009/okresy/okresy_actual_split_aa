@@ -1,8 +1,8 @@
 01#01##Benešov#1#
 01#02##Beroun#1#
 06#01##Blansko#1#
-06#02##Brno - město#1#
-06#03##Brno - venkov#1#
+06#02##Brno město#1#
+06#03##Brno venkov#1#
 07#01##Bruntál#1#
 06#04##Břeclav#1#
 04#01##Česká Lípa#1#
@@ -27,7 +27,7 @@
 01#03##Kladno#1#
 03#04##Klatovy#1#
 01#04##Kolín#1#
-06#08##Kroměřiž#1#
+06#08##Kroměříž#1#
 01#05##Kutná Hora#1#
 04#05##Liberec#1#
 04#06##Litoměřice#1#
@@ -44,14 +44,14 @@
 05#06##Pardubice#1#
 06#17##Pelhřimov#1#
 02#05##Písek#1#
-03#05##Plzeň#1#
-03#06##Plzeň - jih#1#
-03#07##Plzeň - sever#1#
+03#05##Plzeň město#1#
+03#06##Plzeň jih#1#
+03#07##Plzeň sever#1#
 01#09##Praha východ#1#
 01#10##Praha západ#1#
-01#13##Praha  venkov#1#
-01#14##Praha  venkov - jih#1#
-01#15##Praha  venkov - východ#1#
+01#13##Praha venkov#1#
+01#14##Praha venkov jih#1#
+01#15##Praha venkov východ#1#
 00#01##Praha 1#1#
 00#10##Praha 10#1#
 00#02##Praha 2#1#
