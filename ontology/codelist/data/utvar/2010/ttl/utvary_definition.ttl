@@ -20,29 +20,11 @@
 @prefix crimestatistics-code-codelist-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/utvar/> .
 @prefix crimestatistics-code-codelist-hash: <http://linked.opendata.cz/ontology/crimestatistics/code/utvar/2010#> .
 
-crimestatistics-code-codelist-hash:2001 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PP ČR ÚSKPV"@cs ;
+crimestatistics-code-codelist-hash:2100 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "INSPEKCE PČR"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.2001" ;
-	rdfs:label "PP ČR ÚSKPV"@cs ;
-	.
-crimestatistics-code-codelist-hash:2002 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PČR ÚOKFK SKPV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.2002" ;
-	rdfs:label "PČR ÚOKFK SKPV"@cs ;
-	.
-crimestatistics-code-codelist-hash:2003 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PČR NPC SKPV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.2003" ;
-	rdfs:label "PČR NPC SKPV"@cs ;
-	.
-crimestatistics-code-codelist-hash:2004 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PČR ÚOOZ SKPV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.2004" ;
-	rdfs:label "PČR ÚOOZ SKPV"@cs ;
+	skos:notation "codelist.utvar.2010.2100" ;
+	rdfs:label "INSPEKCE PČR"@cs ;
 	.
 crimestatistics-code-codelist-hash:2005 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "PČR ÚDV SKPV"@cs ;
@@ -50,11 +32,35 @@ crimestatistics-code-codelist-hash:2005 a skos:Concept, crimestatistics-code-cod
 	skos:notation "codelist.utvar.2010.2005" ;
 	rdfs:label "PČR ÚDV SKPV"@cs ;
 	.
-crimestatistics-code-codelist-hash:2100 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "INSPEKCE PČR"@cs ;
+crimestatistics-code-codelist-hash:2004 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PČR ÚOOZ SKPV"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.2100" ;
-	rdfs:label "INSPEKCE PČR"@cs ;
+	skos:notation "codelist.utvar.2010.2004" ;
+	rdfs:label "PČR ÚOOZ SKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:2003 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PČR NPC SKPV"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.2003" ;
+	rdfs:label "PČR NPC SKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:2002 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PČR ÚOKFK SKPV"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.2002" ;
+	rdfs:label "PČR ÚOKFK SKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:2001 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PP ČR ÚSKPV"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.2001" ;
+	rdfs:label "PP ČR ÚSKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:0090 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "CENTRÁLNÍ ÚTVARY"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.0090" ;
+	rdfs:label "CENTRÁLNÍ ÚTVARY"@cs ;
 	.
 crimestatistics-code-codelist-hash:0000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy"@cs ;
@@ -704,18 +710,6 @@ crimestatistics-code-codelist-hash:1614 a skos:Concept, crimestatistics-code-cod
 	skos:notation "codelist.utvar.2010.1614" ;
 	rdfs:label "Žďár nad Sázavou"@cs ;
 	.
-crimestatistics-code-codelist-hash:0030 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Hlavní město Praha - referáty cizinecké a pohraniční policie"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.0030" ;
-	rdfs:label "Hlavní město Praha - referáty cizinecké a pohraniční policie"@cs ;
-	.
-crimestatistics-code-codelist-hash:0430 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Severočeský kraj - referáty cizinecké a pohraniční policie"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.0430" ;
-	rdfs:label "Severočeský kraj - referáty cizinecké a pohraniční policie"@cs ;
-	.
 crimestatistics-code-codelist-hash:0741 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Letiště Mošnov"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
@@ -734,29 +728,17 @@ crimestatistics-code-codelist-hash:0641 a skos:Concept, crimestatistics-code-cod
 	skos:notation "codelist.utvar.2010.0641" ;
 	rdfs:label "Letiště Tuřany"@cs ;
 	.
-crimestatistics-code-codelist-hash:0230 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Jihočeský kraj - referáty cizinecké a pohraniční policie"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.0230" ;
-	rdfs:label "Jihočeský kraj - referáty cizinecké a pohraniční policie"@cs ;
-	.
 crimestatistics-code-codelist-hash:0041 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Letiště Ruzyně"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.0041" ;
 	rdfs:label "Letiště Ruzyně"@cs ;
 	.
-crimestatistics-code-codelist-hash:0040 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP P ČR PRAHA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.0040" ;
-	rdfs:label "OŘ SCP P ČR PRAHA"@cs ;
-	.
 crimestatistics-code-codelist-hash:0090 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.0090" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090"@cs ;
 	.
 crimestatistics-code-codelist-hash:0093 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0093"@cs ;
@@ -764,35 +746,17 @@ crimestatistics-code-codelist-hash:0093 a skos:Concept, crimestatistics-code-cod
 	skos:notation "codelist.utvar.2010.0093" ;
 	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0093"@cs ;
 	.
-crimestatistics-code-codelist-hash:0240 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP P ČR ČESKÉ BUDĚJOVICE"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.0240" ;
-	rdfs:label "OŘ SCP P ČR ČESKÉ BUDĚJOVICE"@cs ;
-	.
 crimestatistics-code-codelist-hash:0290 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie Jihočeského kraje - neznámý 0290"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.0290" ;
 	rdfs:label "Krajské ředitelství policie Jihočeského kraje - neznámý 0290"@cs ;
 	.
-crimestatistics-code-codelist-hash:0340 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP P ČR PLZEŇ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.0340" ;
-	rdfs:label "OŘ SCP P ČR PLZEŇ"@cs ;
-	.
 crimestatistics-code-codelist-hash:0390 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie Plzeňského kraje - neznámý 0390"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.0390" ;
 	rdfs:label "Krajské ředitelství policie Plzeňského kraje - neznámý 0390"@cs ;
-	.
-crimestatistics-code-codelist-hash:0440 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP P ČR ÚSTÍ NAD LABEM"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.0440" ;
-	rdfs:label "OŘ SCP P ČR ÚSTÍ NAD LABEM"@cs ;
 	.
 crimestatistics-code-codelist-hash:0443 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie Ústeckého kraje - neznámý 0443"@cs ;
@@ -806,89 +770,11 @@ crimestatistics-code-codelist-hash:0490 a skos:Concept, crimestatistics-code-cod
 	skos:notation "codelist.utvar.2010.0490" ;
 	rdfs:label "Krajské ředitelství policie Ústeckého kraje - neznámý 0490"@cs ;
 	.
-crimestatistics-code-codelist-hash:0540 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP P ČR HRADEC KRÁLOVÉ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.0540" ;
-	rdfs:label "OŘ SCP P ČR HRADEC KRÁLOVÉ"@cs ;
-	.
-crimestatistics-code-codelist-hash:0640 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP P ČR BRNO"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.0640" ;
-	rdfs:label "OŘ SCP P ČR BRNO"@cs ;
-	.
-crimestatistics-code-codelist-hash:0740 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP P ČR OSTRAVA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.0740" ;
-	rdfs:label "OŘ SCP P ČR OSTRAVA"@cs ;
-	.
 crimestatistics-code-codelist-hash:0751 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie Moravskoslezského kraje - neznámý 0751"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.0751" ;
 	rdfs:label "Krajské ředitelství policie Moravskoslezského kraje - neznámý 0751"@cs ;
-	.
-crimestatistics-code-codelist-hash:200180 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ESSK - PP ČR ÚSKPV OHK"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.200180" ;
-	rdfs:label "ESSK - PP ČR ÚSKPV OHK"@cs ;
-	.
-crimestatistics-code-codelist-hash:200200 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ PČR ÚOKFK SKPV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.200200" ;
-	rdfs:label "ETŘ PČR ÚOKFK SKPV"@cs ;
-	.
-crimestatistics-code-codelist-hash:200203 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PČR ÚOKFK SKPV ODB. DANÍ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.200203" ;
-	rdfs:label "PČR ÚOKFK SKPV ODB. DANÍ"@cs ;
-	.
-crimestatistics-code-codelist-hash:200204 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PČR ÚOKFK SKPV ODB. ZÁV.HOSP. TČ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.200204" ;
-	rdfs:label "PČR ÚOKFK SKPV ODB. ZÁV.HOSP. TČ"@cs ;
-	.
-crimestatistics-code-codelist-hash:200206 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PČR ÚOKFK SKPV ODB. KOR. A OCHR. EU"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.200206" ;
-	rdfs:label "PČR ÚOKFK SKPV ODB. KOR. A OCHR. EU"@cs ;
-	.
-crimestatistics-code-codelist-hash:200237 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PČR ÚOKFK SKPV - EXP. OSTRAVA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.200237" ;
-	rdfs:label "PČR ÚOKFK SKPV - EXP. OSTRAVA"@cs ;
-	.
-crimestatistics-code-codelist-hash:200300 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ PČR NPC SKPV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.200300" ;
-	rdfs:label "ETŘ PČR NPC SKPV"@cs ;
-	.
-crimestatistics-code-codelist-hash:200400 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ PČR ÚOOZ SKPV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.200400" ;
-	rdfs:label "ETŘ PČR ÚOOZ SKPV"@cs ;
-	.
-crimestatistics-code-codelist-hash:200401 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ÚOOZ ODB. ZÁVAŽNÉ MAJETKOVÉ TČ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.200401" ;
-	rdfs:label "ÚOOZ ODB. ZÁVAŽNÉ MAJETKOVÉ TČ"@cs ;
-	.
-crimestatistics-code-codelist-hash:200435 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ÚOOZ EXP. HRADEC KRÁLOVÉ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.200435" ;
-	rdfs:label "ÚOOZ EXP. HRADEC KRÁLOVÉ"@cs ;
 	.
 crimestatistics-code-codelist-hash:210004 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "INSPEKCE PČR 4. ODD."@cs ;
@@ -985,6 +871,66 @@ crimestatistics-code-codelist-hash:210029 a skos:Concept, crimestatistics-code-c
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.210029" ;
 	rdfs:label "INSPEKCE PČR 8. ODD. KARLOVY VARY"@cs ;
+	.
+crimestatistics-code-codelist-hash:200400 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "ETŘ PČR ÚOOZ SKPV"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.200400" ;
+	rdfs:label "ETŘ PČR ÚOOZ SKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:200401 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "ÚOOZ ODB. ZÁVAŽNÉ MAJETKOVÉ TČ"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.200401" ;
+	rdfs:label "ÚOOZ ODB. ZÁVAŽNÉ MAJETKOVÉ TČ"@cs ;
+	.
+crimestatistics-code-codelist-hash:200435 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "ÚOOZ EXP. HRADEC KRÁLOVÉ"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.200435" ;
+	rdfs:label "ÚOOZ EXP. HRADEC KRÁLOVÉ"@cs ;
+	.
+crimestatistics-code-codelist-hash:200300 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "ETŘ PČR NPC SKPV"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.200300" ;
+	rdfs:label "ETŘ PČR NPC SKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:200200 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "ETŘ PČR ÚOKFK SKPV"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.200200" ;
+	rdfs:label "ETŘ PČR ÚOKFK SKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:200203 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PČR ÚOKFK SKPV ODB. DANÍ"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.200203" ;
+	rdfs:label "PČR ÚOKFK SKPV ODB. DANÍ"@cs ;
+	.
+crimestatistics-code-codelist-hash:200204 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PČR ÚOKFK SKPV ODB. ZÁV.HOSP. TČ"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.200204" ;
+	rdfs:label "PČR ÚOKFK SKPV ODB. ZÁV.HOSP. TČ"@cs ;
+	.
+crimestatistics-code-codelist-hash:200206 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PČR ÚOKFK SKPV ODB. KOR. A OCHR. EU"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.200206" ;
+	rdfs:label "PČR ÚOKFK SKPV ODB. KOR. A OCHR. EU"@cs ;
+	.
+crimestatistics-code-codelist-hash:200237 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PČR ÚOKFK SKPV - EXP. OSTRAVA"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.200237" ;
+	rdfs:label "PČR ÚOKFK SKPV - EXP. OSTRAVA"@cs ;
+	.
+crimestatistics-code-codelist-hash:200180 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "ESSK - PP ČR ÚSKPV OHK"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2010.200180" ;
+	rdfs:label "ESSK - PP ČR ÚSKPV OHK"@cs ;
 	.
 crimestatistics-code-codelist-hash:000000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "ETŘ KŘPA"@cs ;
@@ -5150,150 +5096,6 @@ crimestatistics-code-codelist-hash:161420 a skos:Concept, crimestatistics-code-c
 	skos:notation "codelist.utvar.2010.161420" ;
 	rdfs:label "OOP ŽĎÁR NAD SÁZAVOU"@cs ;
 	.
-crimestatistics-code-codelist-hash:003010 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP PRAHA - RUZYNĚ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.003010" ;
-	rdfs:label "RCPP PRAHA - RUZYNĚ"@cs ;
-	.
-crimestatistics-code-codelist-hash:043012 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP VARNSDORF"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043012" ;
-	rdfs:label "RCPP VARNSDORF"@cs ;
-	.
-crimestatistics-code-codelist-hash:043013 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP RUMBURK"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043013" ;
-	rdfs:label "RCPP RUMBURK"@cs ;
-	.
-crimestatistics-code-codelist-hash:043014 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP JIŘÍKOV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043014" ;
-	rdfs:label "RCPP JIŘÍKOV"@cs ;
-	.
-crimestatistics-code-codelist-hash:043015 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP ŠLUKNOV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043015" ;
-	rdfs:label "RCPP ŠLUKNOV"@cs ;
-	.
-crimestatistics-code-codelist-hash:043016 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP DOLNÍ POUSTEVNA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043016" ;
-	rdfs:label "RCPP DOLNÍ POUSTEVNA"@cs ;
-	.
-crimestatistics-code-codelist-hash:043017 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP MIKULÁŠOVICE"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043017" ;
-	rdfs:label "RCPP MIKULÁŠOVICE"@cs ;
-	.
-crimestatistics-code-codelist-hash:043019 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP HŘENSKO"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043019" ;
-	rdfs:label "RCPP HŘENSKO"@cs ;
-	.
-crimestatistics-code-codelist-hash:043021 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP SNĚŽNÍK"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043021" ;
-	rdfs:label "RCPP SNĚŽNÍK"@cs ;
-	.
-crimestatistics-code-codelist-hash:043022 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP KALEK"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043022" ;
-	rdfs:label "RCPP KALEK"@cs ;
-	.
-crimestatistics-code-codelist-hash:043023 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP HORA SV. ŠEBESTIÁNA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043023" ;
-	rdfs:label "RCPP HORA SV. ŠEBESTIÁNA"@cs ;
-	.
-crimestatistics-code-codelist-hash:043024 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP VEJPRTY"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043024" ;
-	rdfs:label "RCPP VEJPRTY"@cs ;
-	.
-crimestatistics-code-codelist-hash:043026 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP KOŘENOV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043026" ;
-	rdfs:label "RCPP KOŘENOV"@cs ;
-	.
-crimestatistics-code-codelist-hash:043027 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP NOVÉ MĚSTO-POD SMRKEM"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043027" ;
-	rdfs:label "RCPP NOVÉ MĚSTO-POD SMRKEM"@cs ;
-	.
-crimestatistics-code-codelist-hash:043028 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP HABARTICE"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043028" ;
-	rdfs:label "RCPP HABARTICE"@cs ;
-	.
-crimestatistics-code-codelist-hash:043030 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP DĚTŘICHOV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043030" ;
-	rdfs:label "RCPP DĚTŘICHOV"@cs ;
-	.
-crimestatistics-code-codelist-hash:043031 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP HRÁDEK NAD NISOU"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043031" ;
-	rdfs:label "RCPP HRÁDEK NAD NISOU"@cs ;
-	.
-crimestatistics-code-codelist-hash:043032 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP ČESKÝ JIŘETÍN"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043032" ;
-	rdfs:label "RCPP ČESKÝ JIŘETÍN"@cs ;
-	.
-crimestatistics-code-codelist-hash:043033 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP NOVÁ VES V HORÁCH"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043033" ;
-	rdfs:label "RCPP NOVÁ VES V HORÁCH"@cs ;
-	.
-crimestatistics-code-codelist-hash:043035 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP CÍNOVEC"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043035" ;
-	rdfs:label "RCPP CÍNOVEC"@cs ;
-	.
-crimestatistics-code-codelist-hash:043036 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP MOLDAVA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043036" ;
-	rdfs:label "RCPP MOLDAVA"@cs ;
-	.
-crimestatistics-code-codelist-hash:043037 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP KRÁSNÝ LES"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043037" ;
-	rdfs:label "RCPP KRÁSNÝ LES"@cs ;
-	.
-crimestatistics-code-codelist-hash:043038 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP DĚČÍN"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043038" ;
-	rdfs:label "RCPP DĚČÍN"@cs ;
-	.
-crimestatistics-code-codelist-hash:043039 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP JABLONNÉ V PODJEŠTĚDÍ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.043039" ;
-	rdfs:label "RCPP JABLONNÉ V PODJEŠTĚDÍ"@cs ;
-	.
 crimestatistics-code-codelist-hash:074170 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "ICP LETIŠTĚ MOŠNOV"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
@@ -5311,114 +5113,6 @@ crimestatistics-code-codelist-hash:064160 a skos:Concept, crimestatistics-code-c
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.064160" ;
 	rdfs:label "ICP LETIŠTĚ TUŘANY"@cs ;
-	.
-crimestatistics-code-codelist-hash:023010 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP NOVÉ HRADY"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023010" ;
-	rdfs:label "RCPP NOVÉ HRADY"@cs ;
-	.
-crimestatistics-code-codelist-hash:023011 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP ZVONKOVÁ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023011" ;
-	rdfs:label "RCPP ZVONKOVÁ"@cs ;
-	.
-crimestatistics-code-codelist-hash:023012 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP KYSELOV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023012" ;
-	rdfs:label "RCPP KYSELOV"@cs ;
-	.
-crimestatistics-code-codelist-hash:023014 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP HORNÍ DVOŘIŠTĚ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023014" ;
-	rdfs:label "RCPP HORNÍ DVOŘIŠTĚ"@cs ;
-	.
-crimestatistics-code-codelist-hash:023015 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP DOLNÍ DVOŘIŠTĚ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023015" ;
-	rdfs:label "RCPP DOLNÍ DVOŘIŠTĚ"@cs ;
-	.
-crimestatistics-code-codelist-hash:023016 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP MALONTY"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023016" ;
-	rdfs:label "RCPP MALONTY"@cs ;
-	.
-crimestatistics-code-codelist-hash:023017 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP ČESKÉ VELENICE"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023017" ;
-	rdfs:label "RCPP ČESKÉ VELENICE"@cs ;
-	.
-crimestatistics-code-codelist-hash:023018 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP CHLUM U TŘEBONĚ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023018" ;
-	rdfs:label "RCPP CHLUM U TŘEBONĚ"@cs ;
-	.
-crimestatistics-code-codelist-hash:023019 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP NOVÁ BYSTŘICE"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023019" ;
-	rdfs:label "RCPP NOVÁ BYSTŘICE"@cs ;
-	.
-crimestatistics-code-codelist-hash:023020 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP STARÉ MĚSTO"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023020" ;
-	rdfs:label "RCPP STARÉ MĚSTO"@cs ;
-	.
-crimestatistics-code-codelist-hash:023021 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP PÍSEČNÉ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023021" ;
-	rdfs:label "RCPP PÍSEČNÉ"@cs ;
-	.
-crimestatistics-code-codelist-hash:023022 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP BOROVÁ LADA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023022" ;
-	rdfs:label "RCPP BOROVÁ LADA"@cs ;
-	.
-crimestatistics-code-codelist-hash:023024 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP STOŽEC"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023024" ;
-	rdfs:label "RCPP STOŽEC"@cs ;
-	.
-crimestatistics-code-codelist-hash:023025 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP NOVÁ PEC"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023025" ;
-	rdfs:label "RCPP NOVÁ PEC"@cs ;
-	.
-crimestatistics-code-codelist-hash:023026 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP STRÁŽNÝ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023026" ;
-	rdfs:label "RCPP STRÁŽNÝ"@cs ;
-	.
-crimestatistics-code-codelist-hash:023027 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP STUDÁNKY"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023027" ;
-	rdfs:label "RCPP STUDÁNKY"@cs ;
-	.
-crimestatistics-code-codelist-hash:023028 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP HALÁMKY"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023028" ;
-	rdfs:label "RCPP HALÁMKY"@cs ;
-	.
-crimestatistics-code-codelist-hash:023029 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "RCPP SLAVONICE"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.023029" ;
-	rdfs:label "RCPP SLAVONICE"@cs ;
 	.
 crimestatistics-code-codelist-hash:004110 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "ICP LETIŠTĚ RUZYNĚ"@cs ;
@@ -5546,53 +5240,47 @@ crimestatistics-code-codelist-hash:001405 a skos:Concept, crimestatistics-code-c
 	skos:notation "codelist.utvar.2010.001405" ;
 	rdfs:label "ETŘ OŘP PRAHA IV."@cs ;
 	.
-crimestatistics-code-codelist-hash:004000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ OŘ SCP P ČR PRAHA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.004000" ;
-	rdfs:label "ETŘ OŘ SCP P ČR PRAHA"@cs ;
-	.
 crimestatistics-code-codelist-hash:009019 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY - neznámý 009019"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009019"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.009019" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY - neznámý 009019"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009019"@cs ;
 	.
 crimestatistics-code-codelist-hash:009021 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY - neznámý 009021"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009021"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.009021" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY - neznámý 009021"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009021"@cs ;
 	.
 crimestatistics-code-codelist-hash:009040 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY - neznámý 009040"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009040"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.009040" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY - neznámý 009040"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009040"@cs ;
 	.
 crimestatistics-code-codelist-hash:009043 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY - neznámý 009043"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009043"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.009043" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY - neznámý 009043"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009043"@cs ;
 	.
 crimestatistics-code-codelist-hash:009048 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY - neznámý 009048"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009048"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.009048" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY - neznámý 009048"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009048"@cs ;
 	.
 crimestatistics-code-codelist-hash:009053 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY - neznámý 009053"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009053"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.009053" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY - neznámý 009053"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009053"@cs ;
 	.
 crimestatistics-code-codelist-hash:009055 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY - neznámý 009055"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009055"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.009055" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY - neznámý 009055"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009055"@cs ;
 	.
 crimestatistics-code-codelist-hash:009300 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "ETŘ PČR ŘSCP"@cs ;
@@ -5834,18 +5522,6 @@ crimestatistics-code-codelist-hash:020805 a skos:Concept, crimestatistics-code-c
 	skos:notation "codelist.utvar.2010.020805" ;
 	rdfs:label "Tábor - neznámý 020805"@cs ;
 	.
-crimestatistics-code-codelist-hash:024000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ OŘ SCP P ČR ČESKÉ BUDĚJOVICE"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.024000" ;
-	rdfs:label "ETŘ OŘ SCP P ČR ČESKÉ BUDĚJOVICE"@cs ;
-	.
-crimestatistics-code-codelist-hash:024040 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP - SKUP. DOKUMENTACE Č.B."@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.024040" ;
-	rdfs:label "OŘ SCP - SKUP. DOKUMENTACE Č.B."@cs ;
-	.
 crimestatistics-code-codelist-hash:029021 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie Jihočeského kraje - neznámý 0290 - neznámý 029021"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
@@ -5917,18 +5593,6 @@ crimestatistics-code-codelist-hash:031004 a skos:Concept, crimestatistics-code-c
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.031004" ;
 	rdfs:label "Tachov - neznámý 031004"@cs ;
-	.
-crimestatistics-code-codelist-hash:034000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ OŘ SCP P ČR PLZEŇ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.034000" ;
-	rdfs:label "ETŘ OŘ SCP P ČR PLZEŇ"@cs ;
-	.
-crimestatistics-code-codelist-hash:034040 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP - SKUP. DOKUMENTACE PLZEŇ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.034040" ;
-	rdfs:label "OŘ SCP - SKUP. DOKUMENTACE PLZEŇ"@cs ;
 	.
 crimestatistics-code-codelist-hash:039021 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie Plzeňského kraje - neznámý 0390 - neznámý 039021"@cs ;
@@ -6050,18 +5714,6 @@ crimestatistics-code-codelist-hash:041005 a skos:Concept, crimestatistics-code-c
 	skos:notation "codelist.utvar.2010.041005" ;
 	rdfs:label "Ústí nad Labem - neznámý 041005"@cs ;
 	.
-crimestatistics-code-codelist-hash:044000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ OŘ SCP P ČR ÚSTÍ NAD LABEM"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.044000" ;
-	rdfs:label "ETŘ OŘ SCP P ČR ÚSTÍ NAD LABEM"@cs ;
-	.
-crimestatistics-code-codelist-hash:044040 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP P ČR ÚSTÍ NAD LABEM - neznámý 044040"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.044040" ;
-	rdfs:label "OŘ SCP P ČR ÚSTÍ NAD LABEM - neznámý 044040"@cs ;
-	.
 crimestatistics-code-codelist-hash:044302 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie Ústeckého kraje - neznámý 0443 - neznámý 044302"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
@@ -6103,12 +5755,6 @@ crimestatistics-code-codelist-hash:051005 a skos:Concept, crimestatistics-code-c
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.051005" ;
 	rdfs:label "Trutnov - neznámý 051005"@cs ;
-	.
-crimestatistics-code-codelist-hash:054000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ OŘ SCP P ČR HRADEC KRÁLOVÉ"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.054000" ;
-	rdfs:label "ETŘ OŘ SCP P ČR HRADEC KRÁLOVÉ"@cs ;
 	.
 crimestatistics-code-codelist-hash:060105 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Blansko - neznámý 060105"@cs ;
@@ -6187,12 +5833,6 @@ crimestatistics-code-codelist-hash:061305 a skos:Concept, crimestatistics-code-c
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.061305" ;
 	rdfs:label "Znojmo - neznámý 061305"@cs ;
-	.
-crimestatistics-code-codelist-hash:064000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ OŘ SCP P ČR BRNO"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.064000" ;
-	rdfs:label "ETŘ OŘ SCP P ČR BRNO"@cs ;
 	.
 crimestatistics-code-codelist-hash:070101 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Bruntál - neznámý 070101"@cs ;
@@ -6361,12 +6001,6 @@ crimestatistics-code-codelist-hash:070795 a skos:Concept, crimestatistics-code-c
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2010.070795" ;
 	rdfs:label "Ostrava - neznámý 070795"@cs ;
-	.
-crimestatistics-code-codelist-hash:074000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ OŘ SCP P ČR OSTRAVA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2010.074000" ;
-	rdfs:label "ETŘ OŘ SCP P ČR OSTRAVA"@cs ;
 	.
 crimestatistics-code-codelist-hash:140501 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Olomouc - neznámý 140501"@cs ;

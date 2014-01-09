@@ -1,9 +1,10 @@
-20#01##PP ČR ÚSKPV#0#
-20#02##PČR ÚOKFK SKPV#0#
-20#03##PČR NPC SKPV#0#
-20#04##PČR ÚOOZ SKPV#0#
-20#05##PČR ÚDV SKPV#0#
 21#00##INSPEKCE PČR#0#
+20#05##PČR ÚDV SKPV#0#
+20#04##PČR ÚOOZ SKPV#0#
+20#03##PČR NPC SKPV#0#
+20#02##PČR ÚOKFK SKPV#0#
+20#01##PP ČR ÚSKPV#0#
+00#90##CENTRÁLNÍ ÚTVARY#0#
 00#00##Krajské ředitelství policie hlavního města Prahy#0#
 01#00##Krajské ředitelství policie Středočeského kraje#0#
 02#00##Krajské ředitelství policie Jihočeského kraje#0#
@@ -113,25 +114,23 @@
 14#11##Jeseník#1#
 14#12##Prostějov#1#
 06#41##Letiště Tuřany#1#
-06#18##Blaškov#1#
-00#40##OŘ SCP P ČR PRAHA#1#
-00#90##CENTRÁLNÍ ÚTVARY#1#
+06#18##Blansko - Vyškov#1#
+00#90##Krajské ředitelství policie hlavního města Prahy - neznámý 0090#1#
 00#93##Krajské ředitelství policie hlavního města Prahy - neznámý 0093#1#
 02#90##Krajské ředitelství policie Jihočeského kraje - neznámý 0290#1#
 03#90##Krajské ředitelství policie Plzeňského kraje - neznámý 0390#1#
-04#40##OŘ SCP P ČR ÚSTÍ NAD LABEM#1#
 04#90##Krajské ředitelství policie Ústeckého kraje - neznámý 0490#1#
 07#51##Krajské ředitelství policie Moravskoslezského kraje - neznámý 0751#1#
+21#00#16#INSPEKCE PČR 11. ODD. BRNO#1#
+21#00#17#INSPEKCE PČR 3. ODD. OSTRAVA#1#
+21#00#26#INSPEKCE PČR 11. ODD. JIHLAVA#1#
+20#04#00#ETŘ PČR ÚOOZ SKPV#1#
+20#03#00#ETŘ PČR NPC SKPV#1#
 20#02#00#ETŘ PČR ÚOKFK SKPV#1#
 20#02#03#PČR ÚOKFK SKPV ODB. DANÍ#1#
 20#02#04#PČR ÚOKFK SKPV ODB. ZÁV.HOSP. TČ#1#
 20#02#06#PČR ÚOKFK SKPV ODB. KOR. A OCHR. EU#1#
 20#02#32#PČR ÚOKFK SKPV - EXP. Č. BUDĚJOVICE#1#
-20#03#00#ETŘ PČR NPC SKPV#1#
-20#04#00#ETŘ PČR ÚOOZ SKPV#1#
-21#00#16#INSPEKCE PČR 11. ODD. BRNO#1#
-21#00#17#INSPEKCE PČR 3. ODD. OSTRAVA#1#
-21#00#26#INSPEKCE PČR 11. ODD. JIHLAVA#1#
 00#00#00#ETŘ KŘPA#1#0000
 00#00#03#Krajské ředitelství policie hlavního města Prahy - neznámý 000003#1#0000
 00#00#04#Krajské ředitelství policie hlavního města Prahy - neznámý 000004#1#0000
@@ -771,10 +770,9 @@
 00#14#02#SKPV OŘP PRAHA IV. - OOK#1#
 00#14#03#SKPV OŘP PRAHA IV. - OHK#1#
 00#14#05#ETŘ OŘP PRAHA IV.#1#
-00#40#00#ETŘ OŘ SCP P ČR PRAHA#1#
-00#90#19#CENTRÁLNÍ ÚTVARY - neznámý 009019#1#
-00#90#21#CENTRÁLNÍ ÚTVARY - neznámý 009021#1#
-00#90#53#CENTRÁLNÍ ÚTVARY - neznámý 009053#1#
+00#90#19#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009019#1#
+00#90#21#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009021#1#
+00#90#53#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009053#1#
 00#93#00#ETŘ PČR ŘSCP#1#
 01#01#03#Benešov - neznámý 010103#1#
 01#03#02#Kladno - neznámý 010302#1#
@@ -816,7 +814,6 @@
 04#09#04#Teplice - neznámý 040904#1#
 04#09#05#Teplice - neznámý 040905#1#
 04#10#05#Ústí nad Labem - neznámý 041005#1#
-04#40#00#ETŘ OŘ SCP P ČR ÚSTÍ NAD LABEM#1#
 04#90#21#Krajské ředitelství policie Ústeckého kraje - neznámý 0490 - neznámý 049021#1#
 05#02#05#Hradec Králové - neznámý 050205#1#
 05#04#05#Jičín - neznámý 050405#1#

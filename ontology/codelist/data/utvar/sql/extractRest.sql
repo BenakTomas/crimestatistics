@@ -30,7 +30,7 @@ select sql_cache ftc.t01_kr as kr, ftc.t01_ok as ok, ftc.t01_ut as ut
 from
 	ks_zapistc ftc
 where
-	ftc.t01_kr not in('20', '21', '30', '50') and ftc.t01_ok <> '00'
+	ftc.t01_kr not in('20', '21', '30', '50') and ftc.t01_ok not in ('00', '30', '40')
 	and not exists(select 1 from utvary_actual ua where ua.kr = ftc.t01_kr and ua.ok = ftc.t01_ok and ua.ut = ftc.t01_ut)
 
 union distinct
@@ -39,7 +39,7 @@ select ftc.t05_kr as kr, ftc.t05_ok as ok, ftc.t05_ut as ut
 from
 	ks_zapistc ftc
 where
-	ftc.t05_kr not in('20', '21', '30', '50') and ftc.t05_ok <> '00'
+	ftc.t05_kr not in('20', '21', '30', '50') and ftc.t05_ok not in ('00', '30', '40')
 	and not exists(select 1 from utvary_actual ua where ua.kr = ftc.t05_kr and ua.ok = ftc.t05_ok and ua.ut = ftc.t05_ut)
 
 union distinct
@@ -48,7 +48,7 @@ select fzp.p01_kr as kr, fzp.p01_ok as ok, fzp.p01_ut as ut
 from
 	ks_zapispa fzp
 where
-	fzp.p01_kr not in('20', '21', '30', '50') and fzp.p01_ok <> '00'
+	fzp.p01_kr not in('20', '21', '30', '50') and fzp.p01_ok not in ('00', '30', '40')
 	and not exists(select 1 from utvary_actual ua where ua.kr = fzp.p01_kr and ua.ok = fzp.p01_ok and ua.ut = fzp.p01_ut);
 
 -- Zde vlozim do tabulky 'utvary_actual' dosud chybejici utvary.

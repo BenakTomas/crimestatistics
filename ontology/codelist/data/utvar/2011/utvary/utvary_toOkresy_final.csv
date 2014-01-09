@@ -602,24 +602,6 @@
 01#16#18#OOP MNÍŠEK POD BRDY#1#
 01#16#20#OOP ŘEVNICE#1#
 01#16#21#OOP HOSTIVICE#1#
-02#30#10#RCPP NOVÉ HRADY#1#
-02#30#11#RCPP ZVONKOVÁ#1#
-02#30#12#RCPP KYSELOV#1#
-02#30#14#RCPP HORNÍ DVOŘIŠTĚ#1#
-02#30#15#RCPP DOLNÍ DVOŘIŠTĚ#1#
-02#30#16#RCPP MALONTY#1#
-02#30#17#RCPP ČESKÉ VELENICE#1#
-02#30#18#RCPP CHLUM U TŘEBONĚ#1#
-02#30#19#RCPP NOVÁ BYSTŘICE#1#
-02#30#20#RCPP STARÉ MĚSTO#1#
-02#30#21#RCPP PÍSEČNÉ#1#
-02#30#22#RCPP BOROVÁ LADA#1#
-02#30#24#RCPP STOŽEC#1#
-02#30#25#RCPP NOVÁ PEC#1#
-02#30#26#RCPP STRÁŽNÝ#1#
-02#30#27#RCPP STUDÁNKY#1#
-02#30#28#RCPP HALÁMKY#1#
-02#30#29#RCPP SLAVONICE#1#
 00#41#10#ICP LETIŠTĚ RUZYNĚ#1#
 00#01#04#Praha 1 - neznámý 000104#1#
 00#02#04#Praha 2 - neznámý 000204#1#
@@ -641,14 +623,13 @@
 00#14#02#SKPV OŘP PRAHA IV. - OOK#1#
 00#14#03#SKPV OŘP PRAHA IV. - OHK#1#
 00#14#05#ETŘ OŘP PRAHA IV.#1#
-00#40#00#ETŘ OŘ SCP P ČR PRAHA#1#
-00#90#19#CENTRÁLNÍ ÚTVARY - neznámý 009019#1#
-00#90#21#CENTRÁLNÍ ÚTVARY - neznámý 009021#1#
-00#90#40#CENTRÁLNÍ ÚTVARY - neznámý 009040#1#
-00#90#43#CENTRÁLNÍ ÚTVARY - neznámý 009043#1#
-00#90#47#CENTRÁLNÍ ÚTVARY - neznámý 009047#1#
-00#90#53#CENTRÁLNÍ ÚTVARY - neznámý 009053#1#
-00#90#55#CENTRÁLNÍ ÚTVARY - neznámý 009055#1#
+00#90#19#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009019#1#
+00#90#21#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009021#1#
+00#90#40#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009040#1#
+00#90#43#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009043#1#
+00#90#47#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009047#1#
+00#90#53#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009053#1#
+00#90#55#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009055#1#
 00#93#00#ETŘ PČR ŘSCP#1#
 01#01#03#Benešov - neznámý 010103#1#
 01#02#03#Beroun - neznámý 010203#1#
@@ -676,8 +657,6 @@
 02#07#06#DI - ST#1#
 02#08#04#Tábor - neznámý 020804#1#
 02#08#05#Tábor - neznámý 020805#1#
-02#40#00#ETŘ OŘ SCP P ČR ČESKÉ BUDĚJOVICE#1#
-02#40#40#OŘ SCP - SKUP. DOKUMENTACE Č.B.#1#
 03#01#03#Domažlice - neznámý 030103#1#
 03#04#03#Klatovy - neznámý 030403#1#
 03#05#03#Plzeň město - neznámý 030503#1#
@@ -687,7 +666,6 @@
 03#07#03#Plzeň sever - neznámý 030703#1#
 03#08#03#Rokycany - neznámý 030803#1#
 03#10#03#Tachov - neznámý 031003#1#
-03#40#00#ETŘ OŘ SCP P ČR PLZEŇ#1#
 03#90#21#Krajské ředitelství policie Plzeňského kraje - neznámý 0390 - neznámý 039021#1#
 04#02#03#Děčín - neznámý 040203#1#
 04#02#05#Děčín - neznámý 040205#1#
@@ -705,7 +683,6 @@
 04#09#05#Teplice - neznámý 040905#1#
 04#10#04#Ústí nad Labem - neznámý 041004#1#
 04#10#05#Ústí nad Labem - neznámý 041005#1#
-04#40#00#ETŘ OŘ SCP P ČR ÚSTÍ NAD LABEM#1#
 04#90#21#Krajské ředitelství policie Ústeckého kraje - neznámý 0490 - neznámý 049021#1#
 05#02#03#Hradec Králové - neznámý 050203#1#
 05#02#05#Hradec Králové - neznámý 050205#1#
@@ -713,7 +690,6 @@
 05#05#05#Náchod - neznámý 050505#1#
 05#07#05#Rychnov nad Kněžnou - neznámý 050705#1#
 05#10#05#Trutnov - neznámý 051005#1#
-05#40#00#ETŘ OŘ SCP P ČR HRADEC KRÁLOVÉ#1#
 06#01#05#Blansko - neznámý 060105#1#
 06#02#03#Brno město - neznámý 060203#1#
 06#02#04#Brno město - neznámý 060204#1#
@@ -726,7 +702,6 @@
 06#12#04#Vyškov - neznámý 061204#1#
 06#12#05#Vyškov - neznámý 061205#1#
 06#13#05#Znojmo - neznámý 061305#1#
-06#40#00#ETŘ OŘ SCP P ČR BRNO#1#
 07#01#01#Bruntál - neznámý 070101#1#
 07#02#01#Frýdek-Místek - neznámý 070201#1#
 07#03#01#Karviná - neznámý 070301#1#
@@ -745,7 +720,6 @@
 07#07#92#Ostrava - neznámý 070792#1#
 07#07#93#Ostrava - neznámý 070793#1#
 07#07#95#Ostrava - neznámý 070795#1#
-07#40#00#ETŘ OŘ SCP P ČR OSTRAVA#1#
 14#05#01#Olomouc - neznámý 140501#1#
 14#05#04#Olomouc - neznámý 140504#1#
 14#08#01#Přerov - neznámý 140801#1#
@@ -785,6 +759,6 @@
 07#06#30#Opava - neznámý 070630#1#
 19#02#14#OOP LÁZNĚ KYNŽVART#1#
 02#03#71#OOK ÚO SKPV JINDŘICHŮV HRADEC#1#
-00#90#48#CENTRÁLNÍ ÚTVARY - neznámý 009048#1#
+00#90#48#Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009048#1#
 06#02#00#Brno město - neznámý 060200#1#
 07#04#04#Nový Jičín - neznámý 070404#1#

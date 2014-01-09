@@ -1,0 +1,111 @@
+# Standardni prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# Preferovany prefix ontologie pro popis zakonu
+@prefix lex: <http://purl.org/lex#> .
+
+# Vlastní prefixy
+@prefix crimestatistics-class-zakony: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony#> .
+@prefix crimestatistics-property-zakony: <http://linked.opendata.cz/ontology/crimestatistics/property/zakony#> .
+
+@prefix crimestatistics-class-zakony-SourceOfLawSectionCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/SourceOfLawSectionCollection/property#> .
+@prefix crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/ProvedeniUkonuVTrestnimRizeni/property#> .
+@prefix crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeniCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/ProvedeniUkonuVTrestnimRizeniCollection/property#> .
+@prefix crimestatistics-class-zakony-RegulationCollection-property: <http://linked.opendata.cz/ontology/crimestatistics/class/zakony/RegulationCollection/property#> .
+
+# Odkazování pevně daných způsobů provedení úkonů v trestním řízení (např. zahájení trestního řízení, zahájení trestního stíhání apod.)
+@prefix crimestatistics-usekyZakona_TrestniRizeni: <http://linked.opendata.cz/resource/crimestatistics/zakony/usekyZakona_TrestniRizeni#> .
+
+# Zahájení trestního řízení
+crimestatistics-usekyZakona_TrestniRizeni:zahajeniTrestnihoRizeni a crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
+	rdfs:label "zahájení trestního řízení"@cs ;
+	rdfs:comment "Odkazovány jsou paragrafy 158/3 a 158/1 trestního řádu, podle kterých jsou zahajovány úkony v trestním řízení."@cs ;
+	# Odkazy na vlastní úseky zákona
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/158/3> ;
+			
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/158/1> ;
+	.
+
+# Zahájení trestního stíhání (160/1)
+crimestatistics-usekyZakona_TrestniRizeni:zahajeniTrestnihoStihani1601 a crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
+	rdfs:label "zahájení trestního stíhání"@cs ;
+	rdfs:comment "Odkazován je paragraf 160/1 trestního řádu, který popisuje standardní okolnosti a postup pro zahájení trestního stíhání."@cs ;
+	# Odkazy na vlastní úseky zákona
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/160/1> ;
+			
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/160/1> ;
+	.
+
+# Zahájení trestního stíhání (160/3 s provedením neodkladných a neopakovatelných úkonů)
+crimestatistics-usekyZakona_TrestniRizeni:zahajeniTrestnihoStihani1603 a crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
+	rdfs:label "zahájení trestního stíhání po provedení neodkladných nebo neopakovatelných úkonů"@cs ;
+	rdfs:comment "Odkazován je paragraf 160/3 trestního řádu, který popisuje zvláštní okolnosti, které předcházejí zahájení trestního stíhání, a to sice nutnost provést neodkladné nebo neopakovatelné úkony."@cs ;
+	# Odkazy na vlastní úseky zákona
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/160/3> ;
+			
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/160/3> ;
+	.
+
+# Sdělení podezření ve zkráceném přípravném řízení (ZPŘ)
+crimestatistics-usekyZakona_TrestniRizeni:sdeleniPodezreniVeZPR179b3 a crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
+	rdfs:label "sdělení podezření ve zkráceném přípravném řízení"@cs ;
+	rdfs:comment "Odkazován je paragraf 179b/3 trestního řádu, který stanovuje postup při sdělení podezření ve zkráceném přípravném řízení."@cs ;
+	# Odkazy na vlastní úseky zákona
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/179b/3> ;
+			
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/179b/3> ;
+	.
+
+# Odložení nebo jiné vyřízení věci
+crimestatistics-usekyZakona_TrestniRizeni:odlozeniVeci159a  a crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
+	rdfs:label "odložení nebo jiné vyřízení věci"@cs ;
+	rdfs:comment "Odkazován je paragraf 159a trestního řádu, který stanovuje okolnosti, za kterých státní zástupce nebo policejní orgán může věc odložit. Zároveň je zde stanoven příslušný postup."@cs ;
+	# Odkazy na vlastní úseky zákona
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/159a> ;
+			
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/159a> ;
+	.
+
+# Rozšíření trestního stíhání
+crimestatistics-usekyZakona_TrestniRizeni:rozsireniTrestnihoStihani a crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
+	rdfs:label "rozšíření trestního stíhání"@cs ;
+	rdfs:comment "Odkazován je paragraf 160/5 trestního řádu, který popisuje okolnosti ospravedlňující rozšíření trestního stíhání a stanovuje postup, jakým je trestní stíhání ve věci zjištěného prověřovaného trestního činu zahájeno."@cs ;
+	# Odkazy na vlastní úseky zákona
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/160/5> ;
+			
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/160/5> ;
+	.
+
+# Pokračování trestního stíhání
+crimestatistics-usekyZakona_TrestniRizeni:pokracovaniTrestnihoStihani a crimestatistics-class-zakony:ProvedeniUkonuVTrestnimRizeni ;
+	rdfs:label "pokračování trestního stíhání"@cs ;
+	rdfs:comment "Odkazován je paragraf 173/2 trestního řádu, který popisuje okolnosti, za kterých je možno pokračovat v dříve přerušeném trestném stíhání."@cs ;
+	# Odkazy na vlastní úseky zákona
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:provedenoPodle
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/2> ;
+			
+	crimestatistics-class-zakony-ProvedeniUkonuVTrestnimRizeni-property:rozhodneOkolnostiUvedeneV
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/141/section/173/2> ;
+	.

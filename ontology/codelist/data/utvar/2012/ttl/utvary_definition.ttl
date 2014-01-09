@@ -20,29 +20,11 @@
 @prefix crimestatistics-code-codelist-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/utvar/> .
 @prefix crimestatistics-code-codelist-hash: <http://linked.opendata.cz/ontology/crimestatistics/code/utvar/2012#> .
 
-crimestatistics-code-codelist-hash:2001 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PP ČR ÚSKPV"@cs ;
+crimestatistics-code-codelist-hash:2100 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "INSPEKCE PČR"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.2001" ;
-	rdfs:label "PP ČR ÚSKPV"@cs ;
-	.
-crimestatistics-code-codelist-hash:2002 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PČR ÚOKFK SKPV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.2002" ;
-	rdfs:label "PČR ÚOKFK SKPV"@cs ;
-	.
-crimestatistics-code-codelist-hash:2003 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PČR NPC SKPV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.2003" ;
-	rdfs:label "PČR NPC SKPV"@cs ;
-	.
-crimestatistics-code-codelist-hash:2004 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "PČR ÚOOZ SKPV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.2004" ;
-	rdfs:label "PČR ÚOOZ SKPV"@cs ;
+	skos:notation "codelist.utvar.2012.2100" ;
+	rdfs:label "INSPEKCE PČR"@cs ;
 	.
 crimestatistics-code-codelist-hash:2005 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "PČR ÚDV SKPV"@cs ;
@@ -50,11 +32,35 @@ crimestatistics-code-codelist-hash:2005 a skos:Concept, crimestatistics-code-cod
 	skos:notation "codelist.utvar.2012.2005" ;
 	rdfs:label "PČR ÚDV SKPV"@cs ;
 	.
-crimestatistics-code-codelist-hash:2100 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "INSPEKCE PČR"@cs ;
+crimestatistics-code-codelist-hash:2004 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PČR ÚOOZ SKPV"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.2100" ;
-	rdfs:label "INSPEKCE PČR"@cs ;
+	skos:notation "codelist.utvar.2012.2004" ;
+	rdfs:label "PČR ÚOOZ SKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:2003 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PČR NPC SKPV"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2012.2003" ;
+	rdfs:label "PČR NPC SKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:2002 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PČR ÚOKFK SKPV"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2012.2002" ;
+	rdfs:label "PČR ÚOKFK SKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:2001 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "PP ČR ÚSKPV"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2012.2001" ;
+	rdfs:label "PP ČR ÚSKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:0090 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "CENTRÁLNÍ ÚTVARY"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2012.0090" ;
+	rdfs:label "CENTRÁLNÍ ÚTVARY"@cs ;
 	.
 crimestatistics-code-codelist-hash:0000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy"@cs ;
@@ -711,22 +717,16 @@ crimestatistics-code-codelist-hash:0641 a skos:Concept, crimestatistics-code-cod
 	rdfs:label "Letiště Tuřany"@cs ;
 	.
 crimestatistics-code-codelist-hash:0618 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Blaškov"@cs ;
+	skos:prefLabel "Blansko - Vyškov"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2012.0618" ;
-	rdfs:label "Blaškov"@cs ;
-	.
-crimestatistics-code-codelist-hash:0040 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP P ČR PRAHA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.0040" ;
-	rdfs:label "OŘ SCP P ČR PRAHA"@cs ;
+	rdfs:label "Blansko - Vyškov"@cs ;
 	.
 crimestatistics-code-codelist-hash:0090 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2012.0090" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090"@cs ;
 	.
 crimestatistics-code-codelist-hash:0093 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0093"@cs ;
@@ -746,12 +746,6 @@ crimestatistics-code-codelist-hash:0390 a skos:Concept, crimestatistics-code-cod
 	skos:notation "codelist.utvar.2012.0390" ;
 	rdfs:label "Krajské ředitelství policie Plzeňského kraje - neznámý 0390"@cs ;
 	.
-crimestatistics-code-codelist-hash:0440 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "OŘ SCP P ČR ÚSTÍ NAD LABEM"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.0440" ;
-	rdfs:label "OŘ SCP P ČR ÚSTÍ NAD LABEM"@cs ;
-	.
 crimestatistics-code-codelist-hash:0490 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie Ústeckého kraje - neznámý 0490"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
@@ -763,6 +757,36 @@ crimestatistics-code-codelist-hash:0751 a skos:Concept, crimestatistics-code-cod
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2012.0751" ;
 	rdfs:label "Krajské ředitelství policie Moravskoslezského kraje - neznámý 0751"@cs ;
+	.
+crimestatistics-code-codelist-hash:210016 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "INSPEKCE PČR 11. ODD. BRNO"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2012.210016" ;
+	rdfs:label "INSPEKCE PČR 11. ODD. BRNO"@cs ;
+	.
+crimestatistics-code-codelist-hash:210017 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "INSPEKCE PČR 3. ODD. OSTRAVA"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2012.210017" ;
+	rdfs:label "INSPEKCE PČR 3. ODD. OSTRAVA"@cs ;
+	.
+crimestatistics-code-codelist-hash:210026 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "INSPEKCE PČR 11. ODD. JIHLAVA"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2012.210026" ;
+	rdfs:label "INSPEKCE PČR 11. ODD. JIHLAVA"@cs ;
+	.
+crimestatistics-code-codelist-hash:200400 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "ETŘ PČR ÚOOZ SKPV"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2012.200400" ;
+	rdfs:label "ETŘ PČR ÚOOZ SKPV"@cs ;
+	.
+crimestatistics-code-codelist-hash:200300 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "ETŘ PČR NPC SKPV"@cs ;
+	skos:inScheme crimestatistics-code-slash:utvar ;
+	skos:notation "codelist.utvar.2012.200300" ;
+	rdfs:label "ETŘ PČR NPC SKPV"@cs ;
 	.
 crimestatistics-code-codelist-hash:200200 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "ETŘ PČR ÚOKFK SKPV"@cs ;
@@ -793,36 +817,6 @@ crimestatistics-code-codelist-hash:200232 a skos:Concept, crimestatistics-code-c
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2012.200232" ;
 	rdfs:label "PČR ÚOKFK SKPV - EXP. Č. BUDĚJOVICE"@cs ;
-	.
-crimestatistics-code-codelist-hash:200300 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ PČR NPC SKPV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.200300" ;
-	rdfs:label "ETŘ PČR NPC SKPV"@cs ;
-	.
-crimestatistics-code-codelist-hash:200400 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ PČR ÚOOZ SKPV"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.200400" ;
-	rdfs:label "ETŘ PČR ÚOOZ SKPV"@cs ;
-	.
-crimestatistics-code-codelist-hash:210016 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "INSPEKCE PČR 11. ODD. BRNO"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.210016" ;
-	rdfs:label "INSPEKCE PČR 11. ODD. BRNO"@cs ;
-	.
-crimestatistics-code-codelist-hash:210017 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "INSPEKCE PČR 3. ODD. OSTRAVA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.210017" ;
-	rdfs:label "INSPEKCE PČR 3. ODD. OSTRAVA"@cs ;
-	.
-crimestatistics-code-codelist-hash:210026 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "INSPEKCE PČR 11. ODD. JIHLAVA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.210026" ;
-	rdfs:label "INSPEKCE PČR 11. ODD. JIHLAVA"@cs ;
 	.
 crimestatistics-code-codelist-hash:000000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "ETŘ KŘPA"@cs ;
@@ -4658,29 +4652,23 @@ crimestatistics-code-codelist-hash:001405 a skos:Concept, crimestatistics-code-c
 	skos:notation "codelist.utvar.2012.001405" ;
 	rdfs:label "ETŘ OŘP PRAHA IV."@cs ;
 	.
-crimestatistics-code-codelist-hash:004000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ OŘ SCP P ČR PRAHA"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.004000" ;
-	rdfs:label "ETŘ OŘ SCP P ČR PRAHA"@cs ;
-	.
 crimestatistics-code-codelist-hash:009019 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY - neznámý 009019"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009019"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2012.009019" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY - neznámý 009019"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009019"@cs ;
 	.
 crimestatistics-code-codelist-hash:009021 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY - neznámý 009021"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009021"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2012.009021" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY - neznámý 009021"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009021"@cs ;
 	.
 crimestatistics-code-codelist-hash:009053 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "CENTRÁLNÍ ÚTVARY - neznámý 009053"@cs ;
+	skos:prefLabel "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009053"@cs ;
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2012.009053" ;
-	rdfs:label "CENTRÁLNÍ ÚTVARY - neznámý 009053"@cs ;
+	rdfs:label "Krajské ředitelství policie hlavního města Prahy - neznámý 0090 - neznámý 009053"@cs ;
 	.
 crimestatistics-code-codelist-hash:009300 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "ETŘ PČR ŘSCP"@cs ;
@@ -4927,12 +4915,6 @@ crimestatistics-code-codelist-hash:041005 a skos:Concept, crimestatistics-code-c
 	skos:inScheme crimestatistics-code-slash:utvar ;
 	skos:notation "codelist.utvar.2012.041005" ;
 	rdfs:label "Ústí nad Labem - neznámý 041005"@cs ;
-	.
-crimestatistics-code-codelist-hash:044000 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "ETŘ OŘ SCP P ČR ÚSTÍ NAD LABEM"@cs ;
-	skos:inScheme crimestatistics-code-slash:utvar ;
-	skos:notation "codelist.utvar.2012.044000" ;
-	rdfs:label "ETŘ OŘ SCP P ČR ÚSTÍ NAD LABEM"@cs ;
 	.
 crimestatistics-code-codelist-hash:049021 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
 	skos:prefLabel "Krajské ředitelství policie Ústeckého kraje - neznámý 0490 - neznámý 049021"@cs ;

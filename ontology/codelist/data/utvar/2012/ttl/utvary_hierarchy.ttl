@@ -308,9 +308,6 @@ crimestatistics-code-codelist-hash:0641
 crimestatistics-code-codelist-hash:0618
 	skos:broader crimestatistics-code-codelist-hash:0600 ;
 	.
-crimestatistics-code-codelist-hash:0040
-	skos:broader crimestatistics-code-codelist-hash:0000 ;
-	.
 crimestatistics-code-codelist-hash:0090
 	skos:broader crimestatistics-code-codelist-hash:0000 ;
 	.
@@ -323,14 +320,26 @@ crimestatistics-code-codelist-hash:0290
 crimestatistics-code-codelist-hash:0390
 	skos:broader crimestatistics-code-codelist-hash:0300 ;
 	.
-crimestatistics-code-codelist-hash:0440
-	skos:broader crimestatistics-code-codelist-hash:0400 ;
-	.
 crimestatistics-code-codelist-hash:0490
 	skos:broader crimestatistics-code-codelist-hash:0400 ;
 	.
 crimestatistics-code-codelist-hash:0751
 	skos:broader crimestatistics-code-codelist-hash:0700 ;
+	.
+crimestatistics-code-codelist-hash:210016
+	skos:broader crimestatistics-code-codelist-hash:2100 ;
+	.
+crimestatistics-code-codelist-hash:210017
+	skos:broader crimestatistics-code-codelist-hash:2100 ;
+	.
+crimestatistics-code-codelist-hash:210026
+	skos:broader crimestatistics-code-codelist-hash:2100 ;
+	.
+crimestatistics-code-codelist-hash:200400
+	skos:broader crimestatistics-code-codelist-hash:2004 ;
+	.
+crimestatistics-code-codelist-hash:200300
+	skos:broader crimestatistics-code-codelist-hash:2003 ;
 	.
 crimestatistics-code-codelist-hash:200200
 	skos:broader crimestatistics-code-codelist-hash:2002 ;
@@ -346,21 +355,6 @@ crimestatistics-code-codelist-hash:200206
 	.
 crimestatistics-code-codelist-hash:200232
 	skos:broader crimestatistics-code-codelist-hash:2002 ;
-	.
-crimestatistics-code-codelist-hash:200300
-	skos:broader crimestatistics-code-codelist-hash:2003 ;
-	.
-crimestatistics-code-codelist-hash:200400
-	skos:broader crimestatistics-code-codelist-hash:2004 ;
-	.
-crimestatistics-code-codelist-hash:210016
-	skos:broader crimestatistics-code-codelist-hash:2100 ;
-	.
-crimestatistics-code-codelist-hash:210017
-	skos:broader crimestatistics-code-codelist-hash:2100 ;
-	.
-crimestatistics-code-codelist-hash:210026
-	skos:broader crimestatistics-code-codelist-hash:2100 ;
 	.
 crimestatistics-code-codelist-hash:000000
 	skos:broader crimestatistics-code-codelist-hash:0000 ;
@@ -2279,9 +2273,6 @@ crimestatistics-code-codelist-hash:001403
 crimestatistics-code-codelist-hash:001405
 	skos:broader crimestatistics-code-codelist-hash:0014 ;
 	.
-crimestatistics-code-codelist-hash:004000
-	skos:broader crimestatistics-code-codelist-hash:0040 ;
-	.
 crimestatistics-code-codelist-hash:009019
 	skos:broader crimestatistics-code-codelist-hash:0090 ;
 	.
@@ -2413,9 +2404,6 @@ crimestatistics-code-codelist-hash:040905
 	.
 crimestatistics-code-codelist-hash:041005
 	skos:broader crimestatistics-code-codelist-hash:0410 ;
-	.
-crimestatistics-code-codelist-hash:044000
-	skos:broader crimestatistics-code-codelist-hash:0440 ;
 	.
 crimestatistics-code-codelist-hash:049021
 	skos:broader crimestatistics-code-codelist-hash:0490 ;

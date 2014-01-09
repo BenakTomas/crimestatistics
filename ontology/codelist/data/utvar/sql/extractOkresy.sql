@@ -12,19 +12,19 @@ insert into okresy_actual(kr, ok, nazev)
 -- pouzite okresy mimo 0600 a 0700
 select sql_cache o.kr as kr, o.ok as ok, o.nazev as nazev
 from okresy o
-inner join ks_zapistc ftc on ftc.t01_kr = o.kr and ftc.t01_ok = o.ok and ftc.t01_kr not in ('20', '21', '30', '50') and o.ok <> '00'
+inner join ks_zapistc ftc on ftc.t01_kr = o.kr and ftc.t01_ok = o.ok and ftc.t01_kr not in ('20', '21', '30', '50') and o.ok not in ('00', '30', '40')
 
 union distinct
 
 select o.kr as kr, o.ok as ok, o.nazev as nazev
 from okresy o
-inner join ks_zapistc ftc on ftc.t05_kr = o.kr and ftc.t05_ok = o.ok and ftc.t05_kr not in ('20', '21', '30', '50') and o.ok <> '00'
+inner join ks_zapistc ftc on ftc.t05_kr = o.kr and ftc.t05_ok = o.ok and ftc.t05_kr not in ('20', '21', '30', '50') and o.ok not in ('00', '30', '40')
 
 union distinct
 
 select o.kr as kr, o.ok as ok, o.nazev as nazev
 from okresy o
-inner join ks_zapispa fzp on fzp.p01_kr = o.kr and fzp.p01_ok = o.ok and fzp.p01_kr not in ('20', '21', '30', '50') and o.ok <> '00';
+inner join ks_zapispa fzp on fzp.p01_kr = o.kr and fzp.p01_ok = o.ok and fzp.p01_kr not in ('20', '21', '30', '50') and o.ok not in ('00', '30', '40');
 
 -- chybejici okresy - mimo ciziny a oblastnich reditelstvi cizinecke sluzby
 insert into chybejiciOkresy(kr, ok)
@@ -33,7 +33,7 @@ insert into chybejiciOkresy(kr, ok)
         ks_zapistc ftc
     where
         not exists(select 1 from okresy o where o.kr = ftc.t01_kr and o.ok = ftc.t01_ok)
-		and ftc.t01_kr not in ('20', '21', '30', '50') and ftc.t01_ok not in ('00', '40'))
+		and ftc.t01_kr not in ('20', '21', '30', '50') and ftc.t01_ok not in ('00', '30', '40'))
 
 	union distinct
 
@@ -42,7 +42,7 @@ insert into chybejiciOkresy(kr, ok)
         ks_zapistc ftc
     where
         not exists(select 1 from okresy o where o.kr = ftc.t05_kr and o.ok = ftc.t05_ok)
-		and ftc.t05_kr not in ('20', '21', '30', '50') and ftc.t05_ok not in ('00', '40'))
+		and ftc.t05_kr not in ('20', '21', '30', '50') and ftc.t05_ok not in ('00', '30', '40'))
 
 	union distinct
     
@@ -51,7 +51,7 @@ insert into chybejiciOkresy(kr, ok)
         ks_zapispa fzp
     where
         not exists(select 1 from okresy o where o.kr = fzp.p01_kr and o.ok = fzp.p01_ok)
-		and fzp.p01_kr not in ('20', '21', '30', '50') and fzp.p01_ok not in ('00', '40'));
+		and fzp.p01_kr not in ('20', '21', '30', '50') and fzp.p01_ok not in ('00', '30', '40'));
 
 -- pridej chybejici soubory do tabulky okresy_actual
 insert into okresy_actual(kr, ok, nazev)
