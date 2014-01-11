@@ -155,10 +155,79 @@ crimestatistics-code-codelist-hash:poskozovaniCiziVeci
 
 # poškozování věřitele, zvýhodňování věřitele, pletichy při řízení konkursním a vyrovnávacím
 crimestatistics-code-codelist-hash:poskozovaniNeboZvyhodnovaniVeriteleNeboPletichyPriRizenich
+	# TSK
 	crimestatistics-code-property:klasifikaceDleNekterehoZTSK
 	[
 		TSKCollection-property:member crimestatistics-code-tsk:822 ;
 		TSKCollection-property:member crimestatistics-code-tsk:848 ;
 		TSKCollection-property:member crimestatistics-code-tsk:849 ;
+	] ;
+	.
+
+# pletichy při veřejné soutěži a veřejné dražbě
+crimestatistics-code-codelist-hash:451
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128b> .
+
+crimestatistics-code-codelist-hash:452
+	# zákony
+	crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu
+	[
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128a/3> ;
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128b> ;
+	] ;
+	.
+
+crimestatistics-code-codelist-hash:461
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128c> .
+
+crimestatistics-code-codelist-hash:462
+	# zákony
+	crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu
+	[
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128a/3> ;
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128c> ;
+	] ;
+	.
+
+crimestatistics-code-codelist-hash:pletichy_VerejnaSoutezNeboVerejnaDrazba
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:831 ;
+	.
+
+crimestatistics-code-codelist-hash:pletichy_Ostatni
+	# zákony
+	crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu
+	[
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128a/1> ;
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/128a/2> ;
+	] ;
+	.
+
+# padělání a pozměňování peněz, padělání a pozměňování známek
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek
+	crimestatistics-code-property:klasifikaceDleNekterehoZTSK
+	[
+		TSKCollection-property:member crimestatistics-code-tsk:816 ;
+		TSKCollection-property:member crimestatistics-code-tsk:817 ;
+	] ;
+	.
+
+# porušení zákazu v době nouzového stavu v devizovém hospodářství
+crimestatistics-code-codelist-hash:poruseniZakazuVDobeNouzovehoStavuVDevizovemHospodarstvi
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:890 ;
+	# zákon
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/146> ;
+	.
+
+# neodvedení nebo zkrácení daně a cla
+crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla
+	# TSK
+	crimestatistics-code-property:klasifikaceDleNekterehoZTSK
+	[
+		TSKCollection-property:member crimestatistics-code-tsk:819 ;
+		TSKCollection-property:member crimestatistics-code-tsk:886 ;
 	] ;
 	.

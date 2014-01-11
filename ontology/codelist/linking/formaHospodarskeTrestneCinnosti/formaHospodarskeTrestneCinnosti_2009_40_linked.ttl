@@ -151,3 +151,83 @@ crimestatistics-code-codelist-hash:poskozovaniNeboZvyhodnovaniVeriteleNeboPletic
 		TSKCollection-property:member crimestatistics-code-tsk:849 ;
 	] ;
 	.
+
+# pletichy při veřejné soutěži a veřejné dražbě
+crimestatistics-code-codelist-hash:451
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+		<http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/257> .
+
+crimestatistics-code-codelist-hash:452
+	# zákony
+	crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu
+	[
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/256/3> ;
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/256/4> ;
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/257> ;
+	] ;
+	.
+
+crimestatistics-code-codelist-hash:453
+	# zákony
+	crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu
+	[
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/256/1> ;
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/256/2> ;
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/257> ;
+	] ;
+	.
+
+crimestatistics-code-codelist-hash:461
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+		<http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/258> .
+
+crimestatistics-code-codelist-hash:462
+	# zákony
+	crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu
+	[
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/256/3> ;
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/256/4> ;
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/258> ;
+	] ;
+	.
+
+crimestatistics-code-codelist-hash:463
+	# zákony
+	crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu
+	[
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/256/1> ;
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/256/2> ;
+	] ;
+	.
+
+crimestatistics-code-codelist-hash:pletichy_VerejnaSoutezNeboVerejnaDrazba
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:831 ;
+	.
+
+# padělání a pozměňování peněz, padělání a pozměňování známek
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek
+	crimestatistics-code-property:klasifikaceDleNekterehoZTSK
+	[
+		TSKCollection-property:member crimestatistics-code-tsk:816 ;
+		TSKCollection-property:member crimestatistics-code-tsk:817 ;
+	] ;
+	.
+
+# porušení zákazu v době nouzového stavu v devizovém hospodářství
+crimestatistics-code-codelist-hash:poruseniZakazuVDobeNouzovehoStavuVDevizovemHospodarstvi
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:890 ;
+	# zákon
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona <http://linked.opendata.cz/resource/legislation/cz/act/2009/40/section/247> ;
+	.
+
+# neodvedení nebo zkrácení daně a cla
+crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla
+	# TSK
+	crimestatistics-code-property:klasifikaceDleNekterehoZTSK
+	[
+		TSKCollection-property:member crimestatistics-code-tsk:819 ;
+		TSKCollection-property:member crimestatistics-code-tsk:886 ;
+	] ;
+	.

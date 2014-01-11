@@ -1198,6 +1198,7 @@ crimestatistics-code-codelist-hash:nekalaSoutez a skos:Concept, crimestatistics-
 	rdfs:label "nekalá soutěž"@cs ;
 	rdfs:comment ""@cs ;
 	skos:narrower
+		crimestatistics-code-codelist-hash:580,
 		crimestatistics-code-codelist-hash:581,
 		crimestatistics-code-codelist-hash:582,
 		crimestatistics-code-codelist-hash:583,
@@ -1262,4 +1263,290 @@ crimestatistics-code-codelist-hash:poskozovaniNeboZvyhodnovaniVeriteleNeboPletic
 		crimestatistics-code-codelist-hash:621,
 		crimestatistics-code-codelist-hash:622,
 		crimestatistics-code-codelist-hash:623 ;
+	.
+
+# pletichy při veřejné soutěži a veřejné dražbě
+crimestatistics-code-codelist-hash:pletichy_VerejnaSoutezNeboVerejnaDrazba a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pletichy při veřejné soutěži a veřejné dražbě"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:pletichy_VerejnaSoutez,
+		crimestatistics-code-codelist-hash:pletichy_VerejnaDrazba,
+		
+		crimestatistics-code-codelist-hash:pletichy_VyuzitiNasiliNeboLsti,
+		crimestatistics-code-codelist-hash:pletichy_Podplaceni,
+		crimestatistics-code-codelist-hash:pletichy_Ostatni ;
+	.
+
+crimestatistics-code-codelist-hash:pletichy_VerejnaSoutez a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pletichy při veřejné soutěži"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:451,
+		crimestatistics-code-codelist-hash:452,
+		crimestatistics-code-codelist-hash:453 ;
+	.
+
+crimestatistics-code-codelist-hash:pletichy_VerejnaDrazba a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pletichy při veřejné dražbě"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:461,
+		crimestatistics-code-codelist-hash:462,
+		crimestatistics-code-codelist-hash:463 ;
+	.
+
+crimestatistics-code-codelist-hash:pletichy_VyuzitiNasiliNeboLsti a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pletichy při veřejné soutěži a veřejné dražbě - s využitím násilí nebo lsti"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:451,
+		crimestatistics-code-codelist-hash:461 ;
+	.
+
+crimestatistics-code-codelist-hash:pletichy_Podplaceni a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pletichy při veřejné soutěži a veřejné dražbě - podplácení"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:452,
+		crimestatistics-code-codelist-hash:462 ;
+	.
+
+crimestatistics-code-codelist-hash:pletichy_Ostatni a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pletichy při veřejné soutěži a veřejné dražbě - ostatní"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:453,
+		crimestatistics-code-codelist-hash:463 ;
+	.
+
+# padělání a pozměňování peněz, padělání a pozměňování známek
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_padelani,
+		crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_pozmenovani,
+		
+		crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Tisk,
+		crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Foto,
+		crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Kresleni,
+		crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Razba,
+		crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Liti,
+		crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_GalvanickeZpracovani,
+		crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Reprotechnika,
+		crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_VypocetniTechnika,
+		crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Jinak ;
+	.
+
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_padelani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek - padělání"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:471,
+		crimestatistics-code-codelist-hash:472,
+		crimestatistics-code-codelist-hash:473,
+		crimestatistics-code-codelist-hash:474,
+		crimestatistics-code-codelist-hash:475,
+		crimestatistics-code-codelist-hash:476,
+		crimestatistics-code-codelist-hash:477,
+		crimestatistics-code-codelist-hash:478,
+		crimestatistics-code-codelist-hash:479 ;
+	.
+
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_pozmenovani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek - pozměňování"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:481,
+		crimestatistics-code-codelist-hash:482,
+		crimestatistics-code-codelist-hash:483,
+		crimestatistics-code-codelist-hash:484,
+		crimestatistics-code-codelist-hash:485,
+		crimestatistics-code-codelist-hash:486,
+		crimestatistics-code-codelist-hash:487,
+		crimestatistics-code-codelist-hash:488,
+		crimestatistics-code-codelist-hash:489 ;
+	.
+
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Tisk a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek - tisk"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:471,
+		crimestatistics-code-codelist-hash:481 ;
+	.
+
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Foto a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek - foto"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:472,
+		crimestatistics-code-codelist-hash:482 ;
+	.
+
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Kresleni a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek - kreslení"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:473,
+		crimestatistics-code-codelist-hash:483 ;
+	.
+
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Razba a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek - ražba"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:474,
+		crimestatistics-code-codelist-hash:484 ;
+	.
+
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Liti a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek - lití"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:475,
+		crimestatistics-code-codelist-hash:485 ;
+	.
+
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_GalvanickeZpracovani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek - galvanické zpracování"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:476,
+		crimestatistics-code-codelist-hash:486 ;
+	.
+
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Reprotechnika a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek - reprotechnika"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:477,
+		crimestatistics-code-codelist-hash:487 ;
+	.
+
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_VypocetniTechnika a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek - pomoci prostředků výpočetní techniky"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:479,
+		crimestatistics-code-codelist-hash:489 ;
+	.
+
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniPenezAZnamek_Jinak a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování peněz a známek - jinak"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:478,
+		crimestatistics-code-codelist-hash:488 ;
+	.
+
+# porušení zákazu v době nouzového stavu v devizovém hospodářství
+crimestatistics-code-codelist-hash:poruseniZakazuVDobeNouzovehoStavuVDevizovemHospodarstvi a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušení zákazu v době nouzového stavu v devizovém hospodářství"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:poruseniZakazuVDobeNouzovehoStavuVDevizovemHospodarstvi_nesplneniPovinnosti,
+		crimestatistics-code-codelist-hash:poruseniZakazuVDobeNouzovehoStavuVDevizovemHospodarstvi_valutyADevizy,
+		crimestatistics-code-codelist-hash:504,
+		crimestatistics-code-codelist-hash:506 ;
+	.
+
+crimestatistics-code-codelist-hash:poruseniZakazuVDobeNouzovehoStavuVDevizovemHospodarstvi_nesplneniPovinnosti a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušení zákazu v době nouzového stavu v devizovém hospodářství - nesplnění povinnosti"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:poruseniZakazuVDobeNouzovehoStavuVDevizovemHospodarstvi_nesplneniNabidkovePovinnosti,
+		crimestatistics-code-codelist-hash:503 ;
+	.
+
+crimestatistics-code-codelist-hash:poruseniZakazuVDobeNouzovehoStavuVDevizovemHospodarstvi_nesplneniNabidkovePovinnosti a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušení zákazu v době nouzového stavu v devizovém hospodářství - nesplnění nabídkové povinnosti"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:501,
+		crimestatistics-code-codelist-hash:502 ;
+	.
+
+crimestatistics-code-codelist-hash:poruseniZakazuVDobeNouzovehoStavuVDevizovemHospodarstvi_valutyADevizy a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušení zákazu v době nouzového stavu v devizovém hospodářství - valuty a devizy"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:501,
+		crimestatistics-code-codelist-hash:505 ;
+	.
+
+# neodvedení nebo zkrácení daně a cla
+crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neodvedení nebo zkrácení daně a cla"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_DanZPrijmu,
+		crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_SpotrebniDan,
+		crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_DPH,
+		crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_PlaceniZdravotnihoNeboSocialnihoPojisteni,
+		crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_Clo,
+		crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_ZiskaniNeopravneneVyhody ;
+	.
+
+crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_DanZPrijmu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neodvedení nebo zkrácení daně a cla - daň z příjmu"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:516,
+		crimestatistics-code-codelist-hash:517,
+		crimestatistics-code-codelist-hash:518,
+		crimestatistics-code-codelist-hash:541 ;
+	.
+
+crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_SpotrebniDan a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neodvedení nebo zkrácení daně a cla - spotřební daň"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:526,
+		crimestatistics-code-codelist-hash:527,
+		crimestatistics-code-codelist-hash:528,
+		crimestatistics-code-codelist-hash:529,
+		crimestatistics-code-codelist-hash:543 ;
+	.
+
+crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_DPH a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neodvedení nebo zkrácení daně a cla - DPH"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:532,
+		crimestatistics-code-codelist-hash:535,
+		crimestatistics-code-codelist-hash:536,
+		crimestatistics-code-codelist-hash:537,
+		crimestatistics-code-codelist-hash:542 ;
+	.
+
+crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_PlaceniZdravotnihoNeboSocialnihoPojisteni a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neodvedení nebo zkrácení daně a cla - v souvislosti s placením pojistného na zdravotní pojištění, sociální zabezpečení a státní politiku zaměstnanosti"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:541,
+		crimestatistics-code-codelist-hash:542,
+		crimestatistics-code-codelist-hash:543,
+		crimestatistics-code-codelist-hash:544 ;
+	.
+
+crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_Clo a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neodvedení nebo zkrácení daně a cla - clo"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:550,
+		crimestatistics-code-codelist-hash:551,
+		crimestatistics-code-codelist-hash:552,
+		crimestatistics-code-codelist-hash:553 ;
+	.
+
+crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_ZiskaniNeopravneneVyhody a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neodvedení nebo zkrácení daně a cla - získání neoprávněné výhody"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:515,
+		crimestatistics-code-codelist-hash:518,
+		crimestatistics-code-codelist-hash:536,
+		crimestatistics-code-codelist-hash:537 ;
 	.
