@@ -1,0 +1,1226 @@
+# Standardní prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx:    <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-concept:    <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-attribute:  <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-measure:    <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-metadata:   <http://purl.org/linked-data/sdmx/2009/metadata#> .
+@prefix sdmx-code:       <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix sdmx-subject:    <http://purl.org/linked-data/sdmx/2009/subject#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+# Vlastní prefixy
+@prefix crimestatistics-code-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/> .
+@prefix crimestatistics-code-codelist-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_Forma/> .
+@prefix crimestatistics-code-codelist-hash: <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_Forma/2009/40#> .
+@prefix crimestatistics-code-codelist-class: <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_Forma/class#> .
+@prefix crimestatistics-code-codelist-property: <http://linked.opendata.cz/ontology/crimestatistics/code/hospodarskaKriminalita_Forma/property#> .
+
+# 118: neoprávněné podnikání
+crimestatistics-code-codelist-hash:neopravnenePodnikani_prodejNeboSireniProgramuADatabazi a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání - prodej nebo šíření cizích programů a databází"@cs ;
+	rdfs:comment ""@cs ;
+
+	# 2) definice hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:031,
+		crimestatistics-code-codelist-hash:032,
+		crimestatistics-code-codelist-hash:033,
+		crimestatistics-code-codelist-hash:034,
+		crimestatistics-code-codelist-hash:035,
+		crimestatistics-code-codelist-hash:036 ;
+	.
+
+# neoprávněná obchodní činnost
+crimestatistics-code-codelist-hash:neopravnenePodnikani_obchodniCinnost a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání - obchodní činnost"@cs ;
+	rdfs:comment ""@cs ;
+
+	# 2) definice hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:041,
+		crimestatistics-code-codelist-hash:042,
+		crimestatistics-code-codelist-hash:043,
+		crimestatistics-code-codelist-hash:044,
+		crimestatistics-code-codelist-hash:045,
+		crimestatistics-code-codelist-hash:046 ;
+	.
+
+crimestatistics-code-codelist-hash:neopravnenePodnikani_poskytovaniSluzeb a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání - poskytování služeb"@cs ;
+	rdfs:comment ""@cs ;
+
+	# 2) definice hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:051,
+		crimestatistics-code-codelist-hash:052,
+		crimestatistics-code-codelist-hash:053,
+		crimestatistics-code-codelist-hash:054,
+		crimestatistics-code-codelist-hash:055,
+		crimestatistics-code-codelist-hash:056 ;
+	.
+
+crimestatistics-code-codelist-hash:neopravnenePodnikani_vyrobniCinnost a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání - výrobní činnost"@cs ;
+	rdfs:comment ""@cs ;
+
+	# 2) definice hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:061,
+		crimestatistics-code-codelist-hash:062,
+		crimestatistics-code-codelist-hash:063,
+		crimestatistics-code-codelist-hash:064,
+		crimestatistics-code-codelist-hash:065,
+		crimestatistics-code-codelist-hash:066 ;
+	.
+
+crimestatistics-code-codelist-hash:neopravnenePodnikani_jineVydelecnePodnikani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání - jiné výdělečné podnikání"@cs ;
+	rdfs:comment ""@cs ;
+
+	# 2) definice hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:071,
+		crimestatistics-code-codelist-hash:072,
+		crimestatistics-code-codelist-hash:073,
+		crimestatistics-code-codelist-hash:074,
+		crimestatistics-code-codelist-hash:075,
+		crimestatistics-code-codelist-hash:076 ;
+	.
+
+crimestatistics-code-codelist-hash:neopravnenePodnikani_bezOpravneni a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání - bez oprávnění"@cs ;
+	rdfs:comment ""@cs ;
+
+	# 2) definice hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:031,
+		crimestatistics-code-codelist-hash:041,
+		crimestatistics-code-codelist-hash:051,
+		crimestatistics-code-codelist-hash:061,
+		crimestatistics-code-codelist-hash:071 ;
+	.
+
+crimestatistics-code-codelist-hash:neopravnenePodnikani_neplatneOpravneni a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání - na základě neplatného oprávnění"@cs ;
+	rdfs:comment ""@cs ;
+
+	# 2) definice hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:032,
+		crimestatistics-code-codelist-hash:042,
+		crimestatistics-code-codelist-hash:052,
+		crimestatistics-code-codelist-hash:062,
+		crimestatistics-code-codelist-hash:072 ;
+	.
+
+crimestatistics-code-codelist-hash:neopravnenePodnikani_nadRozsahOpravneni a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání - nad rozsah vydaného oprávnění"@cs ;
+	rdfs:comment ""@cs ;
+
+	# 2) definice hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:033,
+		crimestatistics-code-codelist-hash:043,
+		crimestatistics-code-codelist-hash:053,
+		crimestatistics-code-codelist-hash:063,
+		crimestatistics-code-codelist-hash:073 ;
+	.
+
+crimestatistics-code-codelist-hash:neopravnenePodnikani_poZruseniOpravneni a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání - po zrušení oprávnění"@cs ;
+	rdfs:comment ""@cs ;
+
+	# 2) definice hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:034,
+		crimestatistics-code-codelist-hash:044,
+		crimestatistics-code-codelist-hash:054,
+		crimestatistics-code-codelist-hash:064,
+		crimestatistics-code-codelist-hash:074 ;
+	.
+
+crimestatistics-code-codelist-hash:neopravnenePodnikani_bezLicence a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání - bez potřebné licence"@cs ;
+	rdfs:comment ""@cs ;
+
+	# 2) definice hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:035,
+		crimestatistics-code-codelist-hash:045,
+		crimestatistics-code-codelist-hash:055,
+		crimestatistics-code-codelist-hash:065,
+		crimestatistics-code-codelist-hash:075 ;
+	.
+
+crimestatistics-code-codelist-hash:neopravnenePodnikani_zneuzitiJmenaJinehoPodnikatele a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání - se zneužitím jména jiného podnikatele"@cs ;
+	rdfs:comment ""@cs ;
+
+	# 2) definice hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:036,
+		crimestatistics-code-codelist-hash:046,
+		crimestatistics-code-codelist-hash:056,
+		crimestatistics-code-codelist-hash:066,
+		crimestatistics-code-codelist-hash:076 ;
+	.
+
+# neoprávněné podnikání
+crimestatistics-code-codelist-hash:neopravnenePodnikani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné podnikání"@cs ;
+	rdfs:comment ""@cs ;
+	# hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:neopravnenePodnikani_prodejNeboSireniProgramuADatabazi,
+		crimestatistics-code-codelist-hash:neopravnenePodnikani_obchodniCinnost,
+		crimestatistics-code-codelist-hash:neopravnenePodnikani_poskytovaniSluzeb,
+		crimestatistics-code-codelist-hash:neopravnenePodnikani_vyrobniCinnost,
+		crimestatistics-code-codelist-hash:neopravnenePodnikani_jineVydelecnePodnikani,
+		crimestatistics-code-codelist-hash:neopravnenePodnikani_bezOpravneni,
+		crimestatistics-code-codelist-hash:neopravnenePodnikani_neplatneOpravneni,
+		crimestatistics-code-codelist-hash:neopravnenePodnikani_nadRozsahOpravneni,
+		crimestatistics-code-codelist-hash:neopravnenePodnikani_poZruseniOpravneni,
+		crimestatistics-code-codelist-hash:neopravnenePodnikani_bezLicence,
+		crimestatistics-code-codelist-hash:neopravnenePodnikani_zneuzitiJmenaJinehoPodnikatele ;
+	.
+
+# POŠKOZOVÁNÍ VĚŘITELE
+crimestatistics-code-codelist-hash:poskozovaniSpotrebitele a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "poškozování spotřebitele"@cs ;
+	rdfs:comment ""@cs ;
+	# hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:092,
+		crimestatistics-code-codelist-hash:093,
+		crimestatistics-code-codelist-hash:094 ;
+	.
+
+# PAŠOVÁNÍ
+crimestatistics-code-codelist-hash:pasovani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou (pašování)"@cs ;
+	rdfs:comment ""@cs ;
+	# hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:pasovani_Dovoz,
+		crimestatistics-code-codelist-hash:pasovani_Vyvoz,
+		crimestatistics-code-codelist-hash:pasovani_Pruvoz,
+		
+		crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu,
+		crimestatistics-code-codelist-hash:pasovani_ProPodnikani,
+		crimestatistics-code-codelist-hash:pasovani_KObchodovani,
+		
+		crimestatistics-code-codelist-hash:pasovani_VUkrytu,
+		crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady,
+		crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance,
+		crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod ;
+	
+	skos:isTopConceptOf crimestatistics-code-slash:hospodarskaKriminalita_Forma ;
+	.
+
+# PAŠOVÁNÍ - DOVOZ
+crimestatistics-code-codelist-hash:pasovani_Dovoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - dovoz"@cs ;
+	rdfs:comment ""@cs ;
+	# hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:pasovani_Dovoz_ProOsobniPotrebu,
+		crimestatistics-code-codelist-hash:pasovani_Dovoz_ProPodnikani,
+		crimestatistics-code-codelist-hash:pasovani_Dovoz_KObchodovani,
+		
+		crimestatistics-code-codelist-hash:pasovani_Dovoz_VUkrytu,
+		crimestatistics-code-codelist-hash:pasovani_Dovoz_SFalesnymiDoklady,
+		crimestatistics-code-codelist-hash:pasovani_Dovoz_VMrtveSchrance,
+		crimestatistics-code-codelist-hash:pasovani_Dovoz_MimoHranicniPrechod ;
+	.
+	
+	# PAŠOVÁNÍ - DOVOZ - PRO OSOBNÍ POTŘEBU
+	crimestatistics-code-codelist-hash:pasovani_Dovoz_ProOsobniPotrebu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - dovoz - pro osobní potřebu"@cs ;
+		rdfs:comment ""@cs ;
+		# hierarchie
+		skos:narrower
+			crimestatistics-code-codelist-hash:111,
+			crimestatistics-code-codelist-hash:112,
+			crimestatistics-code-codelist-hash:113,
+			crimestatistics-code-codelist-hash:114 ;
+		.
+	
+	# PAŠOVÁNÍ - DOVOZ - PRO PODNIKÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_Dovoz_ProPodnikani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - dovoz - pro podnikání"@cs ;
+		rdfs:comment ""@cs ;
+		# hierarchie
+		skos:narrower
+			crimestatistics-code-codelist-hash:121,
+			crimestatistics-code-codelist-hash:122,
+			crimestatistics-code-codelist-hash:123,
+			crimestatistics-code-codelist-hash:124 ;
+		.
+	
+	# PAŠOVÁNÍ - DOVOZ - PRO OSOBNÍ POTŘEBU
+	crimestatistics-code-codelist-hash:pasovani_Dovoz_KObchodovani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - dovoz - k obchodování"@cs ;
+		rdfs:comment ""@cs ;
+		# hierarchie
+		skos:narrower
+			crimestatistics-code-codelist-hash:131,
+			crimestatistics-code-codelist-hash:132,
+			crimestatistics-code-codelist-hash:133,
+			crimestatistics-code-codelist-hash:134 ;
+		.
+	
+	# PAŠOVÁNÍ - DOVOZ - V ÚKRYTU
+	crimestatistics-code-codelist-hash:pasovani_Dovoz_VUkrytu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - dovoz - v úkrytu"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:111,
+			crimestatistics-code-codelist-hash:121,
+			crimestatistics-code-codelist-hash:131;
+		.
+	# PAŠOVÁNÍ - DOVOZ - S FALEŠNÝMI DOKLADY
+	crimestatistics-code-codelist-hash:pasovani_Dovoz_SFalesnymiDoklady a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - dovoz - s falešnými doklady"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:112,
+			crimestatistics-code-codelist-hash:122,
+			crimestatistics-code-codelist-hash:132;
+		.
+	# PAŠOVÁNÍ - DOVOZ - V MRTVÉ SCHRÁNCE
+	crimestatistics-code-codelist-hash:pasovani_Dovoz_VMrtveSchrance a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - dovoz - v mrtvé schránce"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:113,
+			crimestatistics-code-codelist-hash:123,
+			crimestatistics-code-codelist-hash:133;
+		.
+	# PAŠOVÁNÍ - DOVOZ - MIMO HRANIČNÍ PŘECHOD
+	crimestatistics-code-codelist-hash:pasovani_Dovoz_MimoHranicniPrechod a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - dovoz - v mimo hraniční přechod"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:114,
+			crimestatistics-code-codelist-hash:124,
+			crimestatistics-code-codelist-hash:134;
+		.
+
+# PAŠOVÁNÍ - VÝVOZ
+crimestatistics-code-codelist-hash:pasovani_Vyvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - vývoz"@cs ;
+	rdfs:comment ""@cs ;
+	# hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:pasovani_Vyvoz_ProOsobniPotrebu,
+		crimestatistics-code-codelist-hash:pasovani_Vyvoz_ProPodnikani,
+		crimestatistics-code-codelist-hash:pasovani_Vyvoz_KObchodovani,
+		
+		crimestatistics-code-codelist-hash:pasovani_Vyvoz_VUkrytu,
+		crimestatistics-code-codelist-hash:pasovani_Vyvoz_SFalesnymiDoklady,
+		crimestatistics-code-codelist-hash:pasovani_Vyvoz_VMrtveSchrance,
+		crimestatistics-code-codelist-hash:pasovani_Vyvoz_MimoHranicniPrechod ;
+	.
+	
+	# PAŠOVÁNÍ - VÝVOZ - PRO OSOBNÍ POTŘEBU
+	crimestatistics-code-codelist-hash:pasovani_Vyvoz_ProOsobniPotrebu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - vývoz - pro osobní potřebu"@cs ;
+		rdfs:comment ""@cs ;
+		# hierarchie
+		skos:narrower
+			crimestatistics-code-codelist-hash:211,
+			crimestatistics-code-codelist-hash:212,
+			crimestatistics-code-codelist-hash:213,
+			crimestatistics-code-codelist-hash:214 ;
+		.
+	
+	# PAŠOVÁNÍ - VÝVOZ - PRO PODNIKÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_Vyvoz_ProPodnikani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - vývoz - pro podnikání"@cs ;
+		rdfs:comment ""@cs ;
+		# hierarchie
+		skos:narrower
+			crimestatistics-code-codelist-hash:221,
+			crimestatistics-code-codelist-hash:222,
+			crimestatistics-code-codelist-hash:223,
+			crimestatistics-code-codelist-hash:224 ;
+		.
+	
+	# PAŠOVÁNÍ - VÝVOZ - K OBCHODOVÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_Vyvoz_KObchodovani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - vývoz - k obchodování"@cs ;
+		rdfs:comment ""@cs ;
+		# hierarchie
+		skos:narrower
+			crimestatistics-code-codelist-hash:231,
+			crimestatistics-code-codelist-hash:232,
+			crimestatistics-code-codelist-hash:233,
+			crimestatistics-code-codelist-hash:234 ;
+		.
+	
+	# PAŠOVÁNÍ - VÝVOZ - V ÚKRYTU
+	crimestatistics-code-codelist-hash:pasovani_Vyvoz_VUkrytu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - vývoz - v úkrytu"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:211,
+			crimestatistics-code-codelist-hash:221,
+			crimestatistics-code-codelist-hash:231;
+		.
+	# PAŠOVÁNÍ - VÝVOZ - S FALEŠNÝMI DOKLADY
+	crimestatistics-code-codelist-hash:pasovani_Vyvoz_SFalesnymiDoklady a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - vývoz - s falešnými doklady"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:212,
+			crimestatistics-code-codelist-hash:222,
+			crimestatistics-code-codelist-hash:232;
+		.
+	# PAŠOVÁNÍ - VÝVOZ - V MRTVÉ SCHRÁNCE
+	crimestatistics-code-codelist-hash:pasovani_Vyvoz_VMrtveSchrance a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - vývoz - v mrtvé schránce"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:213,
+			crimestatistics-code-codelist-hash:223,
+			crimestatistics-code-codelist-hash:233;
+		.
+	# PAŠOVÁNÍ - VÝVOZ - MIMO HRANIČNÍ PŘECHOD
+	crimestatistics-code-codelist-hash:pasovani_Vyvoz_MimoHranicniPrechod a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - vývoz - v mimo hraniční přechod"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:214,
+			crimestatistics-code-codelist-hash:224,
+			crimestatistics-code-codelist-hash:234;
+		.
+
+# PAŠOVÁNÍ - PRŮVOZ
+crimestatistics-code-codelist-hash:pasovani_Pruvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - průvoz"@cs ;
+	rdfs:comment ""@cs ;
+	# hierarchie
+	skos:narrower
+		crimestatistics-code-codelist-hash:pasovani_Pruvoz_ProOsobniPotrebu,
+		crimestatistics-code-codelist-hash:pasovani_Pruvoz_ProPodnikani,
+		crimestatistics-code-codelist-hash:pasovani_Pruvoz_KObchodovani,
+		
+		crimestatistics-code-codelist-hash:pasovani_Pruvoz_VUkrytu,
+		crimestatistics-code-codelist-hash:pasovani_Pruvoz_SFalesnymiDoklady,
+		crimestatistics-code-codelist-hash:pasovani_Pruvoz_VMrtveSchrance,
+		crimestatistics-code-codelist-hash:pasovani_Pruvoz_MimoHranicniPrechod ;
+	.
+	
+	# PAŠOVÁNÍ - PRŮVOZ - PRO OSOBNÍ POTŘEBU
+	crimestatistics-code-codelist-hash:pasovani_Pruvoz_ProOsobniPotrebu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - průvoz - pro osobní potřebu"@cs ;
+		rdfs:comment ""@cs ;
+		# hierarchie
+		skos:narrower
+			crimestatistics-code-codelist-hash:311,
+			crimestatistics-code-codelist-hash:312,
+			crimestatistics-code-codelist-hash:313,
+			crimestatistics-code-codelist-hash:314 ;
+		.
+	
+	# PAŠOVÁNÍ - PRŮVOZ - PRO PODNIKÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_Pruvoz_ProPodnikani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - průvoz - pro podnikání"@cs ;
+		rdfs:comment ""@cs ;
+		# hierarchie
+		skos:narrower
+			crimestatistics-code-codelist-hash:321,
+			crimestatistics-code-codelist-hash:322,
+			crimestatistics-code-codelist-hash:323,
+			crimestatistics-code-codelist-hash:324 ;
+		.
+	
+	# PAŠOVÁNÍ - PRŮVOZ - K OBCHODOVÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_Pruvoz_KObchodovani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - průvoz - k obchodování"@cs ;
+		rdfs:comment ""@cs ;
+		# hierarchie
+		skos:narrower
+			crimestatistics-code-codelist-hash:331,
+			crimestatistics-code-codelist-hash:332,
+			crimestatistics-code-codelist-hash:333,
+			crimestatistics-code-codelist-hash:334 ;
+		.
+	
+	# PAŠOVÁNÍ - PRŮVOZ - V ÚKRYTU
+	crimestatistics-code-codelist-hash:pasovani_Pruvoz_VUkrytu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - průvoz - v úkrytu"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:311,
+			crimestatistics-code-codelist-hash:321,
+			crimestatistics-code-codelist-hash:331;
+		.
+	# PAŠOVÁNÍ - PRŮVOZ - S FALEŠNÝMI DOKLADY
+	crimestatistics-code-codelist-hash:pasovani_Pruvoz_SFalesnymiDoklady a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - průvoz - s falešnými doklady"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:312,
+			crimestatistics-code-codelist-hash:322,
+			crimestatistics-code-codelist-hash:332;
+		.
+	# PAŠOVÁNÍ - PRŮVOZ - V MRTVÉ SCHRÁNCE
+	crimestatistics-code-codelist-hash:pasovani_Pruvoz_VMrtveSchrance a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - průvoz - v mrtvé schránce"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:313,
+			crimestatistics-code-codelist-hash:323,
+			crimestatistics-code-codelist-hash:333;
+		.
+	# PAŠOVÁNÍ - PRŮVOZ - MIMO HRANIČNÍ PŘECHOD
+	crimestatistics-code-codelist-hash:pasovani_Pruvoz_MimoHranicniPrechod a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - průvoz - v mimo hraniční přechod"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:314,
+			crimestatistics-code-codelist-hash:324,
+			crimestatistics-code-codelist-hash:334;
+		.
+
+# PAŠOVÁNÍ - PRO OSOBNÍ POTŘEBU
+crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro osobní potřebu"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_VUkrytu,
+			crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_SFalesnymiDoklady,
+			crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_VMrtveSchrance,
+			crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_MimoHranicniPrechod,
+			
+			crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_Dovoz,
+			crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_Vyvoz,
+			crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_Pruvoz ;
+		.
+
+	# PAŠOVÁNÍ - PRO OSOBNÍ POTŘEBU - V ÚKRYTU
+	crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_VUkrytu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro osobní potřebu - v úkrytu"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:111,
+			crimestatistics-code-codelist-hash:211,
+			crimestatistics-code-codelist-hash:311 ;
+		.
+	# PAŠOVÁNÍ - PRO OSOBNÍ POTŘEBU - S FALEŠNÝMI DOKLADY
+	crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_SFalesnymiDoklady a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro osobní potřebu - s falešnými doklady"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:112,
+			crimestatistics-code-codelist-hash:212,
+			crimestatistics-code-codelist-hash:312 ;
+		.
+	# PAŠOVÁNÍ - PRO OSOBNÍ POTŘEBU - V MRTVÉ SCHRÁNCE
+	crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_VMrtveSchrance a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro osobní potřebu - v mrtvé schránce"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:113,
+			crimestatistics-code-codelist-hash:213,
+			crimestatistics-code-codelist-hash:313 ;
+		.
+	# PAŠOVÁNÍ - PRO OSOBNÍ POTŘEBU - MIMO HRANIČNÍ PŘECHOD
+	crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_MimoHranicniPrechod a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro osobní potřebu - mimo hraniční přechod"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:114,
+			crimestatistics-code-codelist-hash:214,
+			crimestatistics-code-codelist-hash:314 ;
+		.
+# PAŠOVÁNÍ - PRO PODNIKÁNÍ
+crimestatistics-code-codelist-hash:pasovani_ProPodnikani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro podnikání"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:pasovani_ProPodnikani_VUkrytu,
+			crimestatistics-code-codelist-hash:pasovani_ProPodnikani_SFalesnymiDoklady,
+			crimestatistics-code-codelist-hash:pasovani_ProPodnikani_VMrtveSchrance,
+			crimestatistics-code-codelist-hash:pasovani_ProPodnikani_MimoHranicniPrechod,
+			
+			crimestatistics-code-codelist-hash:pasovani_ProPodnikani_Dovoz,
+			crimestatistics-code-codelist-hash:pasovani_ProPodnikani_Vyvoz,
+			crimestatistics-code-codelist-hash:pasovani_ProPodnikani_Pruvoz ;
+		.
+	# PAŠOVÁNÍ - PRO PODNIKÁNÍ - V ÚKRYTU
+	crimestatistics-code-codelist-hash:pasovani_ProPodnikani_VUkrytu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro podnikání - v úkrytu"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:121,
+			crimestatistics-code-codelist-hash:221,
+			crimestatistics-code-codelist-hash:321 ;
+		.
+	# PAŠOVÁNÍ - PRO PODNIKÁNÍ - S FALEŠNÝMI DOKLADY
+	crimestatistics-code-codelist-hash:pasovani_ProPodnikani_SFalesnymiDoklady a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro podnikání - s falešnými doklady"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:122,
+			crimestatistics-code-codelist-hash:222,
+			crimestatistics-code-codelist-hash:322 ;
+		.
+	# PAŠOVÁNÍ - PRO PODNIKÁNÍ - V MRTVÉ SCHRÁNCE
+	crimestatistics-code-codelist-hash:pasovani_ProPodnikani_VMrtveSchrance a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro podnikání - v mrtvé schránce"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:123,
+			crimestatistics-code-codelist-hash:223,
+			crimestatistics-code-codelist-hash:323 ;
+		.
+	# PAŠOVÁNÍ - PRO PODNIKÁNÍ - MIMO HRANIČNÍ PŘECHOD
+	crimestatistics-code-codelist-hash:pasovani_ProPodnikani_MimoHranicniPrechod a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro podnikání - mimo hraniční přechod"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:124,
+			crimestatistics-code-codelist-hash:224,
+			crimestatistics-code-codelist-hash:324 ;
+		.
+# PAŠOVÁNÍ - K OBCHODOVÁNÍ
+crimestatistics-code-codelist-hash:pasovani_KObchodovani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro podnikání"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:pasovani_KObchodovani_VUkrytu,
+			crimestatistics-code-codelist-hash:pasovani_KObchodovani_SFalesnymiDoklady,
+			crimestatistics-code-codelist-hash:pasovani_KObchodovani_VMrtveSchrance,
+			crimestatistics-code-codelist-hash:pasovani_KObchodovani_MimoHranicniPrechod,
+			
+			crimestatistics-code-codelist-hash:pasovani_KObchodovani_Dovoz,
+			crimestatistics-code-codelist-hash:pasovani_KObchodovani_Vyvoz,
+			crimestatistics-code-codelist-hash:pasovani_KObchodovani_Pruvoz ;
+		.
+
+	# PAŠOVÁNÍ - K OBCHODOVÁNÍ - V ÚKRYTU
+	crimestatistics-code-codelist-hash:pasovani_KObchodovani_VUkrytu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - k obchodování - v úkrytu"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:131,
+			crimestatistics-code-codelist-hash:231,
+			crimestatistics-code-codelist-hash:331 ;
+		.
+	# PAŠOVÁNÍ - K OBCHODOVÁNÍ - S FALEŠNÝMI DOKLADY
+	crimestatistics-code-codelist-hash:pasovani_KObchodovani_SFalesnymiDoklady a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - k obchodování - s falešnými doklady"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:132,
+			crimestatistics-code-codelist-hash:232,
+			crimestatistics-code-codelist-hash:332 ;
+		.
+	# PAŠOVÁNÍ - K OBCHODOVÁNÍ - V MRTVÉ SCHRÁNCE
+	crimestatistics-code-codelist-hash:pasovani_KObchodovani_VMrtveSchrance a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - k obchodování - v mrtvé schránce"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:133,
+			crimestatistics-code-codelist-hash:233,
+			crimestatistics-code-codelist-hash:333 ;
+		.
+	# PAŠOVÁNÍ - K OBCHODOVÁNÍ - MIMO HRANIČNÍ PŘECHOD
+	crimestatistics-code-codelist-hash:pasovani_KObchodovani_MimoHranicniPrechod a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - k obchodování - mimo hraniční přechod"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:134,
+			crimestatistics-code-codelist-hash:234,
+			crimestatistics-code-codelist-hash:334 ;
+		.
+
+# PAŠOVÁNÍ - PRO OSOBNÍ POTŘEBU
+	# PAŠOVÁNÍ - PRO OSOBNÍ POTŘEBU - DOVOZ
+	crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_Dovoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro osobní potřebu - dovoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:111,
+			crimestatistics-code-codelist-hash:112,
+			crimestatistics-code-codelist-hash:113,
+			crimestatistics-code-codelist-hash:114 ;
+		.
+	# PAŠOVÁNÍ - PRO OSOBNÍ POTŘEBU - VÝVOZ
+	crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_Vyvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro osobní potřebu - vývoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:211,
+			crimestatistics-code-codelist-hash:212,
+			crimestatistics-code-codelist-hash:213,
+			crimestatistics-code-codelist-hash:214 ;
+		.
+	# PAŠOVÁNÍ - PRO OSOBNÍ POTŘEBU - PRŮVOZ
+	crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_Pruvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro osobní potřebu - průvoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:311,
+			crimestatistics-code-codelist-hash:312,
+			crimestatistics-code-codelist-hash:313,
+			crimestatistics-code-codelist-hash:314 ;
+		.
+# PAŠOVÁNÍ - PRO PODNIKÁNÍ
+	# PAŠOVÁNÍ - PRO PODNIKÁNÍ - DOVOZ
+	crimestatistics-code-codelist-hash:pasovani_ProPodnikani_Dovoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro podnikání - dovoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:121,
+			crimestatistics-code-codelist-hash:122,
+			crimestatistics-code-codelist-hash:123,
+			crimestatistics-code-codelist-hash:124 ;
+		.
+	# PAŠOVÁNÍ - PRO PODNIKÁNÍ - VÝVOZ
+	crimestatistics-code-codelist-hash:pasovani_ProPodnikani_Vyvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro podnikání - vývoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:221,
+			crimestatistics-code-codelist-hash:222,
+			crimestatistics-code-codelist-hash:223,
+			crimestatistics-code-codelist-hash:224 ;
+		.
+	# PAŠOVÁNÍ - PRO PODNIKÁNÍ - PRŮVOZ
+	crimestatistics-code-codelist-hash:pasovani_ProPodnikani_Pruvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - pro podnikání - průvoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:321,
+			crimestatistics-code-codelist-hash:322,
+			crimestatistics-code-codelist-hash:323,
+			crimestatistics-code-codelist-hash:324 ;
+		.
+# PAŠOVÁNÍ - K OBCHODOVÁNÍ
+	# PAŠOVÁNÍ - K OBCHODOVÁNÍ - DOVOZ
+	crimestatistics-code-codelist-hash:pasovani_KObchodovani_Dovoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - k obchodování - dovoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:131,
+			crimestatistics-code-codelist-hash:132,
+			crimestatistics-code-codelist-hash:133,
+			crimestatistics-code-codelist-hash:134 ;
+		.
+	# PAŠOVÁNÍ - K OBCHODOVÁNÍ - VÝVOZ
+	crimestatistics-code-codelist-hash:pasovani_KObchodovani_Vyvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - k obchodování - vývoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:231,
+			crimestatistics-code-codelist-hash:232,
+			crimestatistics-code-codelist-hash:233,
+			crimestatistics-code-codelist-hash:234 ;
+		.
+	# PAŠOVÁNÍ - K OBCHODOVÁNÍ - PRŮVOZ
+	crimestatistics-code-codelist-hash:pasovani_KObchodovani_Pruvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - k obchodování - průvoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:331,
+			crimestatistics-code-codelist-hash:332,
+			crimestatistics-code-codelist-hash:333,
+			crimestatistics-code-codelist-hash:334 ;
+		.
+
+# PAŠOVÁNÍ - V ÚKRYTU
+crimestatistics-code-codelist-hash:pasovani_VUkrytu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v úkrytu"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:pasovani_VUkrytu_ProOsobniPotrebu,
+		crimestatistics-code-codelist-hash:pasovani_VUkrytu_ProPodnikani,
+		crimestatistics-code-codelist-hash:pasovani_VUkrytu_KObchodovani,
+		
+		crimestatistics-code-codelist-hash:pasovani_VUkrytu_Dovoz,
+		crimestatistics-code-codelist-hash:pasovani_VUkrytu_Vyvoz,
+		crimestatistics-code-codelist-hash:pasovani_VUkrytu_Pruvoz ;
+		.
+
+	# PAŠOVÁNÍ - V ÚKRYTU - PRO OSOBNÍ POTŘEBU
+	crimestatistics-code-codelist-hash:pasovani_VUkrytu_ProOsobniPotrebu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v úkrytu - pro osobní potřebu"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:111,
+			crimestatistics-code-codelist-hash:211,
+			crimestatistics-code-codelist-hash:311 ;
+		.
+	# PAŠOVÁNÍ - V ÚKRYTU - PRO PODNIKÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_VUkrytu_ProPodnikani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v úkrytu - pro podnikání"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:121,
+			crimestatistics-code-codelist-hash:221,
+			crimestatistics-code-codelist-hash:321 ;
+		.
+	# PAŠOVÁNÍ - V ÚKRYTU - K OBCHODOVÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_VUkrytu_KObchodovani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v úkrytu - k obchodování"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:131,
+			crimestatistics-code-codelist-hash:231,
+			crimestatistics-code-codelist-hash:331 ;
+		.
+# PAŠOVÁNÍ - S FALEŠNÝMI DOKLADY
+crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - s falešnými doklady"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_ProOsobniPotrebu,
+		crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_ProPodnikani,
+		crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_KObchodovani,
+		
+		crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_Dovoz,
+		crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_Vyvoz,
+		crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_Pruvoz ;
+		.
+	# PAŠOVÁNÍ - S FALEŠNÝMI DOKLADY - PRO OSOBNÍ POTŘEBU
+	crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_ProOsobniPotrebu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - s falešnými doklady - pro osobní potřebu"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:112,
+			crimestatistics-code-codelist-hash:212,
+			crimestatistics-code-codelist-hash:312 ;
+		.
+	# PAŠOVÁNÍ - S FALEŠNÝMI DOKLADY - PRO PODNIKÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_ProPodnikani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - s falešnými doklady - pro podnikání"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:122,
+			crimestatistics-code-codelist-hash:222,
+			crimestatistics-code-codelist-hash:322 ;
+		.
+	# PAŠOVÁNÍ - S FALEŠNÝMI DOKLADY - K OBCHODOVÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_KObchodovani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - s falešnými doklady - k obchodování"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:132,
+			crimestatistics-code-codelist-hash:232,
+			crimestatistics-code-codelist-hash:332 ;
+		.
+# PAŠOVÁNÍ - V MRTVÉ SCHRÁNCE
+crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v mrtvé schránce"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_ProOsobniPotrebu,
+		crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_ProPodnikani,
+		crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_KObchodovani,
+		
+		crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_Dovoz,
+		crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_Vyvoz,
+		crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_Pruvoz ;
+		.
+	# PAŠOVÁNÍ - V MRTVÉ SCHRÁNCE - PRO OSOBNÍ POTŘEBU
+	crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_ProOsobniPotrebu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v mrtvé schránce - pro osobní potřebu"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:113,
+			crimestatistics-code-codelist-hash:213,
+			crimestatistics-code-codelist-hash:313 ;
+		.
+	# PAŠOVÁNÍ - V MRTVÉ SCHRÁNCE - PRO PODNIKÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_ProPodnikani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v mrtvé schránce - pro podnikání"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:123,
+			crimestatistics-code-codelist-hash:223,
+			crimestatistics-code-codelist-hash:323 ;
+		.
+	# PAŠOVÁNÍ - V MRTVÉ SCHRÁNCE - K OBCHODOVÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_KObchodovani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v mrtvé schránce - k obchodování"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:133,
+			crimestatistics-code-codelist-hash:233,
+			crimestatistics-code-codelist-hash:333 ;
+		.
+# PAŠOVÁNÍ - MIMO HRANIČNÍ PŘECHOD
+crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - mimo hraniční přechod"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_ProOsobniPotrebu,
+		crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_ProPodnikani,
+		crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_KObchodovani,
+		
+		crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_Dovoz,
+		crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_Vyvoz,
+		crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_Pruvoz ;
+		.
+
+	# PAŠOVÁNÍ - MIMO HRANIČNÍ PŘECHOD - PRO OSOBNÍ POTŘEBU
+	crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_ProOsobniPotrebu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - mimo hraniční přechod - pro osobní potřebu"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:114,
+			crimestatistics-code-codelist-hash:214,
+			crimestatistics-code-codelist-hash:314 ;
+		.
+	# PAŠOVÁNÍ - MIMO HRANIČNÍ PŘECHOD - PRO PODNIKÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_ProPodnikani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - mimo hraniční přechod - pro podnikání"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:124,
+			crimestatistics-code-codelist-hash:224,
+			crimestatistics-code-codelist-hash:324 ;
+		.
+	# PAŠOVÁNÍ - MIMO HRANIČNÍ PŘECHOD - K OBCHODOVÁNÍ
+	crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_KObchodovani a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - mimo hraniční přechod - k obchodování"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:134,
+			crimestatistics-code-codelist-hash:234,
+			crimestatistics-code-codelist-hash:334 ;
+		.
+
+# PAŠOVÁNÍ - V ÚKRYTU
+	# PAŠOVÁNÍ - V ÚKRYTU - DOVOZ
+	crimestatistics-code-codelist-hash:pasovani_VUkrytu_Dovoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v úkrytu - dovoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:111,
+			crimestatistics-code-codelist-hash:121,
+			crimestatistics-code-codelist-hash:131 ;
+		.
+	# PAŠOVÁNÍ - V ÚKRYTU - VÝVOZ
+	crimestatistics-code-codelist-hash:pasovani_VUkrytu_Vyvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v úkrytu - vývoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:211,
+			crimestatistics-code-codelist-hash:221,
+			crimestatistics-code-codelist-hash:231 ;
+		.
+	# PAŠOVÁNÍ - V ÚKRYTU - PRŮVOZ
+	crimestatistics-code-codelist-hash:pasovani_VUkrytu_Pruvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v úkrytu - průvoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:311,
+			crimestatistics-code-codelist-hash:321,
+			crimestatistics-code-codelist-hash:331 ;
+		.
+# PAŠOVÁNÍ - S FALEŠNÝMI DOKLADY
+	# PAŠOVÁNÍ - S FALEŠNÝMI DOKLADY - DOVOZ
+	crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_Dovoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - s falešnými doklady - dovoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:112,
+			crimestatistics-code-codelist-hash:122,
+			crimestatistics-code-codelist-hash:132 ;
+		.
+	# PAŠOVÁNÍ - S FALEŠNÝMI DOKLADY - VÝVOZ
+	crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_Vyvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - s falešnými doklady - vývoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:212,
+			crimestatistics-code-codelist-hash:222,
+			crimestatistics-code-codelist-hash:232 ;
+		.
+	# PAŠOVÁNÍ - S FALEŠNÝMI DOKLADY - PRŮVOZ
+	crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_Pruvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - s falešnými doklady - průvoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:312,
+			crimestatistics-code-codelist-hash:322,
+			crimestatistics-code-codelist-hash:332 ;
+		.
+# PAŠOVÁNÍ - V MRTVÉ SCHRÁNCE
+	# PAŠOVÁNÍ - V MRTVÉ SCHRÁNCE - DOVOZ
+	crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_Dovoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v mrtvé schránce - dovoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:113,
+			crimestatistics-code-codelist-hash:123,
+			crimestatistics-code-codelist-hash:133 ;
+		.
+	# PAŠOVÁNÍ - V MRTVÉ SCHRÁNCE - VÝVOZ
+	crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_Vyvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v mrtvé schránce - vývoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:213,
+			crimestatistics-code-codelist-hash:223,
+			crimestatistics-code-codelist-hash:233 ;
+		.
+	# PAŠOVÁNÍ - V MRTVÉ SCHRÁNCE - PRŮVOZ
+	crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_Pruvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - v mrtvé schránce - průvoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:313,
+			crimestatistics-code-codelist-hash:323,
+			crimestatistics-code-codelist-hash:333 ;
+		.
+# PAŠOVÁNÍ - MIMO HRANIČNÍ PŘECHOD
+	# PAŠOVÁNÍ - MIMO HRANIČNÍ PŘECHOD - DOVOZ
+	crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_Dovoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - mimo hraniční přechod - dovoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:114,
+			crimestatistics-code-codelist-hash:124,
+			crimestatistics-code-codelist-hash:134 ;
+		.
+	# PAŠOVÁNÍ - MIMO HRANIČNÍ PŘECHOD - VÝVOZ
+	crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_Vyvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - mimo hraniční přechod - vývoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:214,
+			crimestatistics-code-codelist-hash:224,
+			crimestatistics-code-codelist-hash:234 ;
+		.
+	# PAŠOVÁNÍ - MIMO HRANIČNÍ PŘECHOD - PRŮVOZ
+	crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_Pruvoz a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+		rdfs:label "porušování předpisů o oběhu zboží ve styku s cizinou - mimo hraniční přechod - průvoz"@cs ;
+		rdfs:comment ""@cs ;
+		skos:narrower
+			crimestatistics-code-codelist-hash:314,
+			crimestatistics-code-codelist-hash:324,
+			crimestatistics-code-codelist-hash:334 ;
+		.
+
+# Některé skupiny jsou shodné
+crimestatistics-code-codelist-hash:pasovani_Dovoz_ProOsobniPotrebu
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_Dovoz .
+crimestatistics-code-codelist-hash:pasovani_Dovoz_ProPodnikani
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_ProPodnikani_Dovoz .
+crimestatistics-code-codelist-hash:pasovani_Dovoz_KObchodovani
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_KObchodovani_Dovoz .
+crimestatistics-code-codelist-hash:pasovani_Dovoz_VUkrytu
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VUkrytu_Dovoz .
+crimestatistics-code-codelist-hash:pasovani_Dovoz_SFalesnymiDoklady
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_Dovoz .
+crimestatistics-code-codelist-hash:pasovani_Dovoz_VMrtveSchrance
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_Dovoz .
+crimestatistics-code-codelist-hash:pasovani_Dovoz_MimoHranicniPrechod
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_Dovoz .	
+
+crimestatistics-code-codelist-hash:pasovani_Vyvoz_ProOsobniPotrebu
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_Vyvoz .
+crimestatistics-code-codelist-hash:pasovani_Vyvoz_ProPodnikani
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_ProPodnikani_Vyvoz .
+crimestatistics-code-codelist-hash:pasovani_Vyvoz_KObchodovani
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_KObchodovani_Vyvoz .
+crimestatistics-code-codelist-hash:pasovani_Vyvoz_VUkrytu
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VUkrytu_Vyvoz .
+crimestatistics-code-codelist-hash:pasovani_Vyvoz_SFalesnymiDoklady
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_Vyvoz .
+crimestatistics-code-codelist-hash:pasovani_Vyvoz_VMrtveSchrance
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_Vyvoz .
+crimestatistics-code-codelist-hash:pasovani_Vyvoz_MimoHranicniPrechod
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_Vyvoz .	
+
+crimestatistics-code-codelist-hash:pasovani_Pruvoz_ProOsobniPotrebu
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_Pruvoz .
+crimestatistics-code-codelist-hash:pasovani_Pruvoz_ProPodnikani
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_ProPodnikani_Pruvoz .
+crimestatistics-code-codelist-hash:pasovani_Pruvoz_KObchodovani
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_KObchodovani_Pruvoz .
+crimestatistics-code-codelist-hash:pasovani_Pruvoz_VUkrytu
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VUkrytu_Pruvoz .
+crimestatistics-code-codelist-hash:pasovani_Pruvoz_SFalesnymiDoklady
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_Pruvoz .
+crimestatistics-code-codelist-hash:pasovani_Pruvoz_VMrtveSchrance
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_Pruvoz .
+crimestatistics-code-codelist-hash:pasovani_Pruvoz_MimoHranicniPrechod
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_Pruvoz .	
+
+crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_VUkrytu
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VUkrytu_ProOsobniPotrebu .
+crimestatistics-code-codelist-hash:pasovani_ProPodnikani_VUkrytu
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VUkrytu_ProPodnikani .
+crimestatistics-code-codelist-hash:pasovani_KObchodovani_VUkrytu
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VUkrytu_KObchodovani .
+
+crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_SFalesnymiDoklady
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_ProOsobniPotrebu .
+crimestatistics-code-codelist-hash:pasovani_ProPodnikani_SFalesnymiDoklady
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_ProPodnikani .
+crimestatistics-code-codelist-hash:pasovani_KObchodovani_SFalesnymiDoklady
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_SFalesnymiDoklady_KObchodovani .
+	
+crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_VMrtveSchrance
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_ProOsobniPotrebu .
+crimestatistics-code-codelist-hash:pasovani_ProPodnikani_VMrtveSchrance
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_ProPodnikani .
+crimestatistics-code-codelist-hash:pasovani_KObchodovani_VMrtveSchrance
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_VMrtveSchrance_KObchodovani .
+
+crimestatistics-code-codelist-hash:pasovani_ProOsobniPotrebu_MimoHranicniPrechod
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_ProOsobniPotrebu .
+crimestatistics-code-codelist-hash:pasovani_ProPodnikani_MimoHranicniPrechod
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_ProPodnikani .
+crimestatistics-code-codelist-hash:pasovani_KObchodovani_MimoHranicniPrechod
+	owl:sameAs crimestatistics-code-codelist-hash:pasovani_MimoHranicniPrechod_KObchodovani .
+
+# zkreslování údajů hospodářské a obchodní evidence
+crimestatistics-code-codelist-hash:hospodarskeAObchodniEvidence_zkreslovaniUdaju a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "zkreslování údajů hospodářské a obchodní evidence"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:hospodarskeAObchodniEvidence_nepravdiveNeboZkresleneUdajeVPodkladech,
+		crimestatistics-code-codelist-hash:hospodarskeAObchodniEvidence_neopravneneZasahy ;
+	.
+
+crimestatistics-code-codelist-hash:hospodarskeAObchodniEvidence_nepravdiveNeboZkresleneUdajeVPodkladech a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "hospodářská a obchodní evidence - uvádění nepravdivých nebo hrubě zkreslených údajů v podkladech"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:421,
+		crimestatistics-code-codelist-hash:424 ;
+	.
+
+crimestatistics-code-codelist-hash:hospodarskeAObchodniEvidence_neopravneneZasahy a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "hospodářská a obchodní evidence - neoprávněné zásahy"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:422,
+		crimestatistics-code-codelist-hash:423,
+		crimestatistics-code-codelist-hash:425,
+		crimestatistics-code-codelist-hash:426,
+		crimestatistics-code-codelist-hash:427 ;
+	.
+
+########### KONFLIKT !!!!!!!! ##################
+# nekalá soutěž, porušování závazných pravidel hospodářského styku
+crimestatistics-code-codelist-hash:nekalaSoutez a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "nekalá soutěž"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:431,
+		crimestatistics-code-codelist-hash:432,
+		crimestatistics-code-codelist-hash:433,
+		crimestatistics-code-codelist-hash:434,
+		crimestatistics-code-codelist-hash:435,
+		crimestatistics-code-codelist-hash:436,
+		crimestatistics-code-codelist-hash:437 ;
+	.
+crimestatistics-code-codelist-hash:nekalaSoutez a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "nekalá soutěž"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:581,
+		crimestatistics-code-codelist-hash:582,
+		crimestatistics-code-codelist-hash:583,
+		crimestatistics-code-codelist-hash:584,
+		crimestatistics-code-codelist-hash:585,
+		crimestatistics-code-codelist-hash:586 ;
+	.
+########### KONFLIKT !!!!!!!! ##################
+
+# zneužívání informací v obchodním styku
+crimestatistics-code-codelist-hash:zneuzivaniInformaciVObchodnimStyku a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "zneužívání informací v obchodním styku"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:441,
+		crimestatistics-code-codelist-hash:442,
+		crimestatistics-code-codelist-hash:443,
+		crimestatistics-code-codelist-hash:444,
+		crimestatistics-code-codelist-hash:445 ;
+	.
+
+# výroba a držení padělatelského náčiní
+crimestatistics-code-codelist-hash:vyrobaADrzeniPadelatelskehoNacini a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "výroba a držení padělatelského náčiní"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:491,
+		crimestatistics-code-codelist-hash:492,
+		crimestatistics-code-codelist-hash:493,
+		crimestatistics-code-codelist-hash:494 ;
+	.
+
+# poškozování cizích práv
+crimestatistics-code-codelist-hash:poskozovaniCizichPrav a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "poškozování cizích práv"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:607 ;
+	.
+
+# porušování tajemství dopravovaných zpráv
+crimestatistics-code-codelist-hash:porusovaniTajemstviDopravovanychZprav a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování tajemství dopravovaných zpráv"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:608 ;
+	.
+
+# neoprávněné užívání cizí věci
+crimestatistics-code-codelist-hash:neopravneneUzivaniCiziVeci a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné užívání cizí věci"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:609,
+		crimestatistics-code-codelist-hash:610 ;
+	.
+
+# porušování povinnosti při správě cizího majetku
+crimestatistics-code-codelist-hash:porusovaniPovinnostiPriSpraveCizihoMajetku a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování povinnosti při správě cizího majetku"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:615,
+		crimestatistics-code-codelist-hash:616,
+		crimestatistics-code-codelist-hash:617,
+		crimestatistics-code-codelist-hash:618,
+		crimestatistics-code-codelist-hash:619 ;
+	.
+
+# poškozování cizí věci 
+crimestatistics-code-codelist-hash:poskozovaniCiziVeci a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "poškozování cizí věci "@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:624,
+		crimestatistics-code-codelist-hash:625,
+		crimestatistics-code-codelist-hash:626,
+		crimestatistics-code-codelist-hash:627 ;
+	.
+
+# poškozování věřitele, zvýhodňování věřitele, pletichy při řízení konkursním a vyrovnávacím
+crimestatistics-code-codelist-hash:poskozovaniNeboZvyhodnovaniVeriteleNeboPletichyPriRizenich a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "poškozování věřitele, zvýhodňování věřitele, pletichy při řízení konkursním a vyrovnávacím"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:621,
+		crimestatistics-code-codelist-hash:622,
+		crimestatistics-code-codelist-hash:623 ;
+	.

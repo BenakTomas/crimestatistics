@@ -1,0 +1,33 @@
+# Standardni prefixy
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix interval: <http://reference.data.gov.uk/def/intervals/> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+# Vlastní prefixy
+@prefix crimestatistics-code-property: <http://linked.opendata.cz/ontology/crimestatistics/code/property#> .
+@prefix crimestatistics-code-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/> .
+@prefix crimestatistics-code-tsk-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/tsk/> .
+@prefix crimestatistics-code-class: <http://linked.opendata.cz/ontology/crimestatistics/code/class#> .
+
+# Odkaz na TSK
+crimestatistics-code-property:tsk a rdf:Property ;
+	rdfs:label "klasifikace podle TSK"@cs ;
+	rdfs:comment "Odkazována je hodnota číselníku TSK, která klasifikuje odkazující subjekt."@cs ;
+	rdfs:range crimestatistics-code-tsk-slash:conceptClass ;
+	rdfs:seeAlso crimestatistics-code-slash:tsk ;
+	.
+
+# Odkaz na kolekci TSK
+crimestatistics-code-property:klasifikaceDleNekterehoZTSK a rdf:Property ;
+	rdfs:label "klasifikace podle TSK"@cs ;
+	rdfs:comment "Odkazována je kolekce hodnot číselníku TSK, z nichž některé klasifikují odkazující subjekt."@cs ;
+	rdfs:range crimestatistics-code-class:TSKCollection ;
+	.
