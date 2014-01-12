@@ -1504,3 +1504,223 @@ crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla_ZiskaniNeopravnen
 		crimestatistics-code-codelist-hash:536,
 		crimestatistics-code-codelist-hash:537 ;
 	.
+
+# porušování práv k ochranné známce, obchodnímu jménu a chráněnému označení původu
+crimestatistics-code-codelist-hash:porusovaniPravKOchranneZnamceObchodnimuJmenuAChranenemuOznaceniPuvodu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování práv k ochranné známce, obchodnímu jménu a chráněnému označení původu"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:591,
+		crimestatistics-code-codelist-hash:592,
+		crimestatistics-code-codelist-hash:593 ;
+	.
+
+# porušování průmyslových práv
+crimestatistics-code-codelist-hash:porusovaniPrumyslovychPrav a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování průmyslových práv"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:594 ;
+	.
+
+# porušování autorského práva, práv souvisejících s právem autorským a práv k databázi
+crimestatistics-code-codelist-hash:porusovaniAutorskehoPrava a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování autorského práva, práv souvisejících s právem autorským a práv k databázi"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:595,
+		crimestatistics-code-codelist-hash:596,
+		crimestatistics-code-codelist-hash:porusovaniAutorskehoPrava_programADatabaze ;
+	.
+
+crimestatistics-code-codelist-hash:porusovaniAutorskehoPrava_programADatabaze a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "porušování autorského práva, práv souvisejících s právem autorským a práv k databázi - programy a databáze"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:597,
+		crimestatistics-code-codelist-hash:598,
+		crimestatistics-code-codelist-hash:599 ;
+	.
+
+# zneužívání pravomoci veřejného činitele, přijímání úplatku, podplácení, nepřímé úplatkářství
+crimestatistics-code-codelist-hash:zneuzivaniPravomociVerejnehoCiniteleAUplatkarstvi a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "zneužívání pravomoci veřejného činitele, přijímání úplatku, podplácení, nepřímé úplatkářství"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:601,
+		crimestatistics-code-codelist-hash:602,
+		crimestatistics-code-codelist-hash:603,
+		crimestatistics-code-codelist-hash:604,
+		crimestatistics-code-codelist-hash:605,
+		crimestatistics-code-codelist-hash:606 ;
+	.
+
+# padělání a pozměňování veřejné listiny
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniVerejneListiny a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "padělání a pozměňování veřejné listiny"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:701,
+		crimestatistics-code-codelist-hash:702,
+		crimestatistics-code-codelist-hash:703 ;
+	.
+
+# neoprávněné provozování loterie, nepoctivé hry a sázky
+crimestatistics-code-codelist-hash:neopravneneProvozovaniLoterieANepoctiveHryASazky a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné provozování loterie, nepoctivé hry a sázky"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:731 ;
+	.
+
+# neoprávněné držení platební karty
+crimestatistics-code-codelist-hash:neopravneneDrzeniPlatebniKarty a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné držení platební karty"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:neopravneneDrzeniPlatebniKarty_neopravneneOpatreniPlatebniKarty,
+		crimestatistics-code-codelist-hash:neopravneneDrzeniPlatebniKarty_zneuzitiPlatebniKarty,
+		crimestatistics-code-codelist-hash:743,
+		crimestatistics-code-codelist-hash:745 ;
+	.
+
+crimestatistics-code-codelist-hash:neopravneneDrzeniPlatebniKarty_neopravneneOpatreniPlatebniKarty a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné držení platební karty - neoprávněné opatření platební karty"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:741,
+		crimestatistics-code-codelist-hash:746,
+		crimestatistics-code-codelist-hash:747 ;
+	.
+
+crimestatistics-code-codelist-hash:neopravneneDrzeniPlatebniKarty_zneuzitiPlatebniKarty a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné držení platební karty - zneužití platební karty"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:742,
+		crimestatistics-code-codelist-hash:744 ;
+	.
+
+# ohrožení a poškození životního prostředí
+crimestatistics-code-codelist-hash:ohrozeniAPoskozeniZivotnihoProstredi a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "ohrožení a poškození životního prostředí"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:751,
+		crimestatistics-code-codelist-hash:ohrozeniAPoskozeniZivotnihoProstredi_poskozeniPorostu,
+		crimestatistics-code-codelist-hash:755 ;
+	.
+
+crimestatistics-code-codelist-hash:ohrozeniAPoskozeniZivotnihoProstredi_poskozeniPorostu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "hrožení a poškození životního prostředí - poškození porostu"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:ohrozeniAPoskozeniZivotnihoProstredi_poskozeniLesnihoPorostu,
+		crimestatistics-code-codelist-hash:754 ;
+	.
+
+crimestatistics-code-codelist-hash:ohrozeniAPoskozeniZivotnihoProstredi_poskozeniLesnihoPorostu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "ohrožení a poškození životního prostředí - poškození lesního porostu"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:ohrozeniAPoskozeniZivotnihoProstredi_poskozeniLesnihoPorostuMimoTezbu,
+		crimestatistics-code-codelist-hash:757 ;
+	.
+
+crimestatistics-code-codelist-hash:ohrozeniAPoskozeniZivotnihoProstredi_poskozeniLesnihoPorostuMimoTezbu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "ohrožení a poškození životního prostředí - poškození lesního porostu jinak než těžbou"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:752,
+		crimestatistics-code-codelist-hash:753,
+		crimestatistics-code-codelist-hash:756 ;
+	.
+
+# pytláctví
+crimestatistics-code-codelist-hash:pytlactvi a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pytláctví"@cs ;
+	rdfs:comment ""@cs ;
+	.
+
+crimestatistics-code-codelist-hash:pytlactvi_IndividualniLov a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pytláctví - individuální lov"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:761,
+		crimestatistics-code-codelist-hash:762 ;
+	.
+
+crimestatistics-code-codelist-hash:pytlactvi_OrganizovanaSkupina a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pytláctví - organizovaná skupina"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:763,
+		crimestatistics-code-codelist-hash:764 ;
+	.
+
+crimestatistics-code-codelist-hash:pytlactvi_SPouzitimStrelneZbrane a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pytláctví - s použitím střelné zbraně"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:761,
+		crimestatistics-code-codelist-hash:764 ;
+	.
+
+crimestatistics-code-codelist-hash:pytlactvi_BezPouzitiStrelneZbrane a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pytláctví - bez použití střelné zbraně"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:762,
+		crimestatistics-code-codelist-hash:763 ;
+	.
+
+# úvěrový podvod
+crimestatistics-code-codelist-hash:uverovyPodvod a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "úvěrový podvod"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:791,
+		crimestatistics-code-codelist-hash:792,
+		crimestatistics-code-codelist-hash:793 ;
+	.
+
+# pojišťovací podvod
+crimestatistics-code-codelist-hash:pojistovaciPodvod a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pojišťovací podvod"@cs ;
+	rdfs:comment ""@cs ;
+	.
+
+crimestatistics-code-codelist-hash:pojistovaciPodvod_havarijniPojisteni a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pojišťovací podvod - havarijní pojištění"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:779,
+		crimestatistics-code-codelist-hash:780 ;
+	.
+
+crimestatistics-code-codelist-hash:pojistovaciPodvod_pojisteniOdpovednostiZaZpusobenouSkodu a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pojišťovací podvod - pojištění odpovědnosti za způsobenou škodu"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:781,
+		crimestatistics-code-codelist-hash:782,
+		crimestatistics-code-codelist-hash:783 ;
+	.
+
+crimestatistics-code-codelist-hash:pojistovaciPodvod_pojisteniUMotorovychVozidel a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pojišťovací podvod - pojištění v souvislosti s motorovými vozidly"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:779,
+		crimestatistics-code-codelist-hash:780,
+		crimestatistics-code-codelist-hash:781 ;
+	.
+
+crimestatistics-code-codelist-hash:pojistovaciPodvod_ZdraviAPeceONej a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "pojišťovací podvod - pojištění zdraví a péče o něj"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:772,
+		crimestatistics-code-codelist-hash:773,
+		crimestatistics-code-codelist-hash:775 ;
+	.

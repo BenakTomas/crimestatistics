@@ -231,3 +231,134 @@ crimestatistics-code-codelist-hash:neodvedeniAZkraceniDaneACla
 		TSKCollection-property:member crimestatistics-code-tsk:886 ;
 	] ;
 	.
+
+# porušování práv k ochranné známce, obchodnímu jménu a chráněnému označení původu
+crimestatistics-code-codelist-hash:porusovaniPravKOchranneZnamceObchodnimuJmenuAChranenemuOznaceniPuvodu
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:861 ;
+	.
+	
+	crimestatistics-code-codelist-hash:591
+		crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/268/1> .
+	
+	crimestatistics-code-codelist-hash:592
+		crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/268/2> .
+	
+	crimestatistics-code-codelist-hash:593
+		crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/268/2> .
+
+# porušování průmyslových práv
+crimestatistics-code-codelist-hash:porusovaniPrumyslovychPrav
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:862 ;
+	.
+
+# porušování autorského práva, práv souvisejících s právem autorským a práv k databázi
+crimestatistics-code-codelist-hash:porusovaniAutorskehoPrava
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:863 ;
+	# zákon
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/270> ;
+	.
+
+# zneužívání pravomoci veřejného činitele, přijímání úplatku, podplácení, nepřímé úplatkářství
+crimestatistics-code-codelist-hash:zneuzivaniPravomociVerejnehoCiniteleAUplatkarstvi
+	# TSK
+	crimestatistics-code-property:klasifikaceDleNekterehoZTSK
+	[
+		TSKCollection-property:member crimestatistics-code-tsk:820 ;
+		TSKCollection-property:member crimestatistics-code-tsk:821 ;
+		TSKCollection-property:member crimestatistics-code-tsk:845 ;
+		TSKCollection-property:member crimestatistics-code-tsk:846 ;
+		TSKCollection-property:member crimestatistics-code-tsk:847 ;
+	] ;
+	.
+
+# padělání a pozměňování veřejné listiny
+crimestatistics-code-codelist-hash:padelaniAPozmenovaniVerejneListiny
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:823 ;
+	.
+
+# neoprávněné provozování loterie, nepoctivé hry a sázky
+crimestatistics-code-codelist-hash:neopravneneProvozovaniLoterieANepoctiveHryASazky
+	# TSK
+	crimestatistics-code-property:klasifikaceDleNekterehoZTSK
+	[
+		TSKCollection-property:member crimestatistics-code-tsk:834 ;
+		TSKCollection-property:member crimestatistics-code-tsk:866 ;
+	] ;
+	.
+
+# neoprávněné držení platební karty
+crimestatistics-code-codelist-hash:neopravneneDrzeniPlatebniKarty
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:838 ;
+	.
+	
+	crimestatistics-code-codelist-hash:741
+		# zákon
+		crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+			<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/234/3> ;
+	.
+
+# ohrožení a poškození životního prostředí
+crimestatistics-code-codelist-hash:757
+	# zákon
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/295> .
+
+crimestatistics-code-codelist-hash:ohrozeniAPoskozeniZivotnihoProstredi_poskozeniLesnihoPorostuMimoTezbu
+	# zákony
+	crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu
+	[
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/293> ;
+		SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/294> ;
+	] ;
+	.
+
+crimestatistics-code-codelist-hash:ohrozeniAPoskozeniZivotnihoProstredi
+	# TSK
+	crimestatistics-code-property:klasifikaceDleNekterehoZTSK
+	[
+		TSKCollection-property:member crimestatistics-code-tsk:850 ;
+		TSKCollection-property:member crimestatistics-code-tsk:851 ;
+	] ;
+	.
+
+# pytláctví
+crimestatistics-code-codelist-hash:pytlactvi
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:890 ;
+	# zákon
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/304>
+	.
+
+# úvěrový podvod
+crimestatistics-code-codelist-hash:uverovyPodvod
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:881 ;
+	.
+
+crimestatistics-code-codelist-hash:792
+	# zákon
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/211/1>
+	.
+	
+crimestatistics-code-codelist-hash:793
+	# zákon
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/211/2>
+	.
+
+# pojišťovací podvod
+crimestatistics-code-codelist-hash:pojistovaciPodvod
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:880 ;
+	.
