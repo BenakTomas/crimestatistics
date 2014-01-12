@@ -350,11 +350,48 @@ crimestatistics-code-codelist-hash:792
 crimestatistics-code-codelist-hash:793
 	# zákon
 	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
-		<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250b/2>
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/250b/2> ;
 	.
 
 # pojišťovací podvod
 crimestatistics-code-codelist-hash:pojistovaciPodvod
 	# TSK
 	crimestatistics-code-property:tsk crimestatistics-code-tsk:880 ;
+	.
+
+# neoprávněné nakládání s osobními údaji
+crimestatistics-code-codelist-hash:neopravneneNakladaniSOsobnimiUdajiAPoskozeniAZneuzitiZaznamuNaNosiciInformaci
+	# TSK
+	crimestatistics-code-property:klasifikaceDleNekterehoZTSK
+	[
+		TSKCollection-property:member crimestatistics-code-tsk:836 ;
+		TSKCollection-property:member crimestatistics-code-tsk:865 ;
+	] ;
+	.
+	
+	crimestatistics-code-codelist-hash:721
+		# zákony
+		crimestatistics-property-zakony:kvalifikaceNekterymZUsekuZakonu
+		[
+			SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/178> ;
+			SourceOfLawSectionCollection-property:member <http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/257a/1/a> ;
+		] ;
+		.
+
+# poškození a zneužití záznamu na nosiči informací
+crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci
+	# TSK
+	crimestatistics-code-property:tsk crimestatistics-code-tsk:865 ;
+	.
+
+crimestatistics-code-codelist-hash:723
+	# zákon
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/257a/1/b> ;
+	.
+	
+crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci_pocitacovyUtok
+	# zákon
+	crimestatistics-property-zakony:kvalifikacePodleUsekuZakona
+		<http://linked.opendata.cz/resource/legislation/cz/act/1961/140/section/257a/1/c> ;
 	.

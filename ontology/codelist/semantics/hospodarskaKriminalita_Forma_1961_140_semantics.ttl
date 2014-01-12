@@ -1779,3 +1779,54 @@ crimestatistics-code-codelist-hash:pojistovaciPodvod_ZdraviAPeceONej a skos:Conc
 		crimestatistics-code-codelist-hash:773,
 		crimestatistics-code-codelist-hash:775 ;
 	.
+
+# neoprávněné nakládání s osobními údaji
+crimestatistics-code-codelist-hash:neopravneneNakladaniSOsobnimiUdajiAPoskozeniAZneuzitiZaznamuNaNosiciInformaci a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "neoprávněné nakládání s osobními údaji a poškození a zneužití záznamu na nosiči informací"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:721,
+		crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci ;
+	.
+
+# poškození a zneužití záznamu na nosiči informací
+crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "poškození a zneužití záznamu na nosiči informací"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:722,
+		crimestatistics-code-codelist-hash:723,
+		crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci_pocitacovyUtok ;
+	.
+
+crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci_pocitacovyUtok a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "poškození a zneužití záznamu na nosiči informací - počítačový útok"@cs ;
+	rdfs:comment "Jedná se o útok s využitím prostředků výpočetní techniky nebo zaměřený proti nim s cílem poškodit nosič informací nebo jej zneužít."@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci_pocitacovyUtok_SW,
+		crimestatistics-code-codelist-hash:727 ;
+	.
+
+crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci_pocitacovyUtok_SW a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "poškození a zneužití záznamu na nosiči informací - softwarový útok"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci_pocitacovyUtok_SW_Viry,
+		crimestatistics-code-codelist-hash:728 ;
+	.
+
+crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci_pocitacovyUtok_SW_Viry a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "poškození a zneužití záznamu na nosiči informací - útok v souvislosti s počítačovými viry"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:724,
+		crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci_pocitacovyUtok_SW_ProtiAntivirum ;
+	.
+
+crimestatistics-code-codelist-hash:poskozeniAZneuzitiZaznamuNaNosiciInformaci_pocitacovyUtok_SW_ProtiAntivirum a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	rdfs:label "poškození a zneužití záznamu na nosiči informací - úto proti antivirovému SW"@cs ;
+	rdfs:comment ""@cs ;
+	skos:narrower
+		crimestatistics-code-codelist-hash:725,
+		crimestatistics-code-codelist-hash:726 ;
+	.
