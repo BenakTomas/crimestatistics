@@ -23,143 +23,45 @@
 
 @prefix crimestatistics-code-codelist-hash: <http://linked.opendata.cz/ontology/crimestatistics/code/druhExtremistickehoTrestnehoCinu#> .
 
-crimestatistics-code-codelist-hash:B a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Zločin"@cs ;
+crimestatistics-code-codelist-hash:1 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "trestný čin motivovaný rasovou nesnášenlivostí nebo nenávistí"@cs ;
 	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "B" ;
+	skos:notation "1" ;
 
-	rdfs:label "Zločin"@cs ;
-	.
-crimestatistics-code-codelist-hash:C a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Zločin motivovaný rasovou nesnášenlivostí nebo nenávistí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "C" ;
-
-	rdfs:label "Zločin motivovaný rasovou nesnášenlivostí nebo nenávistí"@cs ;
-	.
-crimestatistics-code-codelist-hash:D a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Zločin motivovaný národnostní nesnášenlivostí nebo nenávistí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "D" ;
-
-	rdfs:label "Zločin motivovaný národnostní nesnášenlivostí nebo nenávistí"@cs ;
-	.
-crimestatistics-code-codelist-hash:E a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Zločin motivovaný náboženskou nesnášenlivostí nebo nenávistí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "E" ;
-
-	rdfs:label "Zločin motivovaný náboženskou nesnášenlivostí nebo nenávistí"@cs ;
-	.
-crimestatistics-code-codelist-hash:F a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "teroristický útok"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "F" ;
-
-	rdfs:label "teroristický útok"@cs ;
-	.
-crimestatistics-code-codelist-hash:G a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Zločin - divácké násilí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "G" ;
-
-	rdfs:label "Zločin - divácké násilí"@cs ;
-	.
-crimestatistics-code-codelist-hash:H a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Zločin motivovaný jinou nesnášenlivostí nebo nenávistí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "H" ;
-
-	rdfs:label "Zločin motivovaný jinou nesnášenlivostí nebo nenávistí"@cs ;
-	.
-crimestatistics-code-codelist-hash:R a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Přečin"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "R" ;
-
-	rdfs:label "Přečin"@cs ;
-	.
-crimestatistics-code-codelist-hash:S a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Přečin motivovaný rasovou nesnášenlivostí nebo nenávistí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "S" ;
-
-	rdfs:label "Přečin motivovaný rasovou nesnášenlivostí nebo nenávistí"@cs ;
-	.
-crimestatistics-code-codelist-hash:T a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Přečin motivovaný národnostní nesnášenlivostí nebo nenávistí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "T" ;
-
-	rdfs:label "Přečin motivovaný národnostní nesnášenlivostí nebo nenávistí"@cs ;
-	.
-crimestatistics-code-codelist-hash:U a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Přečin motivovaný náboženskou nesnášenlivostí nebo nenávistí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "U" ;
-
-	rdfs:label "Přečin motivovaný náboženskou nesnášenlivostí nebo nenávistí"@cs ;
-	.
-crimestatistics-code-codelist-hash:V a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Přečin - divácké násilí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "V" ;
-
-	rdfs:label "Přečin - divácké násilí"@cs ;
-	.
-crimestatistics-code-codelist-hash:W a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Přečin motivovaný jinou nesnášenlivostí nebo nenávistí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "W" ;
-
-	rdfs:label "Přečin motivovaný jinou nesnášenlivostí nebo nenávistí"@cs ;
+	rdfs:label "trestný čin motivovaný rasovou nesnášenlivostí nebo nenávistí"@cs ;
 	.
 crimestatistics-code-codelist-hash:2 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "Trestný čin"@cs ;
+	skos:prefLabel "trestný čin motivovaný národnostní nesnášenlivostí nebo nenávistí"@cs ;
 	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
 	skos:notation "2" ;
 
-	rdfs:label "Trestný čin"@cs ;
+	rdfs:label "trestný čin motivovaný národnostní nesnášenlivostí nebo nenávistí"@cs ;
+	.
+crimestatistics-code-codelist-hash:3 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
+	skos:prefLabel "trestný čin motivovaný náboženskou nesnášenlivostí nebo nenávistí"@cs ;
+	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
+	skos:notation "3" ;
+
+	rdfs:label "trestný čin motivovaný náboženskou nesnášenlivostí nebo nenávistí"@cs ;
 	.
 crimestatistics-code-codelist-hash:4 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "TČ motivovaný rasovou nesnášenlivostí nebo nenávistí"@cs ;
+	skos:prefLabel "teroristický útok"@cs ;
 	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
 	skos:notation "4" ;
 
-	rdfs:label "TČ motivovaný rasovou nesnášenlivostí nebo nenávistí"@cs ;
+	rdfs:label "teroristický útok"@cs ;
 	.
 crimestatistics-code-codelist-hash:5 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "TČ motivovaný národnostní nesnášenlivostí nebo nenávistí"@cs ;
+	skos:prefLabel "trestný čin - divácké násilí"@cs ;
 	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
 	skos:notation "5" ;
 
-	rdfs:label "TČ motivovaný národnostní nesnášenlivostí nebo nenávistí"@cs ;
+	rdfs:label "trestný čin - divácké násilí"@cs ;
 	.
 crimestatistics-code-codelist-hash:6 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "TČ motivovaný náboženskou nesnášenlivostí nebo nenávistí"@cs ;
+	skos:prefLabel "trestný čin motivovaný jinou nesnášenlivostí nebo nenávistí"@cs ;
 	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
 	skos:notation "6" ;
 
-	rdfs:label "TČ motivovaný náboženskou nesnášenlivostí nebo nenávistí"@cs ;
-	.
-crimestatistics-code-codelist-hash:7 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "teroristický útok"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "7" ;
-
-	rdfs:label "teroristický útok"@cs ;
-	.
-crimestatistics-code-codelist-hash:8 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "TČ - divácké násilí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "8" ;
-
-	rdfs:label "TČ - divácké násilí"@cs ;
-	.
-crimestatistics-code-codelist-hash:9 a skos:Concept, crimestatistics-code-codelist-slash:conceptClass ;
-	skos:prefLabel "TČ motivovaný jinou nesnášenlivostí nebo nenávistí"@cs ;
-	skos:inScheme crimestatistics-code-slash:druhExtremistickehoTrestnehoCinu ;
-	skos:notation "9" ;
-
-	rdfs:label "TČ motivovaný jinou nesnášenlivostí nebo nenávistí"@cs ;
+	rdfs:label "trestný čin motivovaný jinou nesnášenlivostí nebo nenávistí"@cs ;
 	.

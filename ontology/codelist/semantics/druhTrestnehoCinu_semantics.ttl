@@ -17,19 +17,15 @@
 
 # Vlastní prefixy
 @prefix crimestatistics-code-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/> .
-@prefix crimestatistics-code-codelist-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/$codeListName/> .
-@prefix crimestatistics-code-codelist-hash: <http://linked.opendata.cz/ontology/crimestatistics/code/$codeListName#> .
-@prefix crimestatistics-code-codelist-class: <http://linked.opendata.cz/ontology/crimestatistics/code/$codeListName/class#> .
-@prefix crimestatistics-code-codelist-property: <http://linked.opendata.cz/ontology/crimestatistics/code/$codeListName/property#> .
+@prefix crimestatistics-code-codelist-slash: <http://linked.opendata.cz/ontology/crimestatistics/code/druhTrestnehoCinu/> .
+@prefix crimestatistics-code-codelist-hash: <http://linked.opendata.cz/ontology/crimestatistics/code/druhTrestnehoCinu#> .
+@prefix crimestatistics-code-codelist-class: <http://linked.opendata.cz/ontology/crimestatistics/code/druhTrestnehoCinu/class#> .
+@prefix crimestatistics-code-codelist-property: <http://linked.opendata.cz/ontology/crimestatistics/code/druhTrestnehoCinu/property#> .
 
 # top-level koncepty
-crimestatistics-code-slash:$codeListName
+crimestatistics-code-slash:druhTrestnehoCinu
 	skos:hasTopConcept
-
-crimestatistics-code-codelist-hash: a crimestatistics-code-codelist-slash:conceptClass, skos:Concept ;
-	skos:prefLabel ""@cs ;
-	skos:notation "crimestatistics.codelist.$codeListName." ;
-	skos:inScheme crimestatistics-code-slash:$codeListName ;
-	skos:narrower
-		crimestatistics-code-codelist-hash:
+		crimestatistics-code-codelist-hash:1,
+		crimestatistics-code-codelist-hash:2,
+		crimestatistics-code-codelist-hash:3 ;
 	.
